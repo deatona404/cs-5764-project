@@ -1,25 +1,79 @@
+import React from 'react';
 import './ChoroplethWindow.css'
 import * as d3 from "d3";
+import * as topojson from "topojson"
+import { useRef, useState, useEffect } from 'react';
+
+import us from '../../data/counties-albers-10m.json'
 
 let data = {}
 
-function ChoroplethWindow() {
+function ChoroplethWindow(props) {
+  const [isInitialized, setIsInitialized] = useState(false);
+  // set up refs
+  let svgRef = useRef(null)
+
+
   // Obtain chart data
-  // let chart = Choropleth(data)
+  console.log(us)
+  let counties = topojson.feature(us, us.objects.counties)
+  let states = topojson.feature(us, us.objects.states)
+  let statemap = new Map(states.features.map(d => [d.id, d]))
+  let statemesh = topojson.mesh(us, us.objects.states, (a, b) => a !== b)
+
+  let choro_properties = {
+    id: d => d.id,
+    value: d => d.rate,
+    scale: d3.scaleQuantize,
+    domain: [1, 10],
+    range: d3.schemeBlues[9],
+    title: (f, d) => `${f.properties.name}, ${statemap.get(f.id.slice(0, 2)).properties.name}\n${d?.rate}%`,
+    features: counties,
+    borders: statemesh,
+    width: 975,
+    height: 610
+  }
+
+  useEffect(() => { // used to ensure d3 stuff edits the existing element once it spawns
+    if (!isInitialized) {
+        setIsInitialized(true);
+        let chart = Choropleth(props.data, choro_properties, svgRef)
+        // drawChart(svgRef)
+        
+    }
+    else{
+      // drawChart(svgRef)
+        let chart = Choropleth(props.data, choro_properties, svgRef
+      )
+    }
+  }, [isInitialized, props.data.fileContent, svgRef, props.selected]); // init is purposefully left out
+
+  
+
+  console.log("hiiii we are in here")
+  console.log(props.data)
 
   // HTML content
     return <div className='ChoroplethWindow'>
-      Hi, I am a Choropleth!
+      <svg id="Chart" ref={svgRef}>
+        <p>test</p>
+      </svg>
       
-      
-      
+
       </div>;
   }
 
 
-
-
-
+function drawChart(reference){
+  let svg = d3.select(reference.current)
+  svg.selectAll("*").remove();
+  svg.append("g")
+  .attr("id", "title")
+  .append("text")
+  .attr("x", 5 + 5 / 2)
+  .attr("y", 5 + 5 - 5)
+  .text("test text in svg");
+}
 
 // Copyright 2021 Observable, Inc.
 // Released under the ISC license.
@@ -46,8 +100,14 @@ function Choropleth(data, {
   strokeLinejoin = "round", // stroke line join for borders
   strokeWidth, // stroke width for borders
   strokeOpacity, // stroke opacity for borders
-} = {}) {
+}, reference = {}) {
   // Compute values.
+  console.log(features.features)
+  console.log(data.features)
+  // const N = d3.map(data.features, id);
+  // const V = d3.map(data.features, value).map(d => d == null ? NaN : +d);
+  // const Im = new d3.InternMap(N.map((id, i) => [id, i]));
+  // const If = d3.map(features.features, featureId);
   const N = d3.map(data, id);
   const V = d3.map(data, value).map(d => d == null ? NaN : +d);
   const Im = new d3.InternMap(N.map((id, i) => [id, i]));
@@ -86,11 +146,16 @@ function Choropleth(data, {
   // Construct a path generator.
   const path = d3.geoPath(projection);
 
-  const svg = d3.create("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .attr("viewBox", [0, 0, width, height])
-      .attr("style", "width: 100%; height: auto; height: intrinsic;");
+  // grab the svg ref
+  let svg = d3.select(reference.current)
+  svg.selectAll("*").remove(); // clear any remaining content on it
+  svg.attr("style", "width: 100%; height: 100%;");
+
+  // svg = d3.create("svg")
+  //     .attr("width", width)
+  //     .attr("height", height)
+  //     .attr("viewBox", [0, 0, width, height])
+  //     .attr("style", "width: 100%; height: auto; height: intrinsic;");
 
   if (outline != null) svg.append("path")
       .attr("fill", fill)
@@ -115,6 +180,9 @@ function Choropleth(data, {
       .attr("stroke-width", strokeWidth)
       .attr("stroke-opacity", strokeOpacity)
       .attr("d", path(borders));
+
+  console.log("attempting to log svg")
+  console.log(svg)
 
   return Object.assign(svg.node(), {scales: {color}});
 }

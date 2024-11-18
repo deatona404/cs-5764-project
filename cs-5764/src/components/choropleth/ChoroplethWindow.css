@@ -1,4 +1,11 @@
 .ChoroplethWindow {
     background-color: #838383;
     height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.ChoroplethWindow #Chart {
+    margin: auto;
 }

@@ -1,7 +1,13 @@
 import './DetailView.css'
+import NationalOverview from './NationalOverview';
 
-function DetailView() {
-    return <div className='DetailView'>detailview!!!</div>;
+function DetailView(props) {
+    return <div className='DetailView'>
+      {/* detailview!!! */}
+      <NationalOverview
+        data = {props.data}
+      />
+      </div>;
   }
   
   export default DetailView;
