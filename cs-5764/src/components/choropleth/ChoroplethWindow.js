@@ -12,6 +12,7 @@ function ChoroplethWindow(props) {
   const [isInitialized, setIsInitialized] = useState(false);
   // set up refs
   let svgRef = useRef(null)
+  
 
 
   // Obtain chart data
@@ -28,7 +29,7 @@ function ChoroplethWindow(props) {
     scale: d3.scaleQuantize,
     domain: [1, 1000000],
     range: d3.schemeBlues[9],
-    title: (f, d) => `${f.properties.name}, ${statemap.get(f.id.slice(0, 2)).properties.name}\n${d?.rate}%`,
+    title: (f, d) => `${f.properties.name}\n${d[props.year]}`,
     features: states,
     borders: statemesh,
     width: 975,
@@ -44,8 +45,8 @@ function ChoroplethWindow(props) {
     }
     else{
       // drawChart(svgRef)
-        let chart = Choropleth(props.data, choro_properties, svgRef
-      )
+        let chart = Choropleth(props.data, choro_properties, svgRef)
+        console.log(props.year)
     }
   }, [isInitialized, props.data.fileContent, svgRef, props.selected]); // init is purposefully left out
 
