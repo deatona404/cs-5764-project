@@ -5,8 +5,8 @@ import DetailView from './components/detailview/DetailView';
 import { useState, useEffect } from 'react';
 
 // let csvdata = (await FileAttachment("unemployment-x.csv").csv()).map(d => ({...d, rate: +d.rate}))
-import dataset from './data/unemployment.json';
-
+// import dataset from './data/unemployment.json';
+import dataset from './data/bachelorsinworkforce/8-33_all.json'
 
 function App() {
   const [isInitialized, setIsInitialized] = useState(false);
@@ -15,7 +15,7 @@ function App() {
   useEffect(() => { // load on first run
     if (!isInitialized) {
         setIsInitialized(true);
-        // console.log(data);
+        console.log(data);
     }
     else{
           // console.log(data); // ensure this updates

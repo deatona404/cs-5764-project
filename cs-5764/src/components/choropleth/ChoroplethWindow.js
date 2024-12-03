@@ -16,7 +16,8 @@ function ChoroplethWindow(props) {
 
   // Obtain chart data
   console.log(us)
-  let counties = topojson.feature(us, us.objects.counties)
+  // console.log(props.data)
+  // let counties = topojson.feature(us, us.objects.counties)
   let states = topojson.feature(us, us.objects.states)
   let statemap = new Map(states.features.map(d => [d.id, d]))
   let statemesh = topojson.mesh(us, us.objects.states, (a, b) => a !== b)
@@ -25,10 +26,10 @@ function ChoroplethWindow(props) {
     id: d => d.id,
     value: d => d.rate,
     scale: d3.scaleQuantize,
-    domain: [1, 10],
+    domain: [1, 1000000],
     range: d3.schemeBlues[9],
     title: (f, d) => `${f.properties.name}, ${statemap.get(f.id.slice(0, 2)).properties.name}\n${d?.rate}%`,
-    features: counties,
+    features: states,
     borders: statemesh,
     width: 975,
     height: 610
@@ -102,19 +103,30 @@ function Choropleth(data, {
   strokeOpacity, // stroke opacity for borders
 }, reference = {}) {
   // Compute values.
+  console.log("we are in choropleth function")
   console.log(features.features)
-  console.log(data.features)
+  console.log(data)
+
+  const year = "2000"
   // const N = d3.map(data.features, id);
   // const V = d3.map(data.features, value).map(d => d == null ? NaN : +d);
   // const Im = new d3.InternMap(N.map((id, i) => [id, i]));
   // const If = d3.map(features.features, featureId);
-  const N = d3.map(data, id);
-  const V = d3.map(data, value).map(d => d == null ? NaN : +d);
-  const Im = new d3.InternMap(N.map((id, i) => [id, i]));
-  const If = d3.map(features.features, featureId);
+  // const N = d3.map(data, id);
+  const statesVector = d3.map(data, d => d.State)
+  const fipsVector = d3.map(data, d => d.fips)
+  console.log(statesVector)
+  // const V = d3.map(data, value).map(d => d == null ? NaN : +d);
+  const valuesVector = d3.map(data, d => d[year]).map(d => d == null ? NaN : +d);
+  console.log(valuesVector)
+  const indexToFipsMap = new d3.InternMap(statesVector.map((id, i) => [fipsVector[i], i]));
+  console.log(indexToFipsMap)
+  const geographyFeaturesVector = d3.map(features.features, featureId);
+  console.log(features.features)
+  console.log(geographyFeaturesVector)
 
   // Compute default domains.
-  if (domain === undefined) domain = d3.extent(V);
+  if (domain === undefined) domain = d3.extent(valuesVector);
 
   // Construct scales.
   const color = scale(domain, range);
@@ -123,7 +135,7 @@ function Choropleth(data, {
   // Compute titles.
   if (title === undefined) {
     format = color.tickFormat(100, format);
-    title = (f, i) => `${f.properties.name}\n${format(V[i])}`;
+    title = (f, i) => `${f.properties.name}\n${format(valuesVector[i])}`;
   } else if (title !== null) {
     const T = title;
     const O = d3.map(data, d => d);
@@ -166,10 +178,14 @@ function Choropleth(data, {
     .selectAll("path")
     .data(features.features)
     .join("path")
-      .attr("fill", (d, i) => color(V[Im.get(If[i])]))
+      .attr("fill", (d, i) => color(valuesVector[indexToFipsMap.get(geographyFeaturesVector[i])]))
       .attr("d", path)
     .append("title")
-      .text((d, i) => title(d, Im.get(If[i])));
+      .text((d, i) => title(d, indexToFipsMap.get(geographyFeaturesVector[i])));
+      
+  console.log(geographyFeaturesVector[0])
+  console.log(indexToFipsMap.get(geographyFeaturesVector[0]))
+  console.log(valuesVector[indexToFipsMap.get(geographyFeaturesVector[1])])
 
   if (borders != null) svg.append("path")
       .attr("pointer-events", "none")

@@ -1,0 +1,262 @@
+[
+    {
+      "2000": 479734,
+      "fips": "01",
+      "State": "Alabama"
+    },
+    {
+      "2000": 87739,
+      "fips": "02",
+      "State": "Alaska"
+    },
+    {
+      "2000": 638515,
+      "fips": "04",
+      "State": "Arizona"
+    },
+    {
+      "2000": 247079,
+      "fips": "05",
+      "State": "Arkansas"
+    },
+    {
+      "2000": 4960210,
+      "fips": "06",
+      "State": "California"
+    },
+    {
+      "2000": 819906,
+      "fips": "08",
+      "State": "Colorado"
+    },
+    {
+      "2000": 633867,
+      "fips": "09",
+      "State": "Connecticut"
+    },
+    {
+      "2000": 111260,
+      "fips": "10",
+      "State": "Delaware"
+    },
+    {
+      "2000": 133155,
+      "fips": "11",
+      "State": "District of Columbia"
+    },
+    {
+      "2000": 1968126,
+      "fips": "12",
+      "State": "Florida"
+    },
+    {
+      "2000": 1148814,
+      "fips": "13",
+      "State": "Georgia"
+    },
+    {
+      "2000": 184130,
+      "fips": "15",
+      "State": "Hawaii"
+    },
+    {
+      "2000": 149622,
+      "fips": "16",
+      "State": "Idaho"
+    },
+    {
+      "2000": 1876455,
+      "fips": "17",
+      "State": "Illinois"
+    },
+    {
+      "2000": 672835,
+      "fips": "18",
+      "State": "Indiana"
+    },
+    {
+      "2000": 351922,
+      "fips": "19",
+      "State": "Iowa"
+    },
+    {
+      "2000": 385924,
+      "fips": "20",
+      "State": "Kansas"
+    },
+    {
+      "2000": 402094,
+      "fips": "21",
+      "State": "Kentucky"
+    },
+    {
+      "2000": 453353,
+      "fips": "22",
+      "State": "Louisiana"
+    },
+    {
+      "2000": 170334,
+      "fips": "23",
+      "State": "Maine"
+    },
+    {
+      "2000": 979588,
+      "fips": "24",
+      "State": "Maryland"
+    },
+    {
+      "2000": 1266113,
+      "fips": "25",
+      "State": "Massachusetts"
+    },
+    {
+      "2000": 1242388,
+      "fips": "26",
+      "State": "Michigan"
+    },
+    {
+      "2000": 783613,
+      "fips": "27",
+      "State": "Minnesota"
+    },
+    {
+      "2000": 256581,
+      "fips": "28",
+      "State": "Mississippi"
+    },
+    {
+      "2000": 695491,
+      "fips": "29",
+      "State": "Missouri"
+    },
+    {
+      "2000": 124462,
+      "fips": "30",
+      "State": "Montana"
+    },
+    {
+      "2000": 230857,
+      "fips": "31",
+      "State": "Nebraska"
+    },
+    {
+      "2000": 206361,
+      "fips": "32",
+      "State": "Nevada"
+    },
+    {
+      "2000": 207431,
+      "fips": "33",
+      "State": "New Hampshire"
+    },
+    {
+      "2000": 1510429,
+      "fips": "34",
+      "State": "New Jersey"
+    },
+    {
+      "2000": 226334,
+      "fips": "35",
+      "State": "New Mexico"
+    },
+    {
+      "2000": 3031927,
+      "fips": "36",
+      "State": "New York"
+    },
+    {
+      "2000": 1044025,
+      "fips": "37",
+      "State": "North Carolina"
+    },
+    {
+      "2000": 80545,
+      "fips": "38",
+      "State": "North Dakota"
+    },
+    {
+      "2000": 1375311,
+      "fips": "39",
+      "State": "Ohio"
+    },
+    {
+      "2000": 383381,
+      "fips": "40",
+      "State": "Oklahoma"
+    },
+    {
+      "2000": 488862,
+      "fips": "41",
+      "State": "Oregon"
+    },
+    {
+      "2000": 1618658,
+      "fips": "42",
+      "State": "Pennsylvania"
+    },
+    {
+      "2000": 156862,
+      "fips": "44",
+      "State": "Rhode Island"
+    },
+    {
+      "2000": 454656,
+      "fips": "45",
+      "State": "South Carolina"
+    },
+    {
+      "2000": 89855,
+      "fips": "46",
+      "State": "South Dakota"
+    },
+    {
+      "2000": 649844,
+      "fips": "47",
+      "State": "Tennessee"
+    },
+    {
+      "2000": 2646909,
+      "fips": "48",
+      "State": "Texas"
+    },
+    {
+      "2000": 276360,
+      "fips": "49",
+      "State": "Utah"
+    },
+    {
+      "2000": 103476,
+      "fips": "50",
+      "State": "Vermont"
+    },
+    {
+      "2000": 1232454,
+      "fips": "51",
+      "State": "Virginia"
+    },
+    {
+      "2000": 932352,
+      "fips": "53",
+      "State": "Washington"
+    },
+    {
+      "2000": 157883,
+      "fips": "54",
+      "State": "West Virginia"
+    },
+    {
+      "2000": 690065,
+      "fips": "55",
+      "State": "Wisconsin"
+    },
+    {
+      "2000": 60451,
+      "fips": "56",
+      "State": "Wyoming"
+    },
+    {
+      "2000": 378586,
+      "fips": "72",
+      "State": "Puerto Rico"
+    }
+  ]
