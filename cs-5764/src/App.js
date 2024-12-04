@@ -12,6 +12,8 @@ const DEFAULT_YEAR = 2000
 const DEFAULT_OCCUPATION = "Software Developers"
 const DEFAULT_METRIC = "annualmeanwage"
 
+const DEFAULT_SELECTED = "United States"
+
 function App() {
   const [isInitialized, setIsInitialized] = useState(false);
   const [data, setData] = useState(dataset);
@@ -19,12 +21,15 @@ function App() {
   const [job, setJob] = useState(DEFAULT_OCCUPATION);
   const [metric, setMetric] = useState(DEFAULT_METRIC);
 
+  const [selected, setSelected] = useState(DEFAULT_SELECTED);
+
   useEffect(() => { // load on first run
     if (!isInitialized) {
         setIsInitialized(true);
         console.log(data);
     }
     else{
+      // setSelected("North Carolina") // for testing
           // console.log(data); // ensure this updates
     }
 
@@ -40,6 +45,8 @@ function App() {
             year = {year}
             job = {job}
             metric = {metric}
+            selected = {selected}
+            setSelected = {setSelected}
             isInitialized = {isInitialized}
           />
         </div>
@@ -48,6 +55,9 @@ function App() {
             data = {data}
             year = {year}
             job = {job}
+            metric = {metric} // might be unnecessary for this?
+            selected = {selected}
+            setSelected = {setSelected}
             isInitialized = {isInitialized}
           />
         </div>
