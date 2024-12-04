@@ -38,7 +38,7 @@
     {
       "Computer Systems Analysts": {"employment": 49930, "employmentrse": 0.034, "employmentper1000jobs": 2.782, "medianwage": 59.79, "meanwage": 62.22, "annualmeanwage": 129420, "annualmeanwagerse": 0.08},
       "Network and Computer Systems Administrators": {"employment": 29130, "employmentrse": 0.035, "employmentper1000jobs": 1.623, "medianwage": 51.18, "meanwage": 55.18, "annualmeanwage": 114770, "annualmeanwagerse": 0.023},
-      "Software Developers": {"employment": 304390, "employmentrse": 0.011, "employmentper1000jobs": 16.961, "medianwage": 81.09, "meanwage": 83.55, "annualmeanwage": 173.780, "annualmeanwagerse": 0.08},
+      "Software Developers": {"employment": 304390, "employmentrse": 0.011, "employmentper1000jobs": 16.961, "medianwage": 81.09, "meanwage": 83.55, "annualmeanwage": 173780, "annualmeanwagerse": 0.08},
       "Web Developers": {"employment": 10590, "employmentrse": 0.107, "employmentper1000jobs": 0.590, "medianwage": 53.80, "meanwage": 58.41, "annualmeanwage": 121490, "annualmeanwagerse": 0.045},
       "Data Scientists": {"employment": 33220, "employmentrse": 0.019, "employmentper1000jobs": 1.851, "medianwage": 64.27, "meanwage": 67.54, "annualmeanwage": 140490, "annualmeanwagerse": 0.08},
       "fips": "06",
@@ -83,7 +83,7 @@
     {
       "Computer Systems Analysts": {"employment": 32760, "employmentrse": 0.032, "employmentper1000jobs": 3.424, "medianwage": 47.97, "meanwage": 50.99, "annualmeanwage": 106050, "annualmeanwagerse": 0.015},
       "Network and Computer Systems Administrators": {"employment": 22430, "employmentrse": 0.033, "employmentper1000jobs": 2.344, "medianwage": 43.43, "meanwage": 45.89, "annualmeanwage": 95460, "annualmeanwagerse": 0.012},
-      "Software Developers": {"employment": 86550, "employmentrse": 0.023, "employmentper1000jobs": 9.046, "medianwage": 58.81, "meanwage": 57.93, "annualmeanwage": 120.490, "annualmeanwagerse": 0.014},
+      "Software Developers": {"employment": 86550, "employmentrse": 0.023, "employmentper1000jobs": 9.046, "medianwage": 58.81, "meanwage": 57.93, "annualmeanwage": 120490, "annualmeanwagerse": 0.014},
       "Web Developers": {"employment": 5860, "employmentrse": 0.152, "employmentper1000jobs": 0.612, "medianwage": 37.81, "meanwage": 45.84, "annualmeanwage": 95360, "annualmeanwagerse": 0.052},
       "Data Scientists": {"employment": 8400, "employmentrse": 0.05, "employmentper1000jobs": 0.878, "medianwage": 45.84, "meanwage": 51.20, "annualmeanwage": 106490, "annualmeanwagerse": 0.024},
       "fips": "12",

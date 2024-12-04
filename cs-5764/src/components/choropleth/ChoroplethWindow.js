@@ -26,11 +26,11 @@ function ChoroplethWindow(props) {
 
   let choro_properties = {
     id: d => d.id,
-    value: d => d.rate,
+    value: d => d[props.job][props.metric],
     scale: d3.scaleQuantize,
-    domain: [1, 1000000],
+    domain: [50000, 150000],
     range: d3.schemeGreens[9],
-    title: (f, d) => `${f.properties.name}\n${d[props.year]}`,
+    title: (f, d) => `${f.properties.name}\n\$${d[props.job][props.metric]}`,
     features: states,
     borders: statemesh,
     width: 975,
@@ -119,7 +119,7 @@ function Choropleth(data, {
   const fipsVector = d3.map(data, d => d.fips)
   console.log(statesVector)
   // const V = d3.map(data, value).map(d => d == null ? NaN : +d);
-  const valuesVector = d3.map(data, d => d[year]).map(d => d == null ? NaN : +d);
+  const valuesVector = d3.map(data, value).map(d => d == null ? NaN : +d);
   console.log(valuesVector)
   const indexToFipsMap = new d3.InternMap(statesVector.map((id, i) => [fipsVector[i], i]));
   console.log(indexToFipsMap)

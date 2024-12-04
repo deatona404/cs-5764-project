@@ -6,7 +6,8 @@ import { useState, useEffect } from 'react';
 
 // let csvdata = (await FileAttachment("unemployment-x.csv").csv()).map(d => ({...d, rate: +d.rate}))
 // import dataset from './data/unemployment.json';
-import dataset from './data/bachelorsinworkforce/8-33_all.json'
+// import dataset from './data/bachelorsinworkforce/8-33_all.json'
+import dataset from './data/compensation/states/2023.json'
 const DEFAULT_YEAR = 2000
 const DEFAULT_OCCUPATION = "Software Developers"
 const DEFAULT_METRIC = "annualmeanwage"
@@ -15,7 +16,8 @@ function App() {
   const [isInitialized, setIsInitialized] = useState(false);
   const [data, setData] = useState(dataset);
   const [year, setYear] = useState(DEFAULT_YEAR);
-  const [column, setColumn] = useState(DEFAULT_OCCUPATION);
+  const [job, setJob] = useState(DEFAULT_OCCUPATION);
+  const [metric, setMetric] = useState(DEFAULT_METRIC);
 
   useEffect(() => { // load on first run
     if (!isInitialized) {
@@ -36,7 +38,8 @@ function App() {
           <ChoroplethWindow 
             data = {data}
             year = {year}
-            column = {column}
+            job = {job}
+            metric = {metric}
             isInitialized = {isInitialized}
           />
         </div>
@@ -44,7 +47,7 @@ function App() {
           <DetailView
             data = {data}
             year = {year}
-            column = {column}
+            job = {job}
             isInitialized = {isInitialized}
           />
         </div>
