@@ -8,8 +8,8 @@ import { useState, useEffect } from 'react';
 // import dataset from './data/unemployment.json';
 import dataset from './data/bachelorsinworkforce/8-33_all.json'
 const DEFAULT_YEAR = 2000
-const DEFAULT_OCCUPATION = "Software Engineer"
-
+const DEFAULT_OCCUPATION = "Software Developers"
+const DEFAULT_METRIC = "annualmeanwage"
 
 function App() {
   const [isInitialized, setIsInitialized] = useState(false);

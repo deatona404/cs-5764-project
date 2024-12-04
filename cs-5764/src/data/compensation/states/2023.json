@@ -1,0 +1,470 @@
+[
+    {
+      "Computer Systems Analysts": {"employment": 5950, "employmentrse": 0.069, "employmentper1000jobs": 2.897, "medianwage": 49.31, "meanwage": 52.18, "annualmeanwage": 108520, "annualmeanwagerse": 0.014},
+      "Network and Computer Systems Administrators": {"employment": 5200, "employmentrse": 0.044, "employmentper1000jobs": 2.534, "medianwage": 39.55, "meanwage": 41.66, "annualmeanwage": 86650, "annualmeanwagerse": 0.01},
+      "Software Developers": {"employment": 17130, "employmentrse": 0.047, "employmentper1000jobs": 8.346, "medianwage": 49.39, "meanwage": 53.19, "annualmeanwage": 110630, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 1120, "employmentrse": 0.142, "employmentper1000jobs": 0.545, "medianwage": 30.30, "meanwage": 32.09, "annualmeanwage": 66750, "annualmeanwagerse": 0.055},
+      "Data Scientists": {"employment": 1120, "employmentrse": 0.172, "employmentper1000jobs": 0.547, "medianwage": 48.35, "meanwage": 47.61, "annualmeanwage": 99040, "annualmeanwagerse": 0.026},
+      "fips": "01",
+      "State": "Alabama"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 430, "employmentrse": 0.093, "employmentper1000jobs": 1.382, "medianwage": 41.69, "meanwage": 42.41, "annualmeanwage": 88210, "annualmeanwagerse": 0.052},
+      "Network and Computer Systems Administrators": {"employment": 710, "employmentrse": 0.085, "employmentper1000jobs": 2.272, "medianwage": 42.98, "meanwage": 43.67, "annualmeanwage": 90830, "annualmeanwagerse": 0.09},
+      "Software Developers": {"employment": 280, "employmentrse": 0.478, "employmentper1000jobs": 0.893, "medianwage": 72.79, "meanwage": 70.01, "annualmeanwage": 145630, "annualmeanwagerse": 0.046},
+      "Web Developers": {"employment": 60, "employmentrse": 0.123, "employmentper1000jobs": 0.194, "medianwage": 42.35, "meanwage": 47.58, "annualmeanwage": 98970, "annualmeanwagerse": 0.028},
+      "Data Scientists": {"employment": 200, "employmentrse": 0.111, "employmentper1000jobs": 0.638, "medianwage": 38.46, "meanwage": 44.09, "annualmeanwage": 91710, "annualmeanwagerse": 0.02},
+      "fips": "02",
+      "State": "Alaska"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 11860, "employmentrse": 0.108, "employmentper1000jobs": 3.788, "medianwage": 48.21, "meanwage": 48.32, "annualmeanwage": 100510, "annualmeanwagerse": 0.034},
+      "Network and Computer Systems Administrators": {"employment": 6090, "employmentrse": 0.048, "employmentper1000jobs": 1.946, "medianwage": 44.10, "meanwage": 47.75, "annualmeanwage": 99320, "annualmeanwagerse": 0.01},
+      "Software Developers": {"employment": 38540, "employmentrse": 0.027, "employmentper1000jobs": 12.313, "medianwage": 59.22, "meanwage": 61.56, "annualmeanwage": 128040, "annualmeanwagerse": 0.016},
+      "Web Developers": {"employment": 1860, "employmentrse": 0.228, "employmentper1000jobs": 0.594, "medianwage": 32.19, "meanwage": 37.32, "annualmeanwage": 77620, "annualmeanwagerse": 0.188},
+      "Data Scientists": {"employment": 3800, "employmentrse": 0.111, "employmentper1000jobs": 1.216, "medianwage": 51.15, "meanwage": 54.07, "annualmeanwage": 112470, "annualmeanwagerse": 0.029},
+      "fips": "04",
+      "State": "Arizona"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2620, "employmentrse": 0.052, "employmentper1000jobs": 2.064, "medianwage": 37.12, "meanwage": 40.54, "annualmeanwage": 84330, "annualmeanwagerse": 0.034},
+      "Network and Computer Systems Administrators": {"employment": 1500, "employmentrse": 0.416, "employmentper1000jobs": 1.180, "medianwage": 37.06, "meanwage": 37.47, "annualmeanwage": 77940, "annualmeanwagerse": 0.175},
+      "Software Developers": {"employment": 5650, "employmentrse": 0.147, "employmentper1000jobs": 4.442, "medianwage": 44.30, "meanwage": 42.37, "annualmeanwage": 88130, "annualmeanwagerse": 0.048},
+      "Web Developers": {"employment": 540, "employmentrse": 0.182, "employmentper1000jobs": 0.422, "medianwage": 20.26, "meanwage": 23.43, "annualmeanwage": 48730, "annualmeanwagerse": 0.048},
+      "Data Scientists": {"employment": 330, "employmentrse": 0.039, "employmentper1000jobs": 0.263, "medianwage": 55.72, "meanwage": 56.37, "annualmeanwage": 117250, "annualmeanwagerse": 0.022},
+      "fips": "05",
+      "State": "Arkansas"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 49930, "employmentrse": 0.034, "employmentper1000jobs": 2.782, "medianwage": 59.79, "meanwage": 62.22, "annualmeanwage": 129420, "annualmeanwagerse": 0.08},
+      "Network and Computer Systems Administrators": {"employment": 29130, "employmentrse": 0.035, "employmentper1000jobs": 1.623, "medianwage": 51.18, "meanwage": 55.18, "annualmeanwage": 114770, "annualmeanwagerse": 0.023},
+      "Software Developers": {"employment": 304390, "employmentrse": 0.011, "employmentper1000jobs": 16.961, "medianwage": 81.09, "meanwage": 83.55, "annualmeanwage": 173.780, "annualmeanwagerse": 0.08},
+      "Web Developers": {"employment": 10590, "employmentrse": 0.107, "employmentper1000jobs": 0.590, "medianwage": 53.80, "meanwage": 58.41, "annualmeanwage": 121490, "annualmeanwagerse": 0.045},
+      "Data Scientists": {"employment": 33220, "employmentrse": 0.019, "employmentper1000jobs": 1.851, "medianwage": 64.27, "meanwage": 67.54, "annualmeanwage": 140490, "annualmeanwagerse": 0.08},
+      "fips": "06",
+      "State": "California"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 9290, "employmentrse": 0.188, "employmentper1000jobs": 3.280, "medianwage": 50.95, "meanwage": 56.89, "annualmeanwage": 118340, "annualmeanwagerse": 0.014},
+      "Network and Computer Systems Administrators": {"employment": 10880, "employmentrse": 0.091, "employmentper1000jobs": 3.842, "medianwage": 49.73, "meanwage": 50.30, "annualmeanwage": 104620, "annualmeanwagerse": 0.01},
+      "Software Developers": {"employment": 45270, "employmentrse": 0.057, "employmentper1000jobs": 15.985, "medianwage": 64.89, "meanwage": 69.92, "annualmeanwage": 145420, "annualmeanwagerse": 0.011},
+      "Web Developers": {"employment": 2460, "employmentrse": 0.197, "employmentper1000jobs": 0.870, "medianwage": 30.88, "meanwage": 37.72, "annualmeanwage": 78450, "annualmeanwagerse": 0.185},
+      "Data Scientists": {"employment": 5910, "employmentrse": 0.066, "employmentper1000jobs": 2.088, "medianwage": 53.83, "meanwage": 57.85, "annualmeanwage": 120320, "annualmeanwagerse": 0.043},
+      "fips": "08",
+      "State": "Colorado"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 6610, "employmentrse": 0.035, "employmentper1000jobs": 3.978, "medianwage": 49.92, "meanwage": 51.77, "annualmeanwage": 107670, "annualmeanwagerse": 0.016},
+      "Network and Computer Systems Administrators": {"employment": 1840, "employmentrse": 0.043, "employmentper1000jobs": 1.109, "medianwage": 48.07, "meanwage": 50.87, "annualmeanwage": 105810, "annualmeanwagerse": 0.013},
+      "Software Developers": {"employment": 18380, "employmentrse": 0.034, "employmentper1000jobs": 11.069, "medianwage": 60.14, "meanwage": 61.75, "annualmeanwage": 128450, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 740, "employmentrse": 0.132, "employmentper1000jobs": 0.446, "medianwage": 42.62, "meanwage": 46.06, "annualmeanwage": 95810, "annualmeanwagerse": 0.039},
+      "Data Scientists": {"employment": 1190, "employmentrse": 0.062, "employmentper1000jobs": 0.714, "medianwage": 54.21, "meanwage": 57.93, "annualmeanwage": 120480, "annualmeanwagerse": 0.022},
+      "fips": "09",
+      "State": "Connecticut"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2660, "employmentrse": 0.07, "employmentper1000jobs": 5.658, "medianwage": 54.36, "meanwage": 63.28, "annualmeanwage": 131620, "annualmeanwagerse": 0.114},
+      "Network and Computer Systems Administrators": {"employment": 940, "employmentrse": 0.035, "employmentper1000jobs": 2.013, "medianwage": 42.44, "meanwage": 44.09, "annualmeanwage": 91710, "annualmeanwagerse": 0.014},
+      "Software Developers": {"employment": 4850, "employmentrse": 0.096, "employmentper1000jobs": 10.333, "medianwage": 63.31, "meanwage": 63.29, "annualmeanwage": 131650, "annualmeanwagerse": 0.02},
+      "Web Developers": {"employment": 130, "employmentrse": 0.184, "employmentper1000jobs": 0.275, "medianwage": 49.25, "meanwage": 51.54, "annualmeanwage": 107190, "annualmeanwagerse": 0.078},
+      "Data Scientists": {"employment": 530, "employmentrse": 0.216, "employmentper1000jobs": 1.136, "medianwage": 66.72, "meanwage": 62.75, "annualmeanwage": 130520, "annualmeanwagerse": 0.055},
+      "fips": "10",
+      "State": "Delaware"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2310, "employmentrse": 0.153, "employmentper1000jobs": 3.293, "medianwage": 49.98, "meanwage": 57.51, "annualmeanwage": 120030, "annualmeanwagerse": 0.037},
+      "Network and Computer Systems Administrators": {"employment": 1710, "employmentrse": 0.087, "employmentper1000jobs": 2.441, "medianwage": 52.95, "meanwage": 54.80, "annualmeanwage": 113990, "annualmeanwagerse": 0.025},
+      "Software Developers": {"employment": 8470, "employmentrse": 0.076, "employmentper1000jobs": 12.071, "medianwage": 67.48, "meanwage": 70.22, "annualmeanwage": 146060, "annualmeanwagerse": 0.026},
+      "Web Developers": {"employment": 670, "employmentrse": 0.203, "employmentper1000jobs": 0.959, "medianwage": 54.08, "meanwage": 59.44, "annualmeanwage": 123640, "annualmeanwagerse": 0.0585},
+      "Data Scientists": {"employment": 3100, "employmentrse": 0.198, "employmentper1000jobs": 4.419, "medianwage": 58.66, "meanwage": 61.93, "annualmeanwage": 128810, "annualmeanwagerse": 0.114},
+      "fips": "11",
+      "State": "District of Columbia"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 32760, "employmentrse": 0.032, "employmentper1000jobs": 3.424, "medianwage": 47.97, "meanwage": 50.99, "annualmeanwage": 106050, "annualmeanwagerse": 0.015},
+      "Network and Computer Systems Administrators": {"employment": 22430, "employmentrse": 0.033, "employmentper1000jobs": 2.344, "medianwage": 43.43, "meanwage": 45.89, "annualmeanwage": 95460, "annualmeanwagerse": 0.012},
+      "Software Developers": {"employment": 86550, "employmentrse": 0.023, "employmentper1000jobs": 9.046, "medianwage": 58.81, "meanwage": 57.93, "annualmeanwage": 120.490, "annualmeanwagerse": 0.014},
+      "Web Developers": {"employment": 5860, "employmentrse": 0.152, "employmentper1000jobs": 0.612, "medianwage": 37.81, "meanwage": 45.84, "annualmeanwage": 95360, "annualmeanwagerse": 0.052},
+      "Data Scientists": {"employment": 8400, "employmentrse": 0.05, "employmentper1000jobs": 0.878, "medianwage": 45.84, "meanwage": 51.20, "annualmeanwage": 106490, "annualmeanwagerse": 0.024},
+      "fips": "12",
+      "State": "Florida"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 12240, "employmentrse": 0.027, "employmentper1000jobs": 2.573, "medianwage": 48.14, "meanwage": 50.88, "annualmeanwage": 105820, "annualmeanwagerse": 0.017},
+      "Network and Computer Systems Administrators": {"employment": 8350, "employmentrse": 0.051, "employmentper1000jobs": 1.756, "medianwage": 45.60, "meanwage": 47.30, "annualmeanwage": 98380, "annualmeanwagerse": 0.014},
+      "Software Developers": {"employment": 51960, "employmentrse": 0.035, "employmentper1000jobs": 10.920, "medianwage": 61.09, "meanwage": 60.24, "annualmeanwage": 125290, "annualmeanwagerse": 0.014},
+      "Web Developers": {"employment": 1300, "employmentrse": 0.082, "employmentper1000jobs": 0.274, "medianwage": 42.62, "meanwage": 51.01, "annualmeanwage": 106100, "annualmeanwagerse": 0.059},
+      "Data Scientists": {"employment": 6510, "employmentrse": 0.044, "employmentper1000jobs": 1.368, "medianwage": 48.54, "meanwage": 51.93, "annualmeanwage": 108010, "annualmeanwagerse": 0.014},
+      "fips": "13",
+      "State": "Georgia"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1440, "employmentrse": 0.047, "employmentper1000jobs": 2.340, "medianwage": 42.30, "meanwage": 44.82, "annualmeanwage": 93230, "annualmeanwagerse": 0.024},
+      "Network and Computer Systems Administrators": {"employment": 2400, "employmentrse": 0.143, "employmentper1000jobs": 3.882, "medianwage": 46.87, "meanwage": 46.30, "annualmeanwage": 96300, "annualmeanwagerse": 0.046},
+      "Software Developers": {"employment": 2740, "employmentrse": 0.108, "employmentper1000jobs": 4.439, "medianwage": 50.41, "meanwage": 54.74, "annualmeanwage": 113860, "annualmeanwagerse": 0.054},
+      "Web Developers": {"employment": 250, "employmentrse": 0.499, "employmentper1000jobs": 0.411, "medianwage": null, "meanwage": null, "annualmeanwage": null, "annualmeanwagerse": null},
+      "Data Scientists": {"employment": 150, "employmentrse": 0.124, "employmentper1000jobs": 0.239, "medianwage": 62.47, "meanwage": 60.61, "annualmeanwage": 126080, "annualmeanwagerse": 0.049},
+      "fips": "15",
+      "State": "Hawaii"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1910, "employmentrse": 0.171, "employmentper1000jobs": 2.325, "medianwage": 38.92, "meanwage": 43.92, "annualmeanwage": 91360, "annualmeanwagerse": 0.038},
+      "Network and Computer Systems Administrators": {"employment": 1090, "employmentrse": 0.053, "employmentper1000jobs": 1.327, "medianwage": 40.68, "meanwage": 46.27, "annualmeanwage": 96230, "annualmeanwagerse": 0.51},
+      "Software Developers": {"employment": 5910, "employmentrse": 0.053, "employmentper1000jobs": 7.188, "medianwage": 49.38, "meanwage": 64.91, "annualmeanwage": 135000, "annualmeanwagerse": 0.168},
+      "Web Developers": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 28.70, "meanwage": 33.65, "annualmeanwage": 70000, "annualmeanwagerse": 0.12},
+      "Data Scientists": {"employment": 710, "employmentrse": 0.116, "employmentper1000jobs": 0.867, "medianwage": 58.79, "meanwage": 60.67, "annualmeanwage": 126190, "annualmeanwagerse": 0.02},
+      "fips": "16",
+      "State": "Idaho"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 4450, "employmentrse": 0.05, "employmentper1000jobs": 0.740, "medianwage": 56.15, "meanwage": 58.23, "annualmeanwage": 121110, "annualmeanwagerse": 0.013},
+      "Network and Computer Systems Administrators": {"employment": 10070, "employmentrse": 0.04, "employmentper1000jobs": 1.675, "medianwage": 45.15, "meanwage": 46.72, "annualmeanwage": 97170, "annualmeanwagerse": 0.013},
+      "Software Developers": {"employment": 56290, "employmentrse": 0.047, "employmentper1000jobs": 9.363, "medianwage": 60.67, "meanwage": 59.47, "annualmeanwage": 123700, "annualmeanwagerse": 0.017},
+      "Web Developers": {"employment": 4260, "employmentrse": 0.425, "employmentper1000jobs": 0.709, "medianwage": 48.26, "meanwage": 44.76, "annualmeanwage": 93100, "annualmeanwagerse": 0.037},
+      "Data Scientists": {"employment": 6320, "employmentrse": 0.035, "employmentper1000jobs": 1.052, "medianwage": 52.20, "meanwage": 55.69, "annualmeanwage": 115840, "annualmeanwagerse": 0.09},
+      "fips": "17",
+      "State": "Illinois"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 10900, "employmentrse": 0.044, "employmentper1000jobs": 3.454, "medianwage": 44.38, "meanwage": 46.45, "annualmeanwage": 96610, "annualmeanwagerse": 0.018},
+      "Network and Computer Systems Administrators": {"employment": 5730, "employmentrse": 0.046, "employmentper1000jobs": 1.817, "medianwage": 37.69, "meanwage": 41.33, "annualmeanwage": 85960, "annualmeanwagerse": 0.02},
+      "Software Developers": {"employment": 13440, "employmentrse": 0.04, "employmentper1000jobs": 4.259, "medianwage": 50.84, "meanwage": 53.16, "annualmeanwage": 110580, "annualmeanwagerse": 0.013},
+      "Web Developers": {"employment": 1190, "employmentrse": 0.496, "employmentper1000jobs": 0.378, "medianwage": 27.63, "meanwage": 27.63, "annualmeanwage": 66220, "annualmeanwagerse": 0.095},
+      "Data Scientists": {"employment": 2440, "employmentrse": 0.06, "employmentper1000jobs": 0.772, "medianwage": 39.24, "meanwage": 44.48, "annualmeanwage": 92520, "annualmeanwagerse": 0.031},
+      "fips": "18",
+      "State": "Indiana"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 4770, "employmentrse": 0.046, "employmentper1000jobs": 3.088, "medianwage": 43.77, "meanwage": 45.86, "annualmeanwage": 95380, "annualmeanwagerse": 0.011},
+      "Network and Computer Systems Administrators": {"employment": 3250, "employmentrse": 0.026, "employmentper1000jobs": 2.102, "medianwage": 41.05, "meanwage": 43.16, "annualmeanwage": 89770, "annualmeanwagerse": 0.01},
+      "Software Developers": {"employment": 9730, "employmentrse": 0.035, "employmentper1000jobs": 6.301, "medianwage": 50.92, "meanwage": 53.02, "annualmeanwage": 110280, "annualmeanwagerse": 0.019},
+      "Web Developers": {"employment": 430, "employmentrse": 0.098, "employmentper1000jobs": 0.280, "medianwage": 33.37, "meanwage": 38.25, "annualmeanwage": 79550, "annualmeanwagerse": 0.043},
+      "Data Scientists": {"employment": 2270, "employmentrse": 0.026, "employmentper1000jobs": 1.472, "medianwage": 46.62, "meanwage": 47.38, "annualmeanwage": 98550, "annualmeanwagerse": 0.09},
+      "fips": "19",
+      "State": "Iowa"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 6970, "employmentrse": 0.043, "employmentper1000jobs": 4.228, "medianwage": 49.13, "meanwage": 48.27, "annualmeanwage": 100410, "annualmeanwagerse": 0.023},
+      "Network and Computer Systems Administrators": {"employment": 3930, "employmentrse": 0.053, "employmentper1000jobs": 2.786, "medianwage": 39.13, "meanwage": 41.97, "annualmeanwage": 87300, "annualmeanwagerse": 0.021},
+      "Software Developers": {"employment": 14490, "employmentrse": 0.053, "employmentper1000jobs": 10.263, "medianwage": 50.12, "meanwage": 53.13, "annualmeanwage": 110520, "annualmeanwagerse": 0.018},
+      "Web Developers": {"employment": 600, "employmentrse": 0.089, "employmentper1000jobs": 0.424, "medianwage": 35.03, "meanwage": 37.64, "annualmeanwage": 78290, "annualmeanwagerse": 0.041},
+      "Data Scientists": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 48.85, "meanwage": 51.44, "annualmeanwage": 107000, "annualmeanwagerse": 0.09},
+      "fips": "20",
+      "State": "Kansas"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 4120, "employmentrse": 0.063, "employmentper1000jobs": 2.098, "medianwage": 38.93, "meanwage": 39.92, "annualmeanwage": 93040, "annualmeanwagerse": 0.022},
+      "Network and Computer Systems Administrators": {"employment": 2730, "employmentrse": 0.111, "employmentper1000jobs": 1.392, "medianwage": 38.79, "meanwage": 30.31, "annualmeanwage": 83840, "annualmeanwagerse": 0.018},
+      "Software Developers": {"employment": 5800, "employmentrse": 0.049, "employmentper1000jobs": 2.944, "medianwage": 49.54, "meanwage": 50.99, "annualmeanwage": 106070, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 440, "employmentrse": 0.11, "employmentper1000jobs": 0.225, "medianwage": 33.11, "meanwage": 36.38, "annualmeanwage": 75670, "annualmeanwagerse": 0.039},
+      "Data Scientists": {"employment": 2080, "employmentrse": 0.10, "employmentper1000jobs": 1.058, "medianwage": 42.69, "meanwage": 46.29, "annualmeanwage": 96290, "annualmeanwagerse": 0.031},
+      "fips": "21",
+      "State": "Kentucky"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2430, "employmentrse": 0.073, "employmentper1000jobs": 1.314, "medianwage": 39.74, "meanwage": 41.12, "annualmeanwage": 85530, "annualmeanwagerse": 0.045},
+      "Network and Computer Systems Administrators": {"employment": 1400, "employmentrse": 0.067, "employmentper1000jobs": 0.754, "medianwage": 39.57, "meanwage": 40.85, "annualmeanwage": 84970, "annualmeanwagerse": 0.032},
+      "Software Developers": {"employment": 3960, "employmentrse": 0.089, "employmentper1000jobs": 2.140, "medianwage": 50.41, "meanwage": 62.01, "annualmeanwage": 128980, "annualmeanwagerse": 0.037},
+      "Web Developers": {"employment": 370, "employmentrse": 0.143, "employmentper1000jobs": 0.199, "medianwage": 31.17, "meanwage": 30.95, "annualmeanwage": 64370, "annualmeanwagerse": 0.033},
+      "Data Scientists": {"employment": 920, "employmentrse": 0.048, "employmentper1000jobs": 0.497, "medianwage": 33.04, "meanwage": 35.74, "annualmeanwage": 74330, "annualmeanwagerse": 0.017},
+      "fips": "22",
+      "State": "Louisiana"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2420, "employmentrse": 0.06, "employmentper1000jobs": 3.893, "medianwage": 39.33, "meanwage": 42.97, "annualmeanwage": 89380, "annualmeanwagerse": 0.018},
+      "Network and Computer Systems Administrators": {"employment": 1290, "employmentrse": 0.077, "employmentper1000jobs": 2.076, "medianwage": 37.91, "meanwage": 39.66, "annualmeanwage": 82500, "annualmeanwagerse": 0.014},
+      "Software Developers": {"employment": 3220, "employmentrse": 0.062, "employmentper1000jobs": 5.181, "medianwage": 54.42, "meanwage": 56.32, "annualmeanwage": 117150, "annualmeanwagerse": 0.041},
+      "Web Developers": {"employment": 290, "employmentrse": 0.415, "employmentper1000jobs": 0.470, "medianwage": 31.68, "meanwage": 44.53, "annualmeanwage": 92630, "annualmeanwagerse": 0.257},
+      "Data Scientists": {"employment": 710, "employmentrse": 0.087, "employmentper1000jobs": 1.150, "medianwage": 48.06, "meanwage": 51.62, "annualmeanwage": 107370, "annualmeanwagerse": 0.034},
+      "fips": "23",
+      "State": "Maine"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 13800, "employmentrse": 0.057, "employmentper1000jobs": 5.153, "medianwage": 53.42, "meanwage": 56.95, "annualmeanwage": 118460, "annualmeanwagerse": 0.015},
+      "Network and Computer Systems Administrators": {"employment": 8040, "employmentrse": 0.043, "employmentper1000jobs": 3.002, "medianwage": 51.78, "meanwage": 55.91, "annualmeanwage": 116300, "annualmeanwagerse": 0.017},
+      "Software Developers": {"employment": 30700, "employmentrse": 0.042, "employmentper1000jobs": 11.465, "medianwage": 66.37, "meanwage": 72.47, "annualmeanwage": 150740, "annualmeanwagerse": 0.019},
+      "Web Developers": {"employment": 2070, "employmentrse": 0.095, "employmentper1000jobs": 0.772, "medianwage": 39.98, "meanwage": 46.88, "annualmeanwage": 92510, "annualmeanwagerse": 0.036},
+      "Data Scientists": {"employment": 2170, "employmentrse": 0.076, "employmentper1000jobs": 0.810, "medianwage": 60.32, "meanwage": 60.59, "annualmeanwage": 126020, "annualmeanwagerse": 0.019},
+      "fips": "24",
+      "State": "Maryland"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 14070, "employmentrse": 0.034, "employmentper1000jobs": 3.861, "medianwage": 53.79, "meanwage": 53.79, "annualmeanwage": 124870, "annualmeanwagerse": 0.05},
+      "Network and Computer Systems Administrators": {"employment": 7480, "employmentrse": 0.036, "employmentper1000jobs": 2.054, "medianwage": 49.16, "meanwage": 51.07, "annualmeanwage": 106220, "annualmeanwagerse": 0.011},
+      "Software Developers": {"employment": 59960, "employmentrse": 0.026, "employmentper1000jobs": 16.458, "medianwage": 65.93, "meanwage": 70.47, "annualmeanwage": 146580, "annualmeanwagerse": 0.013},
+      "Web Developers": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 48.00, "meanwage": 46.16, "annualmeanwage": 96010, "annualmeanwagerse": 0.113},
+      "Data Scientists": {"employment": 7400, "employmentrse": 0.099, "employmentper1000jobs": 2.031, "medianwage": 58.44, "meanwage": 60.15, "annualmeanwage": 125100, "annualmeanwagerse": 0.03},
+      "fips": "25",
+      "State": "Massachusetts"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 15000, "employmentrse": 0.024, "employmentper1000jobs": 3.449, "medianwage": 48.12, "meanwage": 48.80, "annualmeanwage": 101510, "annualmeanwagerse": 0.07},
+      "Network and Computer Systems Administrators": {"employment": 7160, "employmentrse": 0.041, "employmentper1000jobs": 1.646, "medianwage": 42.80, "meanwage": 45.60, "annualmeanwage": 94840, "annualmeanwagerse": 0.012},
+      "Software Developers": {"employment": 44140, "employmentrse": 0.035, "employmentper1000jobs": 10.152, "medianwage": 49.92, "meanwage": 51.96, "annualmeanwage": 108080, "annualmeanwagerse": 0.09},
+      "Web Developers": {"employment": 1030, "employmentrse": 0.098, "employmentper1000jobs": 0.238, "medianwage": 42.53, "meanwage": 43.40, "annualmeanwage": 90270, "annualmeanwagerse": 0.029},
+      "Data Scientists": {"employment": 4700, "employmentrse": 0.051, "employmentper1000jobs": 1.081, "medianwage": 43.63, "meanwage": 46.39, "annualmeanwage": 96500, "annualmeanwagerse": 0.012},
+      "fips": "26",
+      "State": "Michigan"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 12180, "employmentrse": 0.035, "employmentper1000jobs": 4.227, "medianwage": 51.41, "meanwage": 52.38, "annualmeanwage": 108940, "annualmeanwagerse": 0.008},
+      "Network and Computer Systems Administrators": {"employment": 4290, "employmentrse": 0.033, "employmentper1000jobs": 1.489, "medianwage": 47.57, "meanwage": 48.45, "annualmeanwage": 100770, "annualmeanwagerse": 0.008},
+      "Software Developers": {"employment": 38570, "employmentrse": 0.033, "employmentper1000jobs": 13.387, "medianwage": 60.28, "meanwage": 57.79, "annualmeanwage": 120210, "annualmeanwagerse": 0.008},
+      "Web Developers": {"employment": 2040, "employmentrse": 0.258, "employmentper1000jobs": 0.708, "medianwage": 45.09, "meanwage": 49.31, "annualmeanwage": 102560, "annualmeanwagerse": 0.077},
+      "Data Scientists": {"employment": 2240, "employmentrse": 0.049, "employmentper1000jobs": 0.776, "medianwage": 55.11, "meanwage": 57.10, "annualmeanwage": 118760, "annualmeanwagerse": 0.013},
+      "fips": "27",
+      "State": "Minnesota"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1610, "employmentrse": 0.089, "employmentper1000jobs": 1.400, "medianwage": 38.47, "meanwage": 42.19, "annualmeanwage": 87750, "annualmeanwagerse": 0.03},
+      "Network and Computer Systems Administrators": {"employment": 1470, "employmentrse": 0.06, "employmentper1000jobs": 1.282, "medianwage": 37.88, "meanwage": 38.96, "annualmeanwage": 81040, "annualmeanwagerse": 0.02},
+      "Software Developers": {"employment": 3090, "employmentrse": 0.191, "employmentper1000jobs": 2.689, "medianwage": 40.96, "meanwage": 43.24, "annualmeanwage": 89940, "annualmeanwagerse": 0.044},
+      "Web Developers": {"employment": 170, "employmentrse": 0.136, "employmentper1000jobs": 0.144, "medianwage": 27.87, "meanwage": 31.34, "annualmeanwage": 65190, "annualmeanwagerse": 0.086},
+      "Data Scientists": {"employment": 290, "employmentrse": 0.134, "employmentper1000jobs": 0.253, "medianwage": 30.10, "meanwage": 34.72, "annualmeanwage": 72220, "annualmeanwagerse": 0.047},
+      "fips": "28",
+      "State": "Mississippi"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 7860, "employmentrse": 0.052, "employmentper1000jobs": 2.731, "medianwage": 46.47, "meanwage": 46.95, "annualmeanwage": 97650, "annualmeanwagerse": 0.021},
+      "Network and Computer Systems Administrators": {"employment": 6330, "employmentrse": 0.045, "employmentper1000jobs": 2.202, "medianwage": 39.68, "meanwage": 42.83, "annualmeanwage": 89080, "annualmeanwagerse": 0.019},
+      "Software Developers": {"employment": 18450, "employmentrse": 0.056, "employmentper1000jobs": 6.415, "medianwage": 50.29, "meanwage": 51.91, "annualmeanwage": 107980, "annualmeanwagerse": 0.014},
+      "Web Developers": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 32.90, "meanwage": 39.01, "annualmeanwage": 81130, "annualmeanwagerse": 0.127},
+      "Data Scientists": {"employment": 3850, "employmentrse": 0.057, "employmentper1000jobs": 1.339, "medianwage": 39.14, "meanwage": 42.41, "annualmeanwage": 88210, "annualmeanwagerse": 0.015},
+      "fips": "29",
+      "State": "Missouri"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 580, "employmentrse": 0.096, "employmentper1000jobs": 1.155, "medianwage": 39.43, "meanwage": 39.55, "annualmeanwage": 82260, "annualmeanwagerse": 0.042},
+      "Network and Computer Systems Administrators": {"employment": 890, "employmentrse": 0.041, "employmentper1000jobs": 1.782, "medianwage": 37.50, "meanwage": 38.75, "annualmeanwage": 80600, "annualmeanwagerse": 0.023},
+      "Software Developers": {"employment": 2370, "employmentrse": 0.128, "employmentper1000jobs": 4.730, "medianwage": 52.54, "meanwage": 63.16, "annualmeanwage": 131380, "annualmeanwagerse": 0.008},
+      "Web Developers": {"employment": 180, "employmentrse": 0.149, "employmentper1000jobs": 0.354, "medianwage": 27.87, "meanwage": 29.33, "annualmeanwage": 61000, "annualmeanwagerse": 0.049},
+      "Data Scientists": {"employment": 90, "employmentrse": 0.165, "employmentper1000jobs": 0.182, "medianwage": 45.40, "meanwage": 48.73, "annualmeanwage": 101350, "annualmeanwagerse": 0.079},
+      "fips": "30",
+      "State": "Montana"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 3570, "employmentrse": 0.048, "employmentper1000jobs": 3.567, "medianwage": 39.77, "meanwage": 43.43, "annualmeanwage": 90330, "annualmeanwagerse": 0.012},
+      "Network and Computer Systems Administrators": {"employment": 1500, "employmentrse": 0.042, "employmentper1000jobs": 1.498, "medianwage": 41.52, "meanwage": 43.27, "annualmeanwage": 90010, "annualmeanwagerse": 0.014},
+      "Software Developers": {"employment": 8270, "employmentrse": 0.097, "employmentper1000jobs": 8.263, "medianwage": 52.79, "meanwage": 54.01, "annualmeanwage": 112340, "annualmeanwagerse": 0.013},
+      "Web Developers": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 33.81, "meanwage": 39.07, "annualmeanwage": 81270, "annualmeanwagerse": 0.16},
+      "Data Scientists": {"employment": 1780, "employmentrse": 0.059, "employmentper1000jobs": 1.775, "medianwage": 44.54, "meanwage": 45.66, "annualmeanwage": 94960, "annualmeanwagerse": 0.009},
+      "fips": "31",
+      "State": "Nebraska"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1920, "employmentrse": 0.252, "employmentper1000jobs": 1.295, "medianwage": 48.45, "meanwage": 51.63, "annualmeanwage": 107380, "annualmeanwagerse": 0.135},
+      "Network and Computer Systems Administrators": {"employment": 1780, "employmentrse": 0.093, "employmentper1000jobs": 1.204, "medianwage": 39.62, "meanwage": 45.24, "annualmeanwage": 94100, "annualmeanwagerse": 0.084},
+      "Software Developers": {"employment": 5030, "employmentrse": 0.11, "employmentper1000jobs": 3.395, "medianwage": 60.38, "meanwage": 64.18, "annualmeanwage": 133490, "annualmeanwagerse": 0.042},
+      "Web Developers": {"employment": 270, "employmentrse": 0.142, "employmentper1000jobs": 0.182, "medianwage": 30.30, "meanwage": 33.94, "annualmeanwage": 70600, "annualmeanwagerse": 0.046},
+      "Data Scientists": {"employment": 980, "employmentrse": 0.087, "employmentper1000jobs": 0.662, "medianwage": 41.36, "meanwage": 46.54, "annualmeanwage": 96800, "annualmeanwagerse": 0.035},
+      "fips": "32",
+      "State": "Nevada"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2450, "employmentrse": 0.073, "employmentper1000jobs": 3.634, "medianwage": 50.89, "meanwage": 53.59, "annualmeanwage": 111470, "annualmeanwagerse": 0.023},
+      "Network and Computer Systems Administrators": {"employment": 1910, "employmentrse": 0.041, "employmentper1000jobs": 2.826, "medianwage": 46.47, "meanwage": 47.67, "annualmeanwage": 99160, "annualmeanwagerse": 0.09},
+      "Software Developers": {"employment": 9250, "employmentrse": 0.057, "employmentper1000jobs": 13.706, "medianwage": 61.95, "meanwage": 61.75, "annualmeanwage": 128440, "annualmeanwagerse": 0.023},
+      "Web Developers": {"employment": 400, "employmentrse": 0.307, "employmentper1000jobs": 0.596, "medianwage": 43.85, "meanwage": 44.70, "annualmeanwage": 92980, "annualmeanwagerse": 0.048},
+      "Data Scientists": {"employment": 780, "employmentrse": 0.161, "employmentper1000jobs": 1.151, "medianwage": 46.79, "meanwage": 46.79, "annualmeanwage": 97330, "annualmeanwagerse": 0.06},
+      "fips": "33",
+      "State": "New Hampshire"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 14970, "employmentrse": 0.104, "employmentper1000jobs": 3.563, "medianwage": 59.23, "meanwage": 60.69, "annualmeanwage": 126240, "annualmeanwagerse": 0.049},
+      "Network and Computer Systems Administrators": {"employment": 11030, "employmentrse": 0.077, "employmentper1000jobs": 2.624, "medianwage": 49.93, "meanwage": 53.46, "annualmeanwage": 111190, "annualmeanwagerse": 0.042},
+      "Software Developers": {"employment": 54570, "employmentrse": 0.032, "employmentper1000jobs": 12.986, "medianwage": 63.31, "meanwage": 64.89, "annualmeanwage": 134970, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 2400, "employmentrse": 0.147, "employmentper1000jobs": 0.571, "medianwage": 38.26, "meanwage": 41.10, "annualmeanwage": 85490, "annualmeanwagerse": 0.076},
+      "Data Scientists": {"employment": 4340, "employmentrse": 0.091, "employmentper1000jobs": 1.032, "medianwage": 62.77, "meanwage": 64.49, "annualmeanwage": 134140, "annualmeanwagerse": 0.025},
+      "fips": "34",
+      "State": "New Jersey"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2480, "employmentrse": 0.06, "employmentper1000jobs": 2.937, "medianwage": 42.52, "meanwage": 46.10, "annualmeanwage": 95890, "annualmeanwagerse": 0.03},
+      "Network and Computer Systems Administrators": {"employment": 1380, "employmentrse": 0.152, "employmentper1000jobs": 1.635, "medianwage": 39.49, "meanwage": 39.04, "annualmeanwage": 81210, "annualmeanwagerse": 0.041},
+      "Software Developers": {"employment": 4270, "employmentrse": 0.065, "employmentper1000jobs": 5.048, "medianwage": 60.84, "meanwage": 60.51, "annualmeanwage": 125860, "annualmeanwagerse": 0.021},
+      "Web Developers": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": null, "meanwage": null, "annualmeanwage": null, "annualmeanwagerse": null},
+      "Data Scientists": {"employment": 380, "employmentrse": 0.198, "employmentper1000jobs": 0.449, "medianwage": 41.84, "meanwage": 42.65, "annualmeanwage": 88720, "annualmeanwagerse": 0.057},
+      "fips": "35",
+      "State": "New Mexico"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 19760, "employmentrse": 0.027, "employmentper1000jobs": 2.104, "medianwage": 51.69, "meanwage": 56.04, "annualmeanwage": 116560, "annualmeanwagerse": 0.009},
+      "Network and Computer Systems Administrators": {"employment": 20020, "employmentrse": 0.019, "employmentper1000jobs": 2.131, "medianwage": 49.47, "meanwage": 52.57, "annualmeanwage": 109340, "annualmeanwagerse": 0.009},
+      "Software Developers": {"employment": 105460, "employmentrse": 0.039, "employmentper1000jobs": 11.228, "medianwage": 69.94, "meanwage": 72.12, "annualmeanwage": 150020, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 5950, "employmentrse": 0.189, "employmentper1000jobs": 0.633, "medianwage": 38.09, "meanwage": 45.36, "annualmeanwage": 94340, "annualmeanwagerse": 0.104},
+      "Data Scientists": {"employment": 16390, "employmentrse": 0.027, "employmentper1000jobs": 1.745, "medianwage": 61.96, "meanwage": 64.82, "annualmeanwage": 134830, "annualmeanwagerse": 0.011},
+      "fips": "36",
+      "State": "New York"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 26220, "employmentrse": 0.026, "employmentper1000jobs": 5.468, "medianwage": 50.85, "meanwage": 53.64, "annualmeanwage": 111580, "annualmeanwagerse": 0.012},
+      "Network and Computer Systems Administrators": {"employment": 10230, "employmentrse": 0.045, "employmentper1000jobs": 2.134, "medianwage": 45.25, "meanwage": 48.11, "annualmeanwage": 100070, "annualmeanwagerse": 0.023},
+      "Software Developers": {"employment": 58620, "employmentrse": 0.02, "employmentper1000jobs": 12.226, "medianwage": 62.80, "meanwage": 62.97, "annualmeanwage": 130970, "annualmeanwagerse": 0.01},
+      "Web Developers": {"employment": 1660, "employmentrse": 0.113, "employmentper1000jobs": 0.347, "medianwage": 36.79, "meanwage": 39.48, "annualmeanwage": 82110, "annualmeanwagerse": 0.074},
+      "Data Scientists": {"employment": 6640, "employmentrse": 0.05, "employmentper1000jobs": 1.385, "medianwage": 61.03, "meanwage": 60.55, "annualmeanwage": 125950, "annualmeanwagerse": 0.015},
+      "fips": "37",
+      "State": "North Carolina"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 190, "employmentrse": 0.11, "employmentper1000jobs": 0.453, "medianwage": 45.13, "meanwage": 48.40, "annualmeanwage": 100680, "annualmeanwagerse": 0.039},
+      "Network and Computer Systems Administrators": {"employment": 760, "employmentrse": 0.076, "employmentper1000jobs": 1.810, "medianwage": 38.96, "meanwage": 39.68, "annualmeanwage": 82530, "annualmeanwagerse": 0.019},
+      "Software Developers": {"employment": 1840, "employmentrse": 0.084, "employmentper1000jobs": 4.399, "medianwage": 48.55, "meanwage": 51.38, "annualmeanwage": 106870, "annualmeanwagerse": 0.064},
+      "Web Developers": {"employment": 160, "employmentrse": 0.417, "employmentper1000jobs": 0.380, "medianwage": 30.56, "meanwage": 33.16, "annualmeanwage": 68970, "annualmeanwagerse": 0.069},
+      "Data Scientists": {"employment": 240, "employmentrse": 0.25, "employmentper1000jobs": 0.567, "medianwage": 54.63, "meanwage": 49.24, "annualmeanwage": 102410, "annualmeanwagerse": 0.054},
+      "fips": "38",
+      "State": "North Dakota"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 16530, "employmentrse": 0.036, "employmentper1000jobs": 3.023, "medianwage": 45.87, "meanwage": 47.72, "annualmeanwage": 99260, "annualmeanwagerse": 0.013},
+      "Network and Computer Systems Administrators": {"employment": 20280, "employmentrse": 0.029, "employmentper1000jobs": 3.707, "medianwage": 46.47, "meanwage": 49.18, "annualmeanwage": 102290, "annualmeanwagerse": 0.018},
+      "Software Developers": {"employment": 42250, "employmentrse": 0.022, "employmentper1000jobs": 7.725, "medianwage": 51.71, "meanwage": 54.14, "annualmeanwage": 112610, "annualmeanwagerse": 0.007},
+      "Web Developers": {"employment": 1580, "employmentrse": 0.071, "employmentper1000jobs": 0.290, "medianwage": 39.98, "meanwage": 43.52, "annualmeanwage": 90530, "annualmeanwagerse": 0.048},
+      "Data Scientists": {"employment": 4660, "employmentrse": 0.045, "employmentper1000jobs": 0.852, "medianwage": 46.67, "meanwage": 46.89, "annualmeanwage": 97530, "annualmeanwagerse": 0.009},
+      "fips": "39",
+      "State": "Ohio"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 3320, "employmentrse": 0.061, "employmentper1000jobs": 1.997, "medianwage": 47.88, "meanwage": 49.74, "annualmeanwage": 103460, "annualmeanwagerse": 0.034},
+      "Network and Computer Systems Administrators": {"employment": 2700, "employmentrse": 0.062, "employmentper1000jobs": 1.621, "medianwage": 40.31, "meanwage": 44.21, "annualmeanwage": 91960, "annualmeanwagerse": 0.032},
+      "Software Developers": {"employment": 7670, "employmentrse": 0.069, "employmentper1000jobs": 4.609, "medianwage": 50.02, "meanwage": 53.41, "annualmeanwage": 111100, "annualmeanwagerse": 0.036},
+      "Web Developers": {"employment": 400, "employmentrse": 0.125, "employmentper1000jobs": 0.241, "medianwage": 37.34, "meanwage": 41.05, "annualmeanwage": 85380, "annualmeanwagerse": 0.042},
+      "Data Scientists": {"employment": 2130, "employmentrse": 0.075, "employmentper1000jobs": 1.281, "medianwage": 40.29, "meanwage": 44.72, "annualmeanwage": 93020, "annualmeanwagerse": 0.032},
+      "fips": "40",
+      "State": "Oklahoma"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 4760, "employmentrse": 0.045, "employmentper1000jobs": 2.449, "medianwage": 54.32, "meanwage": 56.93, "annualmeanwage": 118410, "annualmeanwagerse": 0.01},
+      "Network and Computer Systems Administrators": {"employment": 4350, "employmentrse": 0.033, "employmentper1000jobs": 2.240, "medianwage": 48.62, "meanwage": 49.66, "annualmeanwage": 103290, "annualmeanwagerse": 0.009},
+      "Software Developers": {"employment": 21650, "employmentrse": 0.047, "employmentper1000jobs": 11.139, "medianwage": 62.50, "meanwage": 63.13, "annualmeanwage": 131310, "annualmeanwagerse": 0.015},
+      "Web Developers": {"employment": 1100, "employmentrse": 0.127, "employmentper1000jobs": 0.566, "medianwage": 30.90, "meanwage": 35.87, "annualmeanwage": 74620, "annualmeanwagerse": 0.042},
+      "Data Scientists": {"employment": 2640, "employmentrse": 0.057, "employmentper1000jobs": 1.360, "medianwage": 55.24, "meanwage": 59.85, "annualmeanwage": 124480, "annualmeanwagerse": 0.023},
+      "fips": "41",
+      "State": "Oregon"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 19630, "employmentrse": 0.05, "employmentper1000jobs": 3.300, "medianwage": 40.13, "meanwage": 44.73, "annualmeanwage": 93040, "annualmeanwagerse": 0.021},
+      "Network and Computer Systems Administrators": {"employment": 9220, "employmentrse": 0.04, "employmentper1000jobs": 1.550, "medianwage": 41.60, "meanwage": 47.94, "annualmeanwage": 99710, "annualmeanwagerse": 0.067},
+      "Software Developers": {"employment": 41300, "employmentrse": 0.03, "employmentper1000jobs": 6.943, "medianwage": 53.80, "meanwage": 56.30, "annualmeanwage": 117110, "annualmeanwagerse": 0.014},
+      "Web Developers": {"employment": 2690, "employmentrse": 0.096, "employmentper1000jobs": 0.453, "medianwage": 41.95, "meanwage": 49.78, "annualmeanwage": 103540, "annualmeanwagerse": 0.051},
+      "Data Scientists": {"employment": 7490, "employmentrse": 0.106, "employmentper1000jobs": 1.259, "medianwage": 46.76, "meanwage": 49.22, "annualmeanwage": 102370, "annualmeanwagerse": 0.027},
+      "fips": "42",
+      "State": "Pennsylvania"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1590, "employmentrse": 0.064, "employmentper1000jobs": 3.258, "medianwage": 51.51, "meanwage": 54.56, "annualmeanwage": 113490, "annualmeanwagerse": 0.013},
+      "Network and Computer Systems Administrators": {"employment": 1420, "employmentrse": 0.05, "employmentper1000jobs": 2.917, "medianwage": 51.75, "meanwage": 53.95, "annualmeanwage": 112220, "annualmeanwagerse": 0.022},
+      "Software Developers": {"employment": 5460, "employmentrse": 0.065, "employmentper1000jobs": 11.177, "medianwage": 62.02, "meanwage": 64.92, "annualmeanwage": 135030, "annualmeanwagerse": 0.037},
+      "Web Developers": {"employment": 620, "employmentrse": 0.303, "employmentper1000jobs": 1.265, "medianwage": 38.43, "meanwage": 35.94, "annualmeanwage": 74750, "annualmeanwagerse": 0.212},
+      "Data Scientists": {"employment": 900, "employmentrse": 0.137, "employmentper1000jobs": 1.848, "medianwage": 61.71, "meanwage": 61.24, "annualmeanwage": 127380, "annualmeanwagerse": 0.043},
+      "fips": "44",
+      "State": "Rhode Island"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 7720, "employmentrse": 0.07, "employmentper1000jobs": 3.474, "medianwage": 44.71, "meanwage": 49.17, "annualmeanwage": 102270, "annualmeanwagerse": 0.022},
+      "Network and Computer Systems Administrators": {"employment": 3700, "employmentrse": 0.111, "employmentper1000jobs": 1.664, "medianwage": 42.19, "meanwage": 44.29, "annualmeanwage": 92110, "annualmeanwagerse": 0.034},
+      "Software Developers": {"employment": 11810, "employmentrse": 0.077, "employmentper1000jobs": 5.312, "medianwage": 53.43, "meanwage": 56.15, "annualmeanwage": 116790, "annualmeanwagerse": 0.018},
+      "Web Developers": {"employment": 1060, "employmentrse": 0.037, "employmentper1000jobs": 0.477, "medianwage": 42.52, "meanwage": 43.59, "annualmeanwage": 90670, "annualmeanwagerse": 0.021},
+      "Data Scientists": {"employment": 2090, "employmentrse": 0.11, "employmentper1000jobs": 0.942, "medianwage": 45.82, "meanwage": 48.46, "annualmeanwage": 100790, "annualmeanwagerse": 0.013},
+      "fips": "45",
+      "State": "South Carolina"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1010, "employmentrse": 0.156, "employmentper1000jobs": 2.270, "medianwage": 44.37, "meanwage": 47.77, "annualmeanwage": 99350, "annualmeanwagerse": 0.039},
+      "Network and Computer Systems Administrators": {"employment": 1890, "employmentrse": 0.155, "employmentper1000jobs": 4.243, "medianwage": 32.11, "meanwage": 34.61, "annualmeanwage": 71980, "annualmeanwagerse": 0.051},
+      "Software Developers": {"employment": 2240, "employmentrse": 0.078, "employmentper1000jobs": 5.039, "medianwage": 39.83, "meanwage": 45.44, "annualmeanwage": 94500, "annualmeanwagerse": 0.075},
+      "Web Developers": {"employment": 400, "employmentrse": 0.097, "employmentper1000jobs": 0.899, "medianwage": 24.41, "meanwage": 25.37, "annualmeanwage": 52770, "annualmeanwagerse": 0.019},
+      "Data Scientists": {"employment": 150, "employmentrse": 0.126, "employmentper1000jobs": 0.328, "medianwage": 43.97, "meanwage": 47.09, "annualmeanwage": 92940, "annualmeanwagerse": 0.03},
+      "fips": "46",
+      "State": "South Dakota"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 8460, "employmentrse": 0.077, "employmentper1000jobs": 2.629, "medianwage": 45.43, "meanwage": 47.42, "annualmeanwage": 98630, "annualmeanwagerse": 0.075},
+      "Network and Computer Systems Administrators": {"employment": 4900, "employmentrse": 0.067, "employmentper1000jobs": 1.522, "medianwage": 39.17, "meanwage": 42.95, "annualmeanwage": 89340, "annualmeanwagerse": 0.043},
+      "Software Developers": {"employment": 16560, "employmentrse": 0.043, "employmentper1000jobs": 5.144, "medianwage": 53.20, "meanwage": 54.53, "annualmeanwage": 113410, "annualmeanwagerse": 0.013},
+      "Web Developers": {"employment": 1580, "employmentrse": 0.105, "employmentper1000jobs": 0.490, "medianwage": 37.02, "meanwage": 39.39, "annualmeanwage": 81940, "annualmeanwagerse": 0.057},
+      "Data Scientists": {"employment": 2090, "employmentrse": 0.26, "employmentper1000jobs": 0.648, "medianwage": 44.42, "meanwage": 46.97, "annualmeanwage": 97710, "annualmeanwagerse": 0.085},
+      "fips": "47",
+      "State": "Tennessee"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 50680, "employmentrse": 0.04, "employmentper1000jobs": 3.738, "medianwage": 51.54, "meanwage": 55.41, "annualmeanwage": 115240, "annualmeanwagerse": 0.013},
+      "Network and Computer Systems Administrators": {"employment": 33700, "employmentrse": 0.025, "employmentper1000jobs": 2.486, "medianwage": 44.41, "meanwage": 46.82, "annualmeanwage": 97380, "annualmeanwagerse": 0.013},
+      "Software Developers": {"employment": 138510, "employmentrse": 0.025, "employmentper1000jobs": 10.216, "medianwage": 61.06, "meanwage": 60.52, "annualmeanwage": 125890, "annualmeanwagerse": 0.009},
+      "Web Developers": {"employment": 6130, "employmentrse": 0.067, "employmentper1000jobs": 0.452, "medianwage": 44.80, "meanwage": 47.16, "annualmeanwage": 98090, "annualmeanwagerse": 0.029},
+      "Data Scientists": {"employment": 20560, "employmentrse": 0.05, "employmentper1000jobs": 1.517, "medianwage": 48.12, "meanwage": 52.40, "annualmeanwage": 109000, "annualmeanwagerse": 0.012},
+      "fips": "48",
+      "State": "Texas"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 2960, "employmentrse": 0.052, "employmentper1000jobs": 1.766, "medianwage": 43.58, "meanwage": 46.64, "annualmeanwage": 97020, "annualmeanwagerse": 0.056},
+      "Network and Computer Systems Administrators": {"employment": 2770, "employmentrse": 0.069, "employmentper1000jobs": 1.652, "medianwage": 42.01, "meanwage": 48.69, "annualmeanwage": 101270, "annualmeanwagerse": 0.05},
+      "Software Developers": {"employment": 25930, "employmentrse": 0.048, "employmentper1000jobs": 15.448, "medianwage": 56.17, "meanwage": 58.30, "annualmeanwage": 121260, "annualmeanwagerse": 0.022},
+      "Web Developers": {"employment": 1580, "employmentrse": 0.258, "employmentper1000jobs": 0.944, "medianwage": 32.08, "meanwage": 36.16, "annualmeanwage": 75200, "annualmeanwagerse": 0.066},
+      "Data Scientists": {"employment": 3530, "employmentrse": 0.071, "employmentper1000jobs": 2.105, "medianwage": 46.87, "meanwage": 48.93, "annualmeanwage": 101780, "annualmeanwagerse": 0.029},
+      "fips": "49",
+      "State": "Utah"
+    },
+    {
+      "Computer Systems Analysts": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": null, "meanwage": null, "annualmeanwage": null, "annualmeanwagerse": null},
+      "Network and Computer Systems Administrators": {"employment": 440, "employmentrse": 0.046, "employmentper1000jobs": 1.464, "medianwage": 41.35, "meanwage": 42.66, "annualmeanwage": 88730, "annualmeanwagerse": 0.016},
+      "Software Developers": {"employment": 1710, "employmentrse": 0.107, "employmentper1000jobs": 5.678, "medianwage": 54.14, "meanwage": 57.71, "annualmeanwage": 120030, "annualmeanwagerse": 0.052},
+      "Web Developers": {"employment": 190, "employmentrse": 0.282, "employmentper1000jobs": 0.624, "medianwage": 38.00, "meanwage": 40.13, "annualmeanwage": 83470, "annualmeanwagerse": 0.049},
+      "Data Scientists": {"employment": 220, "employmentrse": 0.187, "employmentper1000jobs": 0.735, "medianwage": 56.49, "meanwage": 59.82, "annualmeanwage": 124430, "annualmeanwagerse": 0.084},
+      "fips": "50",
+      "State": "Vermont"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 23830, "employmentrse": 0.044, "employmentper1000jobs": 5.985, "medianwage": 52.09, "meanwage": 55.68, "annualmeanwage": 115820, "annualmeanwagerse": 0.012},
+      "Network and Computer Systems Administrators": {"employment": 15040, "employmentrse": 0.039, "employmentper1000jobs": 3.777, "medianwage": 49.53, "meanwage": 52.16, "annualmeanwage": 108490, "annualmeanwagerse": 0.028},
+      "Software Developers": {"employment": 86680, "employmentrse": 0.023, "employmentper1000jobs": 21.773, "medianwage": 64.92, "meanwage": 67.27, "annualmeanwage": 139920, "annualmeanwagerse": 0.011},
+      "Web Developers": {"employment": 4640, "employmentrse": 0.085, "employmentper1000jobs": 1.166, "medianwage": 50.88, "meanwage": 54.13, "annualmeanwage": 112590, "annualmeanwagerse": 0.016},
+      "Data Scientists": {"employment": 4810, "employmentrse": 0.046, "employmentper1000jobs": 1.209, "medianwage": 65.62, "meanwage": 66.87, "annualmeanwage": 139080, "annualmeanwagerse": 0.013},
+      "fips": "51",
+      "State": "Virginia"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 20060, "employmentrse": 0.071, "employmentper1000jobs": 5.738, "medianwage": 61.88, "meanwage": 63.83, "annualmeanwage": 132760, "annualmeanwagerse": 0.028},
+      "Network and Computer Systems Administrators": {"employment": 7540, "employmentrse": 0.042, "employmentper1000jobs": 2.156, "medianwage": 50.03, "meanwage": 53.05, "annualmeanwage": 110340, "annualmeanwagerse": 0.013},
+      "Software Developers": {"employment": 89110, "employmentrse": 0.044, "employmentper1000jobs": 25.492, "medianwage": 78.07, "meanwage": 76.92, "annualmeanwage": 159990, "annualmeanwagerse": 0.009},
+      "Web Developers": {"employment": 4820, "employmentrse": 0.07, "employmentper1000jobs": 1.378, "medianwage": 52.12, "meanwage": 58.13, "annualmeanwage": 120910, "annualmeanwagerse": 0.027},
+      "Data Scientists": {"employment": 5640, "employmentrse": 0.053, "employmentper1000jobs": 1.613, "medianwage": 63.76, "meanwage": 71.50, "annualmeanwage": 148730, "annualmeanwagerse": 0.013},
+      "fips": "53",
+      "State": "Washington"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1190, "employmentrse": 0.113, "employmentper1000jobs": 1.723, "medianwage": 47.16, "meanwage": 46.84, "annualmeanwage": 97420, "annualmeanwagerse": 0.066},
+      "Network and Computer Systems Administrators": {"employment": 1270, "employmentrse": 0.061, "employmentper1000jobs": 1.846, "medianwage": 32.44, "meanwage": 37.88, "annualmeanwage": 78790, "annualmeanwagerse": 0.026},
+      "Software Developers": {"employment": 1890, "employmentrse": 0.11, "employmentper1000jobs": 2.742, "medianwage": 39.13, "meanwage": 45.23, "annualmeanwage": 94080, "annualmeanwagerse": 0.031},
+      "Web Developers": {"employment": 300, "employmentrse": 0.098, "employmentper1000jobs": 0.441, "medianwage": 32.40, "meanwage": 40.18, "annualmeanwage": 83570, "annualmeanwagerse": 0.078},
+      "Data Scientists": {"employment": 180, "employmentrse": 0.243, "employmentper1000jobs": 0.266, "medianwage": 32.53, "meanwage": 45.35, "annualmeanwage": 94330, "annualmeanwagerse": 0.106},
+      "fips": "54",
+      "State": "West Virginia"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 8460, "employmentrse": 0.058, "employmentper1000jobs": 2.932, "medianwage": 43.26, "meanwage": 46.26, "annualmeanwage": 96220, "annualmeanwagerse": 0.02},
+      "Network and Computer Systems Administrators": {"employment": 8250, "employmentrse": 0.022, "employmentper1000jobs": 2.859, "medianwage": 41.42, "meanwage": 44.07, "annualmeanwage": 91660, "annualmeanwagerse": 0.008},
+      "Software Developers": {"employment": 21800, "employmentrse": 0.08, "employmentper1000jobs": 7.555, "medianwage": 49.36, "meanwage": 51.69, "annualmeanwage": 107500, "annualmeanwagerse": 0.011},
+      "Web Developers": {"employment": 2880, "employmentrse": 0.042, "employmentper1000jobs": 0.998, "medianwage": 32.24, "meanwage": 33.74, "annualmeanwage": 70170, "annualmeanwagerse": 0.018},
+      "Data Scientists": {"employment": 3090, "employmentrse": 0.057, "employmentper1000jobs": 1.070, "medianwage": 48.96, "meanwage": 50.60, "annualmeanwage": 105250, "annualmeanwagerse": 0.014},
+      "fips": "55",
+      "State": "Wisconsin"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 240, "employmentrse": 0.176, "employmentper1000jobs": 0.888, "medianwage": 51.22, "meanwage": 53.53, "annualmeanwage": 111340, "annualmeanwagerse": 0.094},
+      "Network and Computer Systems Administrators": {"employment": 580, "employmentrse": 0.046, "employmentper1000jobs": 2.127, "medianwage": 35.92, "meanwage": 38.19, "annualmeanwage": 79430, "annualmeanwagerse": 0.024},
+      "Software Developers": {"employment": 670, "employmentrse": 0.196, "employmentper1000jobs": 2.453, "medianwage": 66.28, "meanwage": 61.44, "annualmeanwage": 127790, "annualmeanwagerse": 0.026},
+      "Web Developers": {"employment": 40, "employmentrse": 0.12, "employmentper1000jobs": 0.141, "medianwage": 30.24, "meanwage": 31.04, "annualmeanwage": 64560, "annualmeanwagerse": 0.017},
+      "Data Scientists": {"employment": null, "employmentrse": null, "employmentper1000jobs": null, "medianwage": 62.88, "meanwage": 60.25, "annualmeanwage": 125330, "annualmeanwagerse": 0.158},
+      "fips": "56",
+      "State": "Wyoming"
+    },
+    {
+      "Computer Systems Analysts": {"employment": 1330, "employmentrse": 0.074, "employmentper1000jobs": 1.432, "medianwage": 29.01, "meanwage": 29.02, "annualmeanwage": 60360, "annualmeanwagerse": 0.014},
+      "Network and Computer Systems Administrators": {"employment": 1040, "employmentrse": 0.051, "employmentper1000jobs": 1.118, "medianwage": 26.26, "meanwage": 27.35, "annualmeanwage": 56890, "annualmeanwagerse": 0.019},
+      "Software Developers": {"employment": 1440, "employmentrse": 0.109, "employmentper1000jobs": 1.549, "medianwage": 29.34, "meanwage": 29.31, "annualmeanwage": 60960, "annualmeanwagerse": 0.064},
+      "Web Developers": {"employment": 260, "employmentrse": 0.098, "employmentper1000jobs": 0.277, "medianwage": 23.16, "meanwage": 25.97, "annualmeanwage": 54010, "annualmeanwagerse": 0.031},
+      "Data Scientists": {"employment": 90, "employmentrse": 0.163, "employmentper1000jobs": 0.097, "medianwage": 36.48, "meanwage": 34.65, "annualmeanwage": 72070, "annualmeanwagerse": 0.033},
+      "fips": "72",
+      "State": "Puerto Rico"
+    }
+  ]
