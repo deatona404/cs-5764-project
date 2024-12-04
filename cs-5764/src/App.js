@@ -8,12 +8,14 @@ import { useState, useEffect } from 'react';
 // import dataset from './data/unemployment.json';
 import dataset from './data/bachelorsinworkforce/8-33_all.json'
 const DEFAULT_YEAR = 2000
+const DEFAULT_OCCUPATION = "Software Engineer"
 
 
 function App() {
   const [isInitialized, setIsInitialized] = useState(false);
   const [data, setData] = useState(dataset);
   const [year, setYear] = useState(DEFAULT_YEAR);
+  const [column, setColumn] = useState(DEFAULT_OCCUPATION);
 
   useEffect(() => { // load on first run
     if (!isInitialized) {
@@ -34,6 +36,7 @@ function App() {
           <ChoroplethWindow 
             data = {data}
             year = {year}
+            column = {column}
             isInitialized = {isInitialized}
           />
         </div>
@@ -41,6 +44,7 @@ function App() {
           <DetailView
             data = {data}
             year = {year}
+            column = {column}
             isInitialized = {isInitialized}
           />
         </div>

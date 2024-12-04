@@ -7,6 +7,7 @@ import { useRef, useState, useEffect } from 'react';
 import us from '../../data/counties-albers-10m.json'
 
 let data = {}
+let border_color = "#838383"
 
 function ChoroplethWindow(props) {
   const [isInitialized, setIsInitialized] = useState(false);
@@ -28,7 +29,7 @@ function ChoroplethWindow(props) {
     value: d => d.rate,
     scale: d3.scaleQuantize,
     domain: [1, 1000000],
-    range: d3.schemeBlues[9],
+    range: d3.schemeGreens[9],
     title: (f, d) => `${f.properties.name}\n${d[props.year]}`,
     features: states,
     borders: statemesh,
@@ -87,7 +88,7 @@ function Choropleth(data, {
   format, // optional format specifier for the title
   scale = d3.scaleSequential, // type of color scale
   domain, // [min, max] values; input of color scale
-  range = d3.interpolateBlues, // output of color scale
+  range = d3.interpolateGreens, // output of color scale
   width = 640, // outer width, in pixels
   height, // outer height, in pixels
   projection, // a D3 projection; null for pre-projected geometry
@@ -97,10 +98,10 @@ function Choropleth(data, {
   outline = projection && projection.rotate ? {type: "Sphere"} : null, // a GeoJSON object for the background
   unknown = "#ccc", // fill color for missing data
   fill = "white", // fill color for outline
-  stroke = "white", // stroke color for borders
+  stroke = border_color, // stroke color for borders
   strokeLinecap = "round", // stroke line cap for borders
   strokeLinejoin = "round", // stroke line join for borders
-  strokeWidth, // stroke width for borders
+  strokeWidth = 1, // stroke width for borders
   strokeOpacity, // stroke opacity for borders
 }, reference = {}) {
   // Compute values.
