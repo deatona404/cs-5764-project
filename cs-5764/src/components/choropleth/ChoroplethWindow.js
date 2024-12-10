@@ -14,7 +14,7 @@ function ChoroplethWindow(props) {
   // set up refs
   let svgRef = useRef(null)
   
-
+  
 
   // Obtain chart data
   console.log(us)
@@ -73,7 +73,7 @@ function drawChart(reference){
   svg.append("g")
   .attr("id", "title")
   .append("text")
-  .attr("x", 5 + 5 / 2)
+  .attr("x", 0)
   .attr("y", 5 + 5 - 5)
   .text("test text in svg");
 }

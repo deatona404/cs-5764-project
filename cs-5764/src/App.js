@@ -29,7 +29,7 @@ function App() {
         console.log(data);
     }
     else{
-      // setSelected("North Carolina") // for testing
+      setSelected("Alabama") // for testing
           // console.log(data); // ensure this updates
     }
 

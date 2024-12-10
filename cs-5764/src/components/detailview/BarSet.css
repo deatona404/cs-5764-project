@@ -1,0 +1,15 @@
+.BarSet {
+    /* background-color: #3c4449;
+    height: 100%;
+    width: 30vw;
+    min-width: 400px; */
+    color: white;
+
+}
+
+.BarSet h2 {
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align:left;
+}
