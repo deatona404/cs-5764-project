@@ -238,11 +238,11 @@ function ChoroplethWindow(props) {
 
       function isSelected (state) {
         if(typeof state === 'string' || state instanceof String){
-          return props.selected.includes(state)
+          return props.selected === state
         }
         // else, its a statefill path
         let stateName = getStateNameFromFill(state);
-        return props.selected.includes(stateName)
+        return props.selected === stateName
       }
 
     }
