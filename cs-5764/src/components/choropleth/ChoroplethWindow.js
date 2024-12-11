@@ -46,7 +46,7 @@ function ChoroplethWindow(props) {
     }
     else{
       // drawChart(svgRef)
-        let chart = Choropleth(props.data, choro_properties, svgRef)
+        let chart = Choropleth(props.data, choro_properties, svgRef, props)
         console.log(props.year)
     }
   }, [isInitialized, props.data.fileContent, svgRef, props.selected]); // init is purposefully left out
@@ -73,7 +73,7 @@ function drawChart(reference){
   svg.append("g")
   .attr("id", "title")
   .append("text")
-  .attr("x", 0)
+  .attr("x", 5 + 5 / 2)
   .attr("y", 5 + 5 - 5)
   .text("test text in svg");
 }
@@ -103,7 +103,7 @@ function Choropleth(data, {
   strokeLinejoin = "round", // stroke line join for borders
   strokeWidth = 1, // stroke width for borders
   strokeOpacity, // stroke opacity for borders
-}, reference = {}) {
+}, reference = {}, props) {
   // Compute values.
   console.log("we are in choropleth function")
   console.log(features.features)
@@ -176,15 +176,24 @@ function Choropleth(data, {
       .attr("stroke", "currentColor")
       .attr("d", path(outline));
 
-  svg.append("g")
+  // this structure holds the states
+  let states = svg
+                .append("g")
+                .attr("id", "statesfill");
+
+  states
     .selectAll("path")
     .data(features.features)
     .join("path")
       .attr("fill", (d, i) => color(valuesVector[indexToFipsMap.get(geographyFeaturesVector[i])]))
       .attr("d", path)
-    .append("title")
-      .text((d, i) => title(d, indexToFipsMap.get(geographyFeaturesVector[i])));
+      .on("click", (e) => onClick(e))
+    // .append("title")
+    //   .text((d, i) => title(d, indexToFipsMap.get(geographyFeaturesVector[i])));
       
+  // TODO: the append title is the hover text with the value. uncomment to re-add
+  
+
   console.log(geographyFeaturesVector[0])
   console.log(indexToFipsMap.get(geographyFeaturesVector[0]))
   console.log(valuesVector[indexToFipsMap.get(geographyFeaturesVector[1])])
@@ -203,7 +212,35 @@ function Choropleth(data, {
   console.log(svg)
 
   return Object.assign(svg.node(), {scales: {color}});
+
+
+  function getStateNameFromFill(target){
+    return target._groups[0][0].__data__.properties.name.toString()
+  }
+
+  function onClick(e){
+    let state = d3.select(e.target)
+    let stateName = getStateNameFromFill(state);
+    console.log(state)
+    console.log(stateName)
+    if(isSelected(stateName)){
+        state.style("fill", "dodgerblue")
+        // selected.splice(props.selected.indexOf(bar._groups[0][0].id), 1);
+        props.setSelected("United States") // FIXME: do not hardcode this
+    }
+    else{
+        props.setSelected(stateName)
+        state.style("fill", "red")
+    }
+  
+  }
+
+  function isSelected (state) {
+    return props.selected.includes(state)
 }
+
+}
+
 
 
   
