@@ -45,9 +45,11 @@ function BarSet(props) {
 
     return <div className='BarSet'>
         {/* sahgsdjkhfgsjkdh */}
-        
-        <h2>{props.title}</h2>
+        <div className='BarSetDiv'>
+            <h2>{props.title}</h2>
         <svg id="ChartBar" ref={svgRef}></svg>
+        </div>
+        
         
         </div>;
 
@@ -135,9 +137,9 @@ function BarSet(props) {
             .attr("viewBox", "0 0 960 500")
 
         let barSpacing = 70
-        let barX = 400
+        let barX = 380
         let barHeight = 35
-        let barWidth = 540
+        let barWidth = 578
         let graphTop = 27
 
         svg.append("g")
@@ -150,9 +152,9 @@ function BarSet(props) {
             }
             
             svg.append("text")
-            .attr("x", 20)
+            .attr("x", 0)
             .attr("y", graphTop + i * barSpacing)
-            .style("font-size", "24px")
+            .style("font-size", "26px")
             .style("font-weight", "bold")
             .style("fill", "white")
             .text(label);
