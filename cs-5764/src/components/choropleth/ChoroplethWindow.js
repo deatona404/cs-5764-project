@@ -51,7 +51,7 @@ function ChoroplethWindow(props) {
         let chart = Choropleth(props.data, choro_properties, svgRef)
         console.log(props.year)
     }
-  }, [isInitialized, props.data.fileContent, svgRef, props.selected]); // init is purposefully left out
+  }, [isInitialized, props.data.fileContent, svgRef, props.selected, props.job]); // init is purposefully left out
 
   
 

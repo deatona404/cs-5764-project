@@ -1,0 +1,27 @@
+.SetJobBar {
+    background-color: #3c4449;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: "translateX(-50%)";
+    z-index: 100;
+    box-shadow: "0 4px 6px rgba(0, 0, 0, 0.1)";
+    border-radius: 20px;
+    border: 10px solid #3c4449;
+    /* height: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.SetJobBar select{
+    background-color: #3c4449;
+    padding: 5px;
+    border: 0px;
+    font-size: 12pt;
+    color: white;
+    /* height: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

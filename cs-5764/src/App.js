@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 // import dataset from './data/unemployment.json';
 // import dataset from './data/bachelorsinworkforce/8-33_all.json'
 import dataset from './data/compensation/states/2023.json'
+import SetJobBar from './components/choropleth/SetJobBar';
 const DEFAULT_YEAR = 2023
 const DEFAULT_OCCUPATION = "Software Developers"
 const DEFAULT_METRIC = "annualmeanwage"
@@ -20,12 +21,15 @@ function App() {
   const [year, setYear] = useState(DEFAULT_YEAR);
   const [job, setJob] = useState(DEFAULT_OCCUPATION);
   const [metric, setMetric] = useState(DEFAULT_METRIC);
+  const [jobLabels, setJobLabels] = useState([]);
 
   const [selected, setSelected] = useState(DEFAULT_SELECTED);
 
   useEffect(() => { // load on first run
     if (!isInitialized) {
         setIsInitialized(true);
+        setJobLabels(Object.keys(data.find((obj) => obj.State === "Virginia")).splice(0, 5))
+        
         console.log(data);
     }
     else{
@@ -33,13 +37,14 @@ function App() {
           // console.log(data); // ensure this updates
     }
 
-  }, [isInitialized]);
+  }, [isInitialized, job]);
 
 
   return (
     <div className="App">
       <div className="BigContainer">
         <div className="ContainerWindow">
+          
           <ChoroplethWindow 
             data = {data}
             year = {year}
@@ -48,6 +53,11 @@ function App() {
             selected = {selected}
             setSelected = {setSelected}
             isInitialized = {isInitialized}
+          />
+          <SetJobBar
+            jobLabels = {jobLabels}
+            job = {job}
+            setJob = {setJob}
           />
         </div>
         <div className='ContainerDetail'>
