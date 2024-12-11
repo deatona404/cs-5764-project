@@ -54,8 +54,9 @@ function StateView(props) {
             title="Pay by title"
             labels = {labels}
             data = {meansalaries}
-            max = {jobTitleMax}
+            max = {173780}
         />
+        {/* FIXME: un-hardcode that number there, its cali max salary */}
         
         </div>;
   }
