@@ -165,6 +165,16 @@ function BarSet(props) {
             .attr("id", "bars")
         for (let i = 0; i < data.length; i++){
             let datai = data[i]
+            if(!datai) {
+                svg.append("text")
+                .attr("x", barX)
+                .attr("y", graphTop + i * barSpacing)
+                .style("font-size", "24px")
+                .style("font-weight", "bold")
+                .style("fill", "#838383")
+                .text("No data");
+                continue
+            }
             let datai_text = "$ " + datai.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let width = datai / props.max
 
@@ -235,104 +245,107 @@ function BarSet(props) {
         
 
         // this structure will hold the values and labels for the chart
-        let bars = svg
-            .append("g")
-            .attr("id", "bars");
+        // let bars = svg
+        //     .append("g")
+        //     .attr("id", "bars");
     
     
-        // now, we add the lines (the scale) based on our max data point.
-        // for(let i = layout.minScale; i < layout.numLines; i++){
-        //     let lineY = layout.bottomBorder - layout.scaleSpacing * i
-        //     let val = (layout.increment * i).toFixed(layout.decimalFix);
+        // // now, we add the lines (the scale) based on our max data point.
+        // // for(let i = layout.minScale; i < layout.numLines; i++){
+        // //     let lineY = layout.bottomBorder - layout.scaleSpacing * i
+        // //     let val = (layout.increment * i).toFixed(layout.decimalFix);
     
-        //     // now we append the line
+        // //     // now we append the line
+        // //     bars
+        // //     .append("line")
+        // //     .attr("x1", layout.leftBorder)
+        // //     .attr("y1", lineY)
+        // //     .attr("x2", layout.rightBorder)
+        // //     .attr("y2", lineY);
+    
+        // //     // to the left of this line, we want to append a value.
+        // //     bars
+        // //     .attr("class", "value")
+        // //     .append("text")
+        // //     .attr("x", layout.value.x)
+        // //     .attr("y", lineY + 0.27) 
+        // //     .text(val);
+        // // }
+
+        // bars
+        //         .append("rect")
+        //         .attr("id", "bar-" + "0")
+        //         .attr("x", 0)
+        //         .attr("y", 0)
+        //         .attr("width", 100)
+        //         .attr("height", layout.barHeight)
+        //         .style("fill", "dodgerblue")
+    
+    
+        // // and this loop populates the chart with the actual bars
+        // for (let i = 0; i < dataClone.length; i++){
+        //     let barX = layout.startX + i * layout.barSpacing + i *layout.barWidth + layout.barSpacing
+        //     if(!dataClone[i]){
+
+        //         continue
+        //     }
+        //     let barHeight = parseFloat(dataClone[i][title.yAxis]) * layout.scaleSpacing / layout.increment;
+        //     // let barHeight = layout.scale(dataClone[i][title.yAxis]);
+        //     let barY = layout.bottomBorder - barHeight;
+    
+        //     // add the bar to the chart
         //     bars
-        //     .append("line")
-        //     .attr("x1", layout.leftBorder)
-        //     .attr("y1", lineY)
-        //     .attr("x2", layout.rightBorder)
-        //     .attr("y2", lineY);
+        //         .append("rect")
+        //         .attr("id", "bar-" + i)
+        //         .attr("x", barX)
+        //         .attr("y", barY)
+        //         .attr("width", layout.barWidth)
+        //         .attr("height", barHeight)
+        //         .style("fill", "dodgerblue")
+        //         // .on("mouseover", (e) => onHover(e))
+        //         // .on("mouseout", (e) => offHover(e))
+        //         // .on("click", (e) => onClick(e))
+        //         .style("fill", "red");
+
+        //     // if(isSelected("bar-" + i)){
+        //     //     bars
+        //     //     .append("rect")
+        //     //     .attr("id", "bar-" + i)
+        //     //     .attr("x", barX)
+        //     //     .attr("y", barY)
+        //     //     .attr("width", layout.barWidth)
+        //     //     .attr("height", barHeight)
+        //     //     .style("fill", "dodgerblue")
+        //     //     .on("mouseover", (e) => onHover(e))
+        //     //     .on("mouseout", (e) => offHover(e))
+        //     //     .on("click", (e) => onClick(e))
+        //     //     .style("fill", "red");
+        //     // }
+        //     // else {
+        //     //     bars
+        //     //     .append("rect")
+        //     //     .attr("id", "bar-" + i)
+        //     //     .attr("x", barX)
+        //     //     .attr("y", barY)
+        //     //     .attr("width", layout.barWidth)
+        //     //     .attr("height", barHeight)
+        //     //     .style("fill", "dodgerblue")
+        //     //     .on("mouseover", (e) => onHover(e))
+        //     //     .on("mouseout", (e) => offHover(e))
+        //     //     .on("click", (e) => onClick(e));
+        //     // }
     
-        //     // to the left of this line, we want to append a value.
-        //     bars
-        //     .attr("class", "value")
-        //     .append("text")
-        //     .attr("x", layout.value.x)
-        //     .attr("y", lineY + 0.27) 
-        //     .text(val);
+        //     // add the label to the chart
+        //     // bars
+        //     // .attr("class", "label")
+        //     // .append("text")
+        //     // .attr("x", barX + layout.barWidth/2)
+        //     // .attr("y", layout.label.y) 
+        //     // .text(data.data[i][title.xAxis]);
+
+        //     console.log(svg)
+    
         // }
-
-        bars
-                .append("rect")
-                .attr("id", "bar-" + "0")
-                .attr("x", 0)
-                .attr("y", 0)
-                .attr("width", 100)
-                .attr("height", layout.barHeight)
-                .style("fill", "dodgerblue")
-    
-    
-        // and this loop populates the chart with the actual bars
-        for (let i = 0; i < dataClone.length; i++){
-            let barX = layout.startX + i * layout.barSpacing + i *layout.barWidth + layout.barSpacing
-    
-            let barHeight = parseFloat(dataClone[i][title.yAxis]) * layout.scaleSpacing / layout.increment;
-            // let barHeight = layout.scale(dataClone[i][title.yAxis]);
-            let barY = layout.bottomBorder - barHeight;
-    
-            // add the bar to the chart
-            bars
-                .append("rect")
-                .attr("id", "bar-" + i)
-                .attr("x", barX)
-                .attr("y", barY)
-                .attr("width", layout.barWidth)
-                .attr("height", barHeight)
-                .style("fill", "dodgerblue")
-                // .on("mouseover", (e) => onHover(e))
-                // .on("mouseout", (e) => offHover(e))
-                // .on("click", (e) => onClick(e))
-                .style("fill", "red");
-
-            // if(isSelected("bar-" + i)){
-            //     bars
-            //     .append("rect")
-            //     .attr("id", "bar-" + i)
-            //     .attr("x", barX)
-            //     .attr("y", barY)
-            //     .attr("width", layout.barWidth)
-            //     .attr("height", barHeight)
-            //     .style("fill", "dodgerblue")
-            //     .on("mouseover", (e) => onHover(e))
-            //     .on("mouseout", (e) => offHover(e))
-            //     .on("click", (e) => onClick(e))
-            //     .style("fill", "red");
-            // }
-            // else {
-            //     bars
-            //     .append("rect")
-            //     .attr("id", "bar-" + i)
-            //     .attr("x", barX)
-            //     .attr("y", barY)
-            //     .attr("width", layout.barWidth)
-            //     .attr("height", barHeight)
-            //     .style("fill", "dodgerblue")
-            //     .on("mouseover", (e) => onHover(e))
-            //     .on("mouseout", (e) => offHover(e))
-            //     .on("click", (e) => onClick(e));
-            // }
-    
-            // add the label to the chart
-            // bars
-            // .attr("class", "label")
-            // .append("text")
-            // .attr("x", barX + layout.barWidth/2)
-            // .attr("y", layout.label.y) 
-            // .text(data.data[i][title.xAxis]);
-
-            console.log(svg)
-    
-        }
     
     }
   }
