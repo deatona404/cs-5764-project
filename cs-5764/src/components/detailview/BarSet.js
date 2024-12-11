@@ -139,8 +139,8 @@ function BarSet(props) {
         let barSpacing = 70
         let barX = 380
         let barHeight = 35
-        let barWidth = 578
         let graphTop = 27
+        let barWidth = 578
 
         svg.append("g")
             .attr("id", "labels")
@@ -165,7 +165,7 @@ function BarSet(props) {
             .attr("id", "bars")
         for (let i = 0; i < data.length; i++){
             let datai = data[i]
-            let datai_text = datai.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            let datai_text = "$ " + datai.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let width = datai / props.max
 
             svg.append("rect")
