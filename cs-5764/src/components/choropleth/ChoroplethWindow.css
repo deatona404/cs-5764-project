@@ -7,5 +7,8 @@
 }
 
 .ChoroplethWindow #Chart {
-    margin: auto;
+    /* margin: auto; */
+    position:absolute;
+    top: 0px;
+    left: 0px;
 }
