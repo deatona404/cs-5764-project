@@ -53,11 +53,6 @@ function ChoroplethWindow(props) {
     }
   }, [isInitialized, props.data.fileContent, svgRef, props.selected, props.job]); // init is purposefully left out
 
-  
-
-  console.log("hiiii we are in here")
-  console.log(props.data)
-
   // HTML content
     return <div className='ChoroplethWindow'>
       <svg id="Chart" ref={svgRef}>
