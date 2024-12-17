@@ -27,7 +27,7 @@ function StateView(props) {
                 }
             }
 
-            result.sort((a, b) => b.annualmeanwage - a.annualmeanwage)
+            // result.sort((a, b) => b.annualmeanwage - a.annualmeanwage) // uncomment to sort descending
             setData(result)
         }
     

@@ -232,7 +232,7 @@ function ChoroplethWindow(props) {
             tooltip
               .style('top', e.pageY - 10 + 'px')
               .style('left', e.pageX + 10 + 'px')
-              .html(getStateNameFromFill(d3.select(e.target)) + "<br>$" + valuesVector[indexToFipsMap.get(geographyFeaturesVector[e.target.attributes.key.value])]);
+              .html("<b>" + getStateNameFromFill(d3.select(e.target)) + "</b><br>Mean Salary: $" + valuesVector[indexToFipsMap.get(geographyFeaturesVector[e.target.attributes.key.value])]);
 
             console.log(e)
           })
