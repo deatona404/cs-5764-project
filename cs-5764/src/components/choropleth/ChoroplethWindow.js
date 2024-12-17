@@ -5,6 +5,7 @@ import * as topojson from "topojson"
 import { useRef, useState, useEffect } from 'react';
 
 import us from '../../data/counties-albers-10m.json'
+import Legend from './Legend';
 
 let data = {}
 let border_color = "#838383"
@@ -15,6 +16,10 @@ function ChoroplethWindow(props) {
   let svgRef = useRef(null)
   const [selectedSvgElement, setSelectedSvgElement] = useState([])
   // let selectedSvgElement = []
+
+
+  const [colorThresholds, setColorThresholds] = useState([])
+  const [colorRange, setColorRange] = useState([])
   
   
 
@@ -30,7 +35,8 @@ function ChoroplethWindow(props) {
     id: d => d.id,
     value: d => d[props.job][props.metric],
     scale: d3.scaleQuantize,
-    domain: [50000, 150000],
+    domain: [51000, 150000],
+    // domain: [60000, 150000],
     range: d3.schemeGreens[9],
     title: (f, d) => `${f.properties.name}\n\$${d[props.job][props.metric]}`,
     features: states,
@@ -38,6 +44,9 @@ function ChoroplethWindow(props) {
     width: 975,
     height: 610
   }
+
+  console.log("scheme greens !!!", choro_properties.range)
+  console.log("scale quantize !!!", choro_properties.scale)
 
   useEffect(() => { // used to ensure d3 stuff edits the existing element once it spawns
     if (!isInitialized) {
@@ -54,13 +63,15 @@ function ChoroplethWindow(props) {
   }, [isInitialized, props.data.fileContent, svgRef, props.selected, props.job]); // init is purposefully left out
 
   // HTML content
-    return <div className='ChoroplethWindow'>
-      <svg id="Chart" ref={svgRef}>
-        <p>test</p>
-      </svg>
-      
+    return (
+      <div className='ChoroplethWindow'>
+        <svg id="Chart" ref={svgRef}>
+          <p>test</p>
+        </svg>
+        <Legend thresholds={colorThresholds} range={colorRange}/>
 
-      </div>;
+      </div>
+    );
 
     // Copyright 2021 Observable, Inc.
     // Released under the ISC license.
@@ -89,9 +100,6 @@ function ChoroplethWindow(props) {
       strokeOpacity, // stroke opacity for borders
     }, reference = {}) {
       // Compute values.
-      console.log("we are in choropleth function")
-      console.log(features.features)
-      console.log(data)
 
       const year = "2000"
       // const N = d3.map(data.features, id);
@@ -117,6 +125,14 @@ function ChoroplethWindow(props) {
       // Construct scales.
       const color = scale(domain, range);
       if (color.unknown && unknown !== undefined) color.unknown(unknown);
+      
+      let thresholds = color.thresholds()
+      // console.log("color !!!!!!!!!!", color)
+      // console.log("color thresholds !!!!!!!!!!", thresholds)
+      // console.log("range !!!!!!!!!!", range)
+
+      setColorThresholds(thresholds)
+      setColorRange(range)
 
       // Compute titles.
       if (title === undefined) {
@@ -198,9 +214,6 @@ function ChoroplethWindow(props) {
           .attr("stroke-opacity", strokeOpacity)
           .attr("d", path(borders));
 
-      console.log("attempting to log svg")
-      console.log(svg)
-
       return Object.assign(svg.node(), {scales: {color}});
 
 
@@ -242,11 +255,6 @@ function ChoroplethWindow(props) {
 
     }
   }
-
-
-
-
-
   
 export default ChoroplethWindow;
   

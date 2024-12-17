@@ -29,10 +29,6 @@ function StateView(props) {
 
             result.sort((a, b) => b.annualmeanwage - a.annualmeanwage)
             setData(result)
-
-            console.log("1 state data here !!!!!!!", stateData)
-            console.log("2 state data here !!!!!!!", Object.keys(stateData).splice(0, 5))
-            console.log("3 state data here !!!!!!!", result)
         }
     
       }, [isInitialized, props.selected, props.data]);

@@ -78,8 +78,6 @@ function BarSet(props) {
     }
 
     function init(data, boxRef) {
-        console.log("print the data: ", data)
-
         // first, clear the previous svg
         let svg = d3.select(boxRef.current)
         svg.selectAll("*").remove();
