@@ -109,15 +109,15 @@ function ChoroplethWindow(props) {
       // const N = d3.map(data, id);
       const statesVector = d3.map(data, d => d.State)
       const fipsVector = d3.map(data, d => d.fips)
-      console.log(statesVector)
+      // console.log(statesVector)
       // const V = d3.map(data, value).map(d => d == null ? NaN : +d);
       const valuesVector = d3.map(data, value).map(d => d == null ? NaN : +d);
-      console.log(valuesVector)
+      // console.log(valuesVector)
       const indexToFipsMap = new d3.InternMap(statesVector.map((id, i) => [fipsVector[i], i]));
-      console.log(indexToFipsMap)
+      // console.log(indexToFipsMap)
       const geographyFeaturesVector = d3.map(features.features, featureId);
-      console.log(features.features)
-      console.log(geographyFeaturesVector)
+      // console.log(features.features)
+      // console.log(geographyFeaturesVector)
 
       // Compute default domains.
       if (domain === undefined) domain = d3.extent(valuesVector);
@@ -185,24 +185,70 @@ function ChoroplethWindow(props) {
       console.log("right before state svg appending")
       console.log(selectedSvgElement)
 
+      const tooltip = d3
+      .select('body')
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('position', 'absolute')
+      .style('background', 'lightgray')
+      .style('padding', '5px')
+      .style('border-radius', '5px')
+      .style('pointer-events', 'none') // Prevent interference
+      .style('visibility', 'hidden');
+
       states
         .selectAll("path")
         .data(features.features)
         .join("path")
           .attr("fill", (d, i) => color(valuesVector[indexToFipsMap.get(geographyFeaturesVector[i])]))
+          .attr("key", (d, i) => i)
           .attr("d", path)
           .attr("stroke", (d) => (isSelected(d.properties.name) ? "#fff17e " : border_color))
           .attr("stroke-width", (d) => (isSelected(d.properties.name) ? "3" : 0))
-          .on("click", (e) => onClick(e))
+          .on("click", (e) => {
+            let state = d3.select(e.target)
+            let stateName = getStateNameFromFill(state);
+            console.log(state)
+            console.log(stateName)
+            if(isSelected(stateName)){
+                state.style("fill", "dodgerblue")
+                setSelectedSvgElement([])
+                // selected.splice(props.selected.indexOf(bar._groups[0][0].id), 1);
+                props.setSelected("United States") // FIXME: do not hardcode this
+            }
+            else {
+                setSelectedSvgElement([state])
+                props.setSelected(stateName)
+                state.style("fill", "red")
+            }
+
+            tooltip.style('visibility', 'hidden');
+          })
+          .on("mouseover", (e) => {
+            // d3.select(e.target).style("filter", "brightness(150%)")
+            tooltip.style('visibility', 'visible');
+          })
+          .on('mousemove', (e) => {
+            tooltip
+              .style('top', e.pageY - 10 + 'px')
+              .style('left', e.pageX + 10 + 'px')
+              .html(getStateNameFromFill(d3.select(e.target)) + "<br>$" + valuesVector[indexToFipsMap.get(geographyFeaturesVector[e.target.attributes.key.value])]);
+
+            console.log(e)
+          })
+          .on("mouseout", (e) => {
+            d3.select(e.target).style("filter", "brightness(100%)")
+            tooltip.style('visibility', 'hidden');
+          })
         // .append("title")
         //   .text((d, i) => title(d, indexToFipsMap.get(geographyFeaturesVector[i])));
           
       // TODO: the append title is the hover text with the value. uncomment to re-add
       
 
-      console.log(geographyFeaturesVector[0])
-      console.log(indexToFipsMap.get(geographyFeaturesVector[0]))
-      console.log(valuesVector[indexToFipsMap.get(geographyFeaturesVector[1])])
+      // console.log(geographyFeaturesVector[0])
+      // console.log(indexToFipsMap.get(geographyFeaturesVector[0]))
+      // console.log(valuesVector[indexToFipsMap.get(geographyFeaturesVector[1])])
 
       if (borders != null) svg.append("path")
           .attr("pointer-events", "none")
@@ -225,25 +271,6 @@ function ChoroplethWindow(props) {
       //   return target._groups[0][0].__data__.properties.name.toString()
       // }
 
-      function onClick(e){
-        let state = d3.select(e.target)
-        let stateName = getStateNameFromFill(state);
-        console.log(state)
-        console.log(stateName)
-        if(isSelected(stateName)){
-            state.style("fill", "dodgerblue")
-            setSelectedSvgElement([])
-            // selected.splice(props.selected.indexOf(bar._groups[0][0].id), 1);
-            props.setSelected("United States") // FIXME: do not hardcode this
-        }
-        else{
-            setSelectedSvgElement([state])
-            props.setSelected(stateName)
-            state.style("fill", "red")
-        }
-      
-      }
-
       function isSelected (state) {
         if(typeof state === 'string' || state instanceof String){
           return props.selected === state
@@ -252,7 +279,6 @@ function ChoroplethWindow(props) {
         let stateName = getStateNameFromFill(state);
         return props.selected === stateName
       }
-
     }
   }
   
