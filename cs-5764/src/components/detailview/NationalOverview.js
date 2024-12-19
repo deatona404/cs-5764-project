@@ -33,7 +33,7 @@ function NationalOverview(props) {
             setData(result)
         }
     
-    }, [isInitialized, props.selected, props.data]);
+    }, [isInitialized, props.selected, props.data, props.job]);
 
     return (
         <div className='NationalOverview'>
