@@ -1,6 +1,7 @@
 .ChoroplethWindow {
     background-color: #838383;
     height: 100%;
+    padding-top: 100px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -9,6 +10,6 @@
 .ChoroplethWindow #Chart {
     /* margin: auto; */
     position:absolute;
-    top: 0px;
+    /* top: 0px; */
     left: 0px;
 }

@@ -9,16 +9,20 @@ function StateView(props) {
     let stateData = {}
     const [data, setData] = useState({});
 
+    
+
     useEffect(() => { // load on first run
         if (!isInitialized) {
             setIsInitialized(true);
-            stateData = props.data.find((obj) => obj.State === props.selected)
+            stateData = props.data.find((obj) => obj.state === props.selected)
         }
-        else{
-            stateData = props.data.find((obj) => obj.State === props.selected)
+        else {
+            console.log("stateview data", props.data)
+            stateData = props.data.find((obj) => obj.state === props.selected)
             let result = []
 
             for (const key in stateData) {
+                console.log("key", key)
                 if (typeof stateData[key] === "object" && stateData[key] !== null) {
                     result.push({
                         title: key,
@@ -26,6 +30,8 @@ function StateView(props) {
                     })
                 }
             }
+
+            console.log("result !!!!!!!", result)
 
             // result.sort((a, b) => b.annualmeanwage - a.annualmeanwage) // uncomment to sort descending
             setData(result)

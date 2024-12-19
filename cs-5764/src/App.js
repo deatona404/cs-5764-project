@@ -4,14 +4,13 @@ import ChoroplethWindow from './components/choropleth/ChoroplethWindow';
 import DetailView from './components/detailview/DetailView';
 import { useState, useEffect } from 'react';
 
-// let csvdata = (await FileAttachment("unemployment-x.csv").csv()).map(d => ({...d, rate: +d.rate}))
-// import dataset from './data/unemployment.json';
-// import dataset from './data/bachelorsinworkforce/8-33_all.json'
-import dataset from './data/compensation/states/2023.json'
+// import dataset from './data/compensation/states/2023.json'
+import dataset from './data/compensation/states/state_M2023_dl.json'
+
 import SetJobBar from './components/choropleth/SetJobBar';
 const DEFAULT_YEAR = 2023
 const DEFAULT_OCCUPATION = "Software Developers"
-const DEFAULT_METRIC = "annualmeanwage"
+const DEFAULT_METRIC = "annual_mean_wage"
 
 const DEFAULT_SELECTED = "United States"
 
@@ -28,15 +27,10 @@ function App() {
   useEffect(() => { // load on first run
     if (!isInitialized) {
         setIsInitialized(true);
-        setJobLabels(Object.keys(data.find((obj) => obj.State === "Virginia")).splice(0, 5))
-        
-        console.log(data);
+        // console.log("awjfaweufauw0e9f09j09!!!", Object.keys(data.find((obj) => obj.State === "Virginia")).splice(0, 5))
+        // setJobLabels(Object.keys(data.find((obj) => obj.State === "Virginia")).splice(2, 7))
+        setJobLabels(["Computer Systems Analysts", "Network and Computer Systems Administrators", "Software Developers", "Web Developers", "Data Scientists"])
     }
-    else{
-      // setSelected("Alabama") // for testing
-          // console.log(data); // ensure this updates
-    }
-
   }, [isInitialized, job]);
 
 

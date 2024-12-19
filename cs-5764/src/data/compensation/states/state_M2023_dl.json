@@ -1,0 +1,3070 @@
+[
+    {
+        "fips": "01",
+        "state": "Alabama",
+        "Computer Systems Analysts": {
+            "employment": 5950,
+            "hourly_mean_wage": 52.18,
+            "annual_mean_wage": 108520,
+            "hourly_median_wage": 49.31,
+            "annual_median_wage": 102560,
+            "annual_10th_percentile_wage": 63980,
+            "annual_25th_percentile_wage": 79490,
+            "annual_75th_percentile_wage": 132280,
+            "annual_90th_percentile_wage": 167130
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 5200,
+            "hourly_mean_wage": 41.66,
+            "annual_mean_wage": 86650,
+            "hourly_median_wage": 39.55,
+            "annual_median_wage": 82270,
+            "annual_10th_percentile_wage": 50650,
+            "annual_25th_percentile_wage": 63660,
+            "annual_75th_percentile_wage": 104500,
+            "annual_90th_percentile_wage": 130080
+        },
+        "Software Developers": {
+            "employment": 17130,
+            "hourly_mean_wage": 53.19,
+            "annual_mean_wage": 110630,
+            "hourly_median_wage": 49.39,
+            "annual_median_wage": 102730,
+            "annual_10th_percentile_wage": 61520,
+            "annual_25th_percentile_wage": 78480,
+            "annual_75th_percentile_wage": 134310,
+            "annual_90th_percentile_wage": 169070
+        },
+        "Web Developers": {
+            "employment": 1120,
+            "hourly_mean_wage": 32.09,
+            "annual_mean_wage": 66750,
+            "hourly_median_wage": 30.3,
+            "annual_median_wage": 63020,
+            "annual_10th_percentile_wage": 33930,
+            "annual_25th_percentile_wage": 46760,
+            "annual_75th_percentile_wage": 82100,
+            "annual_90th_percentile_wage": 97040
+        },
+        "Data Scientists": {
+            "employment": 1120,
+            "hourly_mean_wage": 47.61,
+            "annual_mean_wage": 99040,
+            "hourly_median_wage": 48.35,
+            "annual_median_wage": 100560,
+            "annual_10th_percentile_wage": 54690,
+            "annual_25th_percentile_wage": 74450,
+            "annual_75th_percentile_wage": 118130,
+            "annual_90th_percentile_wage": 145250
+        }
+    },
+    {
+        "fips": "02",
+        "state": "Alaska",
+        "Computer Systems Analysts": {
+            "employment": 430,
+            "hourly_mean_wage": 42.41,
+            "annual_mean_wage": 88210,
+            "hourly_median_wage": 41.69,
+            "annual_median_wage": 86720,
+            "annual_10th_percentile_wage": 50620,
+            "annual_25th_percentile_wage": 61180,
+            "annual_75th_percentile_wage": 109460,
+            "annual_90th_percentile_wage": 127110
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 710,
+            "hourly_mean_wage": 43.67,
+            "annual_mean_wage": 90830,
+            "hourly_median_wage": 42.98,
+            "annual_median_wage": 89400,
+            "annual_10th_percentile_wage": 63130,
+            "annual_25th_percentile_wage": 76060,
+            "annual_75th_percentile_wage": 103340,
+            "annual_90th_percentile_wage": 118830
+        },
+        "Software Developers": {
+            "employment": 280,
+            "hourly_mean_wage": 70.01,
+            "annual_mean_wage": 145630,
+            "hourly_median_wage": 72.79,
+            "annual_median_wage": 151400,
+            "annual_10th_percentile_wage": 87260,
+            "annual_25th_percentile_wage": 108720,
+            "annual_75th_percentile_wage": 176450,
+            "annual_90th_percentile_wage": 194380
+        },
+        "Web Developers": {
+            "employment": 60,
+            "hourly_mean_wage": 47.58,
+            "annual_mean_wage": 98970,
+            "hourly_median_wage": 42.35,
+            "annual_median_wage": 88090,
+            "annual_10th_percentile_wage": 68200,
+            "annual_25th_percentile_wage": 85200,
+            "annual_75th_percentile_wage": 108080,
+            "annual_90th_percentile_wage": 136640
+        },
+        "Data Scientists": {
+            "employment": 200,
+            "hourly_mean_wage": 44.09,
+            "annual_mean_wage": 91710,
+            "hourly_median_wage": 38.46,
+            "annual_median_wage": 80000,
+            "annual_10th_percentile_wage": 51130,
+            "annual_25th_percentile_wage": 64160,
+            "annual_75th_percentile_wage": 110480,
+            "annual_90th_percentile_wage": 142920
+        }
+    },
+    {
+        "fips": "04",
+        "state": "Arizona",
+        "Computer Systems Analysts": {
+            "employment": 11860,
+            "hourly_mean_wage": 48.32,
+            "annual_mean_wage": 100510,
+            "hourly_median_wage": 48.21,
+            "annual_median_wage": 100280,
+            "annual_10th_percentile_wage": 49170,
+            "annual_25th_percentile_wage": 69100,
+            "annual_75th_percentile_wage": 128070,
+            "annual_90th_percentile_wage": 143660
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 6090,
+            "hourly_mean_wage": 47.75,
+            "annual_mean_wage": 99320,
+            "hourly_median_wage": 44.1,
+            "annual_median_wage": 91730,
+            "annual_10th_percentile_wage": 61960,
+            "annual_25th_percentile_wage": 75000,
+            "annual_75th_percentile_wage": 113530,
+            "annual_90th_percentile_wage": 134430
+        },
+        "Software Developers": {
+            "employment": 38540,
+            "hourly_mean_wage": 61.56,
+            "annual_mean_wage": 128040,
+            "hourly_median_wage": 59.22,
+            "annual_median_wage": 123180,
+            "annual_10th_percentile_wage": 78450,
+            "annual_25th_percentile_wage": 95200,
+            "annual_75th_percentile_wage": 145280,
+            "annual_90th_percentile_wage": 176440
+        },
+        "Web Developers": {
+            "employment": 1860,
+            "hourly_mean_wage": 37.32,
+            "annual_mean_wage": 77620,
+            "hourly_median_wage": 32.19,
+            "annual_median_wage": 66960,
+            "annual_10th_percentile_wage": 39640,
+            "annual_25th_percentile_wage": 48750,
+            "annual_75th_percentile_wage": 95310,
+            "annual_90th_percentile_wage": 135050
+        },
+        "Data Scientists": {
+            "employment": 3800,
+            "hourly_mean_wage": 54.07,
+            "annual_mean_wage": 112470,
+            "hourly_median_wage": 51.15,
+            "annual_median_wage": 106400,
+            "annual_10th_percentile_wage": 65310,
+            "annual_25th_percentile_wage": 80020,
+            "annual_75th_percentile_wage": 134410,
+            "annual_90th_percentile_wage": 170190
+        }
+    },
+    {
+        "fips": "05",
+        "state": "Arkansas",
+        "Computer Systems Analysts": {
+            "employment": 2620,
+            "hourly_mean_wage": 40.54,
+            "annual_mean_wage": 84330,
+            "hourly_median_wage": 37.12,
+            "annual_median_wage": 77210,
+            "annual_10th_percentile_wage": 54040,
+            "annual_25th_percentile_wage": 60900,
+            "annual_75th_percentile_wage": 98670,
+            "annual_90th_percentile_wage": 128020
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1500,
+            "hourly_mean_wage": 37.47,
+            "annual_mean_wage": 77940,
+            "hourly_median_wage": 37.06,
+            "annual_median_wage": 77090,
+            "annual_10th_percentile_wage": 47460,
+            "annual_25th_percentile_wage": 58690,
+            "annual_75th_percentile_wage": 99590,
+            "annual_90th_percentile_wage": 115340
+        },
+        "Software Developers": {
+            "employment": 5650,
+            "hourly_mean_wage": 42.37,
+            "annual_mean_wage": 88130,
+            "hourly_median_wage": 44.3,
+            "annual_median_wage": 92140,
+            "annual_10th_percentile_wage": 29390,
+            "annual_25th_percentile_wage": 58150,
+            "annual_75th_percentile_wage": 112260,
+            "annual_90th_percentile_wage": 133220
+        },
+        "Web Developers": {
+            "employment": 540,
+            "hourly_mean_wage": 23.43,
+            "annual_mean_wage": 48730,
+            "hourly_median_wage": 20.26,
+            "annual_median_wage": 42140,
+            "annual_10th_percentile_wage": 25580,
+            "annual_25th_percentile_wage": 37440,
+            "annual_75th_percentile_wage": 55830,
+            "annual_90th_percentile_wage": 79460
+        },
+        "Data Scientists": {
+            "employment": 330,
+            "hourly_mean_wage": 56.37,
+            "annual_mean_wage": 117250,
+            "hourly_median_wage": 55.72,
+            "annual_median_wage": 115890,
+            "annual_10th_percentile_wage": 82870,
+            "annual_25th_percentile_wage": 101510,
+            "annual_75th_percentile_wage": 128490,
+            "annual_90th_percentile_wage": 159700
+        }
+    },
+    {
+        "fips": "06",
+        "state": "California",
+        "Computer Systems Analysts": {
+            "employment": 49930,
+            "hourly_mean_wage": 62.22,
+            "annual_mean_wage": 129420,
+            "hourly_median_wage": 59.79,
+            "annual_median_wage": 124370,
+            "annual_10th_percentile_wage": 75520,
+            "annual_25th_percentile_wage": 96750,
+            "annual_75th_percentile_wage": 157170,
+            "annual_90th_percentile_wage": 185460
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 29130,
+            "hourly_mean_wage": 55.18,
+            "annual_mean_wage": 114770,
+            "hourly_median_wage": 51.18,
+            "annual_median_wage": 106450,
+            "annual_10th_percentile_wage": 64480,
+            "annual_25th_percentile_wage": 81420,
+            "annual_75th_percentile_wage": 135850,
+            "annual_90th_percentile_wage": 170660
+        },
+        "Software Developers": {
+            "employment": 304390,
+            "hourly_mean_wage": 83.55,
+            "annual_mean_wage": 173780,
+            "hourly_median_wage": 81.09,
+            "annual_median_wage": 168660,
+            "annual_10th_percentile_wage": 103240,
+            "annual_25th_percentile_wage": 135280,
+            "annual_75th_percentile_wage": 209910,
+            "annual_90th_percentile_wage": 226670
+        },
+        "Web Developers": {
+            "employment": 10590,
+            "hourly_mean_wage": 58.41,
+            "annual_mean_wage": 121490,
+            "hourly_median_wage": 53.8,
+            "annual_median_wage": 111910,
+            "annual_10th_percentile_wage": 50440,
+            "annual_25th_percentile_wage": 74610,
+            "annual_75th_percentile_wage": 154680,
+            "annual_90th_percentile_wage": 204960
+        },
+        "Data Scientists": {
+            "employment": 33220,
+            "hourly_mean_wage": 67.54,
+            "annual_mean_wage": 140490,
+            "hourly_median_wage": 64.27,
+            "annual_median_wage": 133690,
+            "annual_10th_percentile_wage": 68050,
+            "annual_25th_percentile_wage": 94240,
+            "annual_75th_percentile_wage": 173250,
+            "annual_90th_percentile_wage": 213080
+        }
+    },
+    {
+        "fips": "08",
+        "state": "Colorado",
+        "Computer Systems Analysts": {
+            "employment": 9290,
+            "hourly_mean_wage": 56.89,
+            "annual_mean_wage": 118340,
+            "hourly_median_wage": 50.95,
+            "annual_median_wage": 105980,
+            "annual_10th_percentile_wage": 80340,
+            "annual_25th_percentile_wage": 99280,
+            "annual_75th_percentile_wage": 135200,
+            "annual_90th_percentile_wage": 168770
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 10880,
+            "hourly_mean_wage": 50.3,
+            "annual_mean_wage": 104620,
+            "hourly_median_wage": 49.73,
+            "annual_median_wage": 103430,
+            "annual_10th_percentile_wage": 66260,
+            "annual_25th_percentile_wage": 82170,
+            "annual_75th_percentile_wage": 120540,
+            "annual_90th_percentile_wage": 144410
+        },
+        "Software Developers": {
+            "employment": 45270,
+            "hourly_mean_wage": 69.92,
+            "annual_mean_wage": 145420,
+            "hourly_median_wage": 64.89,
+            "annual_median_wage": 134960,
+            "annual_10th_percentile_wage": 86560,
+            "annual_25th_percentile_wage": 105510,
+            "annual_75th_percentile_wage": 167320,
+            "annual_90th_percentile_wage": 206430
+        },
+        "Web Developers": {
+            "employment": 2460,
+            "hourly_mean_wage": 37.72,
+            "annual_mean_wage": 78450,
+            "hourly_median_wage": 30.88,
+            "annual_median_wage": 64240,
+            "annual_10th_percentile_wage": 46650,
+            "annual_25th_percentile_wage": 51180,
+            "annual_75th_percentile_wage": 100050,
+            "annual_90th_percentile_wage": 119340
+        },
+        "Data Scientists": {
+            "employment": 5910,
+            "hourly_mean_wage": 57.85,
+            "annual_mean_wage": 120320,
+            "hourly_median_wage": 53.83,
+            "annual_median_wage": 111970,
+            "annual_10th_percentile_wage": 65420,
+            "annual_25th_percentile_wage": 84320,
+            "annual_75th_percentile_wage": 136520,
+            "annual_90th_percentile_wage": 174700
+        }
+    },
+    {
+        "fips": "09",
+        "state": "Connecticut",
+        "Computer Systems Analysts": {
+            "employment": 6610,
+            "hourly_mean_wage": 51.77,
+            "annual_mean_wage": 107670,
+            "hourly_median_wage": 49.92,
+            "annual_median_wage": 103830,
+            "annual_10th_percentile_wage": 66940,
+            "annual_25th_percentile_wage": 84570,
+            "annual_75th_percentile_wage": 126780,
+            "annual_90th_percentile_wage": 146660
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1840,
+            "hourly_mean_wage": 50.87,
+            "annual_mean_wage": 105810,
+            "hourly_median_wage": 48.07,
+            "annual_median_wage": 99990,
+            "annual_10th_percentile_wage": 67120,
+            "annual_25th_percentile_wage": 81580,
+            "annual_75th_percentile_wage": 124840,
+            "annual_90th_percentile_wage": 152830
+        },
+        "Software Developers": {
+            "employment": 18380,
+            "hourly_mean_wage": 61.75,
+            "annual_mean_wage": 128450,
+            "hourly_median_wage": 60.14,
+            "annual_median_wage": 125080,
+            "annual_10th_percentile_wage": 78030,
+            "annual_25th_percentile_wage": 99690,
+            "annual_75th_percentile_wage": 157440,
+            "annual_90th_percentile_wage": 186430
+        },
+        "Web Developers": {
+            "employment": 740,
+            "hourly_mean_wage": 46.06,
+            "annual_mean_wage": 95810,
+            "hourly_median_wage": 42.62,
+            "annual_median_wage": 88640,
+            "annual_10th_percentile_wage": 49980,
+            "annual_25th_percentile_wage": 72050,
+            "annual_75th_percentile_wage": 116120,
+            "annual_90th_percentile_wage": 146400
+        },
+        "Data Scientists": {
+            "employment": 1190,
+            "hourly_mean_wage": 57.93,
+            "annual_mean_wage": 120480,
+            "hourly_median_wage": 54.21,
+            "annual_median_wage": 112750,
+            "annual_10th_percentile_wage": 54780,
+            "annual_25th_percentile_wage": 76000,
+            "annual_75th_percentile_wage": 154940,
+            "annual_90th_percentile_wage": 196040
+        }
+    },
+    {
+        "fips": "10",
+        "state": "Delaware",
+        "Computer Systems Analysts": {
+            "employment": 2660,
+            "hourly_mean_wage": 63.28,
+            "annual_mean_wage": 131620,
+            "hourly_median_wage": 54.36,
+            "annual_median_wage": 113060,
+            "annual_10th_percentile_wage": 75920,
+            "annual_25th_percentile_wage": 89410,
+            "annual_75th_percentile_wage": 143990,
+            "annual_90th_percentile_wage": 178930
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 940,
+            "hourly_mean_wage": 44.09,
+            "annual_mean_wage": 91710,
+            "hourly_median_wage": 42.44,
+            "annual_median_wage": 88270,
+            "annual_10th_percentile_wage": 55060,
+            "annual_25th_percentile_wage": 71040,
+            "annual_75th_percentile_wage": 110040,
+            "annual_90th_percentile_wage": 131510
+        },
+        "Software Developers": {
+            "employment": 4850,
+            "hourly_mean_wage": 63.29,
+            "annual_mean_wage": 131650,
+            "hourly_median_wage": 63.31,
+            "annual_median_wage": 131690,
+            "annual_10th_percentile_wage": 91680,
+            "annual_25th_percentile_wage": 108110,
+            "annual_75th_percentile_wage": 152440,
+            "annual_90th_percentile_wage": 174800
+        },
+        "Web Developers": {
+            "employment": 130,
+            "hourly_mean_wage": 51.54,
+            "annual_mean_wage": 107190,
+            "hourly_median_wage": 49.25,
+            "annual_median_wage": 102450,
+            "annual_10th_percentile_wage": 73770,
+            "annual_25th_percentile_wage": 88720,
+            "annual_75th_percentile_wage": 112560,
+            "annual_90th_percentile_wage": 149900
+        },
+        "Data Scientists": {
+            "employment": 530,
+            "hourly_mean_wage": 62.75,
+            "annual_mean_wage": 130520,
+            "hourly_median_wage": 66.72,
+            "annual_median_wage": 138780,
+            "annual_10th_percentile_wage": 64420,
+            "annual_25th_percentile_wage": 101680,
+            "annual_75th_percentile_wage": 160720,
+            "annual_90th_percentile_wage": 180590
+        }
+    },
+    {
+        "fips": "11",
+        "state": "District of Columbia",
+        "Computer Systems Analysts": {
+            "employment": 2310,
+            "hourly_mean_wage": 57.71,
+            "annual_mean_wage": 120030,
+            "hourly_median_wage": 49.98,
+            "annual_median_wage": 103960,
+            "annual_10th_percentile_wage": 81430,
+            "annual_25th_percentile_wage": 86200,
+            "annual_75th_percentile_wage": 134410,
+            "annual_90th_percentile_wage": 164170
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1710,
+            "hourly_mean_wage": 54.8,
+            "annual_mean_wage": 113990,
+            "hourly_median_wage": 52.95,
+            "annual_median_wage": 110140,
+            "annual_10th_percentile_wage": 74890,
+            "annual_25th_percentile_wage": 89920,
+            "annual_75th_percentile_wage": 132910,
+            "annual_90th_percentile_wage": 164990
+        },
+        "Software Developers": {
+            "employment": 8470,
+            "hourly_mean_wage": 70.22,
+            "annual_mean_wage": 146060,
+            "hourly_median_wage": 67.48,
+            "annual_median_wage": 140360,
+            "annual_10th_percentile_wage": 95670,
+            "annual_25th_percentile_wage": 121150,
+            "annual_75th_percentile_wage": 169200,
+            "annual_90th_percentile_wage": 198070
+        },
+        "Web Developers": {
+            "employment": 670,
+            "hourly_mean_wage": 59.44,
+            "annual_mean_wage": 123640,
+            "hourly_median_wage": 54.08,
+            "annual_median_wage": 112490,
+            "annual_10th_percentile_wage": 71340,
+            "annual_25th_percentile_wage": 88420,
+            "annual_75th_percentile_wage": 145330,
+            "annual_90th_percentile_wage": 176340
+        },
+        "Data Scientists": {
+            "employment": 3100,
+            "hourly_mean_wage": 61.93,
+            "annual_mean_wage": 128810,
+            "hourly_median_wage": 58.66,
+            "annual_median_wage": 122010,
+            "annual_10th_percentile_wage": 61280,
+            "annual_25th_percentile_wage": 87840,
+            "annual_75th_percentile_wage": 170800,
+            "annual_90th_percentile_wage": 206320
+        }
+    },
+    {
+        "fips": "12",
+        "state": "Florida",
+        "Computer Systems Analysts": {
+            "employment": 32760,
+            "hourly_mean_wage": 50.99,
+            "annual_mean_wage": 106050,
+            "hourly_median_wage": 47.97,
+            "annual_median_wage": 99770,
+            "annual_10th_percentile_wage": 54480,
+            "annual_25th_percentile_wage": 75520,
+            "annual_75th_percentile_wage": 128680,
+            "annual_90th_percentile_wage": 163270
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 22430,
+            "hourly_mean_wage": 45.89,
+            "annual_mean_wage": 95460,
+            "hourly_median_wage": 43.43,
+            "annual_median_wage": 90330,
+            "annual_10th_percentile_wage": 56840,
+            "annual_25th_percentile_wage": 72330,
+            "annual_75th_percentile_wage": 112040,
+            "annual_90th_percentile_wage": 139270
+        },
+        "Software Developers": {
+            "employment": 86550,
+            "hourly_mean_wage": 57.93,
+            "annual_mean_wage": 120490,
+            "hourly_median_wage": 58.81,
+            "annual_median_wage": 122310,
+            "annual_10th_percentile_wage": 64830,
+            "annual_25th_percentile_wage": 89050,
+            "annual_75th_percentile_wage": 143870,
+            "annual_90th_percentile_wage": 172120
+        },
+        "Web Developers": {
+            "employment": 5860,
+            "hourly_mean_wage": 45.84,
+            "annual_mean_wage": 95360,
+            "hourly_median_wage": 37.81,
+            "annual_median_wage": 78640,
+            "annual_10th_percentile_wage": 51890,
+            "annual_25th_percentile_wage": 73730,
+            "annual_75th_percentile_wage": 102280,
+            "annual_90th_percentile_wage": 141810
+        },
+        "Data Scientists": {
+            "employment": 8400,
+            "hourly_mean_wage": 51.2,
+            "annual_mean_wage": 106490,
+            "hourly_median_wage": 45.84,
+            "annual_median_wage": 95360,
+            "annual_10th_percentile_wage": 52180,
+            "annual_25th_percentile_wage": 68730,
+            "annual_75th_percentile_wage": 128090,
+            "annual_90th_percentile_wage": 172440
+        }
+    },
+    {
+        "fips": "13",
+        "state": "Georgia",
+        "Computer Systems Analysts": {
+            "employment": 12240,
+            "hourly_mean_wage": 50.88,
+            "annual_mean_wage": 105820,
+            "hourly_median_wage": 48.14,
+            "annual_median_wage": 100120,
+            "annual_10th_percentile_wage": 60900,
+            "annual_25th_percentile_wage": 78470,
+            "annual_75th_percentile_wage": 130470,
+            "annual_90th_percentile_wage": 158630
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 8350,
+            "hourly_mean_wage": 47.3,
+            "annual_mean_wage": 98380,
+            "hourly_median_wage": 45.6,
+            "annual_median_wage": 94840,
+            "annual_10th_percentile_wage": 59950,
+            "annual_25th_percentile_wage": 74860,
+            "annual_75th_percentile_wage": 117010,
+            "annual_90th_percentile_wage": 146210
+        },
+        "Software Developers": {
+            "employment": 51960,
+            "hourly_mean_wage": 60.24,
+            "annual_mean_wage": 125290,
+            "hourly_median_wage": 61.09,
+            "annual_median_wage": 127070,
+            "annual_10th_percentile_wage": 69410,
+            "annual_25th_percentile_wage": 96820,
+            "annual_75th_percentile_wage": 150960,
+            "annual_90th_percentile_wage": 174250
+        },
+        "Web Developers": {
+            "employment": 1300,
+            "hourly_mean_wage": 51.01,
+            "annual_mean_wage": 106100,
+            "hourly_median_wage": 42.62,
+            "annual_median_wage": 88640,
+            "annual_10th_percentile_wage": 54190,
+            "annual_25th_percentile_wage": 72350,
+            "annual_75th_percentile_wage": 113010,
+            "annual_90th_percentile_wage": 148330
+        },
+        "Data Scientists": {
+            "employment": 6510,
+            "hourly_mean_wage": 51.93,
+            "annual_mean_wage": 108010,
+            "hourly_median_wage": 48.54,
+            "annual_median_wage": 100950,
+            "annual_10th_percentile_wage": 60350,
+            "annual_25th_percentile_wage": 75930,
+            "annual_75th_percentile_wage": 133930,
+            "annual_90th_percentile_wage": 164790
+        }
+    },
+    {
+        "fips": "15",
+        "state": "Hawaii",
+        "Computer Systems Analysts": {
+            "employment": 1440,
+            "hourly_mean_wage": 44.82,
+            "annual_mean_wage": 93230,
+            "hourly_median_wage": 42.3,
+            "annual_median_wage": 87980,
+            "annual_10th_percentile_wage": 60380,
+            "annual_25th_percentile_wage": 72070,
+            "annual_75th_percentile_wage": 105990,
+            "annual_90th_percentile_wage": 124530
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 2400,
+            "hourly_mean_wage": 46.3,
+            "annual_mean_wage": 96300,
+            "hourly_median_wage": 46.87,
+            "annual_median_wage": 97490,
+            "annual_10th_percentile_wage": 41680,
+            "annual_25th_percentile_wage": 70570,
+            "annual_75th_percentile_wage": 119630,
+            "annual_90th_percentile_wage": 162920
+        },
+        "Software Developers": {
+            "employment": 2740,
+            "hourly_mean_wage": 54.74,
+            "annual_mean_wage": 113860,
+            "hourly_median_wage": 50.41,
+            "annual_median_wage": 104860,
+            "annual_10th_percentile_wage": 47150,
+            "annual_25th_percentile_wage": 79680,
+            "annual_75th_percentile_wage": 139370,
+            "annual_90th_percentile_wage": 174150
+        },
+        "Web Developers": {
+            "employment": null,
+            "hourly_mean_wage": null,
+            "annual_mean_wage": null,
+            "hourly_median_wage": null,
+            "annual_median_wage": null,
+            "annual_10th_percentile_wage": null,
+            "annual_25th_percentile_wage": null,
+            "annual_75th_percentile_wage": null,
+            "annual_90th_percentile_wage": null
+        },
+        "Data Scientists": {
+            "employment": 150,
+            "hourly_mean_wage": 60.61,
+            "annual_mean_wage": 126080,
+            "hourly_median_wage": 62.47,
+            "annual_median_wage": 129930,
+            "annual_10th_percentile_wage": 64620,
+            "annual_25th_percentile_wage": 93660,
+            "annual_75th_percentile_wage": 157370,
+            "annual_90th_percentile_wage": 200880
+        }
+    },
+    {
+        "fips": "16",
+        "state": "Idaho",
+        "Computer Systems Analysts": {
+            "employment": 1910,
+            "hourly_mean_wage": 43.92,
+            "annual_mean_wage": 91360,
+            "hourly_median_wage": 38.92,
+            "annual_median_wage": 80960,
+            "annual_10th_percentile_wage": 57110,
+            "annual_25th_percentile_wage": 67550,
+            "annual_75th_percentile_wage": 110030,
+            "annual_90th_percentile_wage": 132160
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1090,
+            "hourly_mean_wage": 46.27,
+            "annual_mean_wage": 96230,
+            "hourly_median_wage": 40.68,
+            "annual_median_wage": 84620,
+            "annual_10th_percentile_wage": 56790,
+            "annual_25th_percentile_wage": 71700,
+            "annual_75th_percentile_wage": 106350,
+            "annual_90th_percentile_wage": 129100
+        },
+        "Software Developers": {
+            "employment": 5910,
+            "hourly_mean_wage": 64.91,
+            "annual_mean_wage": 135000,
+            "hourly_median_wage": 49.38,
+            "annual_median_wage": 102700,
+            "annual_10th_percentile_wage": 45580,
+            "annual_25th_percentile_wage": 76690,
+            "annual_75th_percentile_wage": 136410,
+            "annual_90th_percentile_wage": 176180
+        },
+        "Web Developers": {
+            "employment": "**",
+            "hourly_mean_wage": 33.65,
+            "annual_mean_wage": 70000,
+            "hourly_median_wage": 28.7,
+            "annual_median_wage": 59690,
+            "annual_10th_percentile_wage": 38360,
+            "annual_25th_percentile_wage": 52000,
+            "annual_75th_percentile_wage": 89890,
+            "annual_90th_percentile_wage": 109080
+        },
+        "Data Scientists": {
+            "employment": 710,
+            "hourly_mean_wage": 60.67,
+            "annual_mean_wage": 126190,
+            "hourly_median_wage": 58.79,
+            "annual_median_wage": 122280,
+            "annual_10th_percentile_wage": 73770,
+            "annual_25th_percentile_wage": 83790,
+            "annual_75th_percentile_wage": 159610,
+            "annual_90th_percentile_wage": 205640
+        }
+    },
+    {
+        "fips": "17",
+        "state": "Illinois",
+        "Computer Systems Analysts": {
+            "employment": 20570,
+            "hourly_mean_wage": 49.02,
+            "annual_mean_wage": 101970,
+            "hourly_median_wage": 47.82,
+            "annual_median_wage": 99470,
+            "annual_10th_percentile_wage": 59530,
+            "annual_25th_percentile_wage": 79030,
+            "annual_75th_percentile_wage": 124980,
+            "annual_90th_percentile_wage": 144880
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 10070,
+            "hourly_mean_wage": 46.72,
+            "annual_mean_wage": 97170,
+            "hourly_median_wage": 45.15,
+            "annual_median_wage": 93920,
+            "annual_10th_percentile_wage": 61990,
+            "annual_25th_percentile_wage": 75900,
+            "annual_75th_percentile_wage": 117300,
+            "annual_90th_percentile_wage": 134870
+        },
+        "Software Developers": {
+            "employment": 56290,
+            "hourly_mean_wage": 59.47,
+            "annual_mean_wage": 123700,
+            "hourly_median_wage": 60.67,
+            "annual_median_wage": 126200,
+            "annual_10th_percentile_wage": 71980,
+            "annual_25th_percentile_wage": 97630,
+            "annual_75th_percentile_wage": 150380,
+            "annual_90th_percentile_wage": 169600
+        },
+        "Web Developers": {
+            "employment": 4260,
+            "hourly_mean_wage": 44.76,
+            "annual_mean_wage": 93100,
+            "hourly_median_wage": 48.36,
+            "annual_median_wage": 100580,
+            "annual_10th_percentile_wage": 63770,
+            "annual_25th_percentile_wage": 80430,
+            "annual_75th_percentile_wage": 100580,
+            "annual_90th_percentile_wage": 103300
+        },
+        "Data Scientists": {
+            "employment": 6320,
+            "hourly_mean_wage": 55.69,
+            "annual_mean_wage": 115840,
+            "hourly_median_wage": 52.2,
+            "annual_median_wage": 108580,
+            "annual_10th_percentile_wage": 62320,
+            "annual_25th_percentile_wage": 82000,
+            "annual_75th_percentile_wage": 137540,
+            "annual_90th_percentile_wage": 170570
+        }
+    },
+    {
+        "fips": "18",
+        "state": "Indiana",
+        "Computer Systems Analysts": {
+            "employment": 10900,
+            "hourly_mean_wage": 46.45,
+            "annual_mean_wage": 96610,
+            "hourly_median_wage": 44.38,
+            "annual_median_wage": 92310,
+            "annual_10th_percentile_wage": 59850,
+            "annual_25th_percentile_wage": 74210,
+            "annual_75th_percentile_wage": 117810,
+            "annual_90th_percentile_wage": 139470
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 5730,
+            "hourly_mean_wage": 41.33,
+            "annual_mean_wage": 85960,
+            "hourly_median_wage": 37.69,
+            "annual_median_wage": 78400,
+            "annual_10th_percentile_wage": 52220,
+            "annual_25th_percentile_wage": 62360,
+            "annual_75th_percentile_wage": 96800,
+            "annual_90th_percentile_wage": 121800
+        },
+        "Software Developers": {
+            "employment": 13440,
+            "hourly_mean_wage": 53.16,
+            "annual_mean_wage": 110580,
+            "hourly_median_wage": 50.84,
+            "annual_median_wage": 105740,
+            "annual_10th_percentile_wage": 67960,
+            "annual_25th_percentile_wage": 83530,
+            "annual_75th_percentile_wage": 129720,
+            "annual_90th_percentile_wage": 153860
+        },
+        "Web Developers": {
+            "employment": 1190,
+            "hourly_mean_wage": 31.84,
+            "annual_mean_wage": 66220,
+            "hourly_median_wage": 27.63,
+            "annual_median_wage": 57470,
+            "annual_10th_percentile_wage": 36450,
+            "annual_25th_percentile_wage": 55960,
+            "annual_75th_percentile_wage": 76560,
+            "annual_90th_percentile_wage": 106560
+        },
+        "Data Scientists": {
+            "employment": 2440,
+            "hourly_mean_wage": 44.48,
+            "annual_mean_wage": 92520,
+            "hourly_median_wage": 39.24,
+            "annual_median_wage": 81620,
+            "annual_10th_percentile_wage": 52500,
+            "annual_25th_percentile_wage": 65000,
+            "annual_75th_percentile_wage": 109220,
+            "annual_90th_percentile_wage": 128340
+        }
+    },
+    {
+        "fips": "19",
+        "state": "Iowa",
+        "Computer Systems Analysts": {
+            "employment": 4770,
+            "hourly_mean_wage": 45.86,
+            "annual_mean_wage": 95380,
+            "hourly_median_wage": 43.77,
+            "annual_median_wage": 91040,
+            "annual_10th_percentile_wage": 61370,
+            "annual_25th_percentile_wage": 76170,
+            "annual_75th_percentile_wage": 111270,
+            "annual_90th_percentile_wage": 132520
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 3250,
+            "hourly_mean_wage": 43.16,
+            "annual_mean_wage": 89770,
+            "hourly_median_wage": 41.05,
+            "annual_median_wage": 85380,
+            "annual_10th_percentile_wage": 57990,
+            "annual_25th_percentile_wage": 71000,
+            "annual_75th_percentile_wage": 105390,
+            "annual_90th_percentile_wage": 125260
+        },
+        "Software Developers": {
+            "employment": 9730,
+            "hourly_mean_wage": 53.02,
+            "annual_mean_wage": 110280,
+            "hourly_median_wage": 50.92,
+            "annual_median_wage": 105920,
+            "annual_10th_percentile_wage": 67600,
+            "annual_25th_percentile_wage": 86060,
+            "annual_75th_percentile_wage": 130320,
+            "annual_90th_percentile_wage": 148510
+        },
+        "Web Developers": {
+            "employment": 430,
+            "hourly_mean_wage": 38.25,
+            "annual_mean_wage": 79550,
+            "hourly_median_wage": 33.37,
+            "annual_median_wage": 69410,
+            "annual_10th_percentile_wage": 49450,
+            "annual_25th_percentile_wage": 55070,
+            "annual_75th_percentile_wage": 97020,
+            "annual_90th_percentile_wage": 115250
+        },
+        "Data Scientists": {
+            "employment": 2270,
+            "hourly_mean_wage": 47.38,
+            "annual_mean_wage": 98550,
+            "hourly_median_wage": 46.62,
+            "annual_median_wage": 96980,
+            "annual_10th_percentile_wage": 55970,
+            "annual_25th_percentile_wage": 71140,
+            "annual_75th_percentile_wage": 120060,
+            "annual_90th_percentile_wage": 140520
+        }
+    },
+    {
+        "fips": "20",
+        "state": "Kansas",
+        "Computer Systems Analysts": {
+            "employment": 5970,
+            "hourly_mean_wage": 48.27,
+            "annual_mean_wage": 100410,
+            "hourly_median_wage": 49.13,
+            "annual_median_wage": 102180,
+            "annual_10th_percentile_wage": 56030,
+            "annual_25th_percentile_wage": 76120,
+            "annual_75th_percentile_wage": 126250,
+            "annual_90th_percentile_wage": 141230
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 3930,
+            "hourly_mean_wage": 41.97,
+            "annual_mean_wage": 87300,
+            "hourly_median_wage": 39.13,
+            "annual_median_wage": 81390,
+            "annual_10th_percentile_wage": 57500,
+            "annual_25th_percentile_wage": 65970,
+            "annual_75th_percentile_wage": 103940,
+            "annual_90th_percentile_wage": 124030
+        },
+        "Software Developers": {
+            "employment": 14490,
+            "hourly_mean_wage": 53.13,
+            "annual_mean_wage": 110520,
+            "hourly_median_wage": 50.12,
+            "annual_median_wage": 104250,
+            "annual_10th_percentile_wage": 63470,
+            "annual_25th_percentile_wage": 79620,
+            "annual_75th_percentile_wage": 132320,
+            "annual_90th_percentile_wage": 161780
+        },
+        "Web Developers": {
+            "employment": 600,
+            "hourly_mean_wage": 37.64,
+            "annual_mean_wage": 78290,
+            "hourly_median_wage": 35.03,
+            "annual_median_wage": 72870,
+            "annual_10th_percentile_wage": 36150,
+            "annual_25th_percentile_wage": 55530,
+            "annual_75th_percentile_wage": 101520,
+            "annual_90th_percentile_wage": 126960
+        },
+        "Data Scientists": {
+            "employment": "**",
+            "hourly_mean_wage": 51.44,
+            "annual_mean_wage": 107000,
+            "hourly_median_wage": 48.85,
+            "annual_median_wage": 101610,
+            "annual_10th_percentile_wage": 71230,
+            "annual_25th_percentile_wage": 83210,
+            "annual_75th_percentile_wage": 127000,
+            "annual_90th_percentile_wage": 142830
+        }
+    },
+    {
+        "fips": "21",
+        "state": "Kentucky",
+        "Computer Systems Analysts": {
+            "employment": 4120,
+            "hourly_mean_wage": 39.92,
+            "annual_mean_wage": 83040,
+            "hourly_median_wage": 38.93,
+            "annual_median_wage": 80980,
+            "annual_10th_percentile_wage": 41640,
+            "annual_25th_percentile_wage": 57910,
+            "annual_75th_percentile_wage": 101280,
+            "annual_90th_percentile_wage": 127960
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 2730,
+            "hourly_mean_wage": 40.31,
+            "annual_mean_wage": 83840,
+            "hourly_median_wage": 38.79,
+            "annual_median_wage": 80690,
+            "annual_10th_percentile_wage": 48130,
+            "annual_25th_percentile_wage": 62670,
+            "annual_75th_percentile_wage": 101010,
+            "annual_90th_percentile_wage": 126480
+        },
+        "Software Developers": {
+            "employment": 5800,
+            "hourly_mean_wage": 50.99,
+            "annual_mean_wage": 106070,
+            "hourly_median_wage": 49.54,
+            "annual_median_wage": 103030,
+            "annual_10th_percentile_wage": 66950,
+            "annual_25th_percentile_wage": 83990,
+            "annual_75th_percentile_wage": 127540,
+            "annual_90th_percentile_wage": 150960
+        },
+        "Web Developers": {
+            "employment": 440,
+            "hourly_mean_wage": 36.38,
+            "annual_mean_wage": 75670,
+            "hourly_median_wage": 33.11,
+            "annual_median_wage": 68860,
+            "annual_10th_percentile_wage": 36600,
+            "annual_25th_percentile_wage": 52530,
+            "annual_75th_percentile_wage": 96500,
+            "annual_90th_percentile_wage": 113490
+        },
+        "Data Scientists": {
+            "employment": 2080,
+            "hourly_mean_wage": 46.29,
+            "annual_mean_wage": 96290,
+            "hourly_median_wage": 42.69,
+            "annual_median_wage": 88800,
+            "annual_10th_percentile_wage": 52330,
+            "annual_25th_percentile_wage": 65570,
+            "annual_75th_percentile_wage": 121700,
+            "annual_90th_percentile_wage": 153090
+        }
+    },
+    {
+        "fips": "22",
+        "state": "Louisiana",
+        "Computer Systems Analysts": {
+            "employment": 2430,
+            "hourly_mean_wage": 41.12,
+            "annual_mean_wage": 85530,
+            "hourly_median_wage": 39.74,
+            "annual_median_wage": 82660,
+            "annual_10th_percentile_wage": 50060,
+            "annual_25th_percentile_wage": 64790,
+            "annual_75th_percentile_wage": 99270,
+            "annual_90th_percentile_wage": 118290
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1400,
+            "hourly_mean_wage": 40.85,
+            "annual_mean_wage": 84970,
+            "hourly_median_wage": 39.57,
+            "annual_median_wage": 82300,
+            "annual_10th_percentile_wage": 52610,
+            "annual_25th_percentile_wage": 67490,
+            "annual_75th_percentile_wage": 98470,
+            "annual_90th_percentile_wage": 122350
+        },
+        "Software Developers": {
+            "employment": 3960,
+            "hourly_mean_wage": 62.01,
+            "annual_mean_wage": 128980,
+            "hourly_median_wage": 50.41,
+            "annual_median_wage": 104840,
+            "annual_10th_percentile_wage": 66360,
+            "annual_25th_percentile_wage": 80370,
+            "annual_75th_percentile_wage": 125330,
+            "annual_90th_percentile_wage": 154330
+        },
+        "Web Developers": {
+            "employment": 370,
+            "hourly_mean_wage": 30.95,
+            "annual_mean_wage": 64370,
+            "hourly_median_wage": 31.17,
+            "annual_median_wage": 64820,
+            "annual_10th_percentile_wage": 36980,
+            "annual_25th_percentile_wage": 49180,
+            "annual_75th_percentile_wage": 69740,
+            "annual_90th_percentile_wage": 94070
+        },
+        "Data Scientists": {
+            "employment": 920,
+            "hourly_mean_wage": 35.74,
+            "annual_mean_wage": 74330,
+            "hourly_median_wage": 33.04,
+            "annual_median_wage": 68730,
+            "annual_10th_percentile_wage": 54640,
+            "annual_25th_percentile_wage": 64950,
+            "annual_75th_percentile_wage": 79480,
+            "annual_90th_percentile_wage": 98940
+        }
+    },
+    {
+        "fips": "23",
+        "state": "Maine",
+        "Computer Systems Analysts": {
+            "employment": 2420,
+            "hourly_mean_wage": 42.97,
+            "annual_mean_wage": 89380,
+            "hourly_median_wage": 39.33,
+            "annual_median_wage": 81810,
+            "annual_10th_percentile_wage": 61280,
+            "annual_25th_percentile_wage": 72700,
+            "annual_75th_percentile_wage": 101810,
+            "annual_90th_percentile_wage": 125840
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1290,
+            "hourly_mean_wage": 39.66,
+            "annual_mean_wage": 82500,
+            "hourly_median_wage": 37.91,
+            "annual_median_wage": 78850,
+            "annual_10th_percentile_wage": 57630,
+            "annual_25th_percentile_wage": 72050,
+            "annual_75th_percentile_wage": 90600,
+            "annual_90th_percentile_wage": 105780
+        },
+        "Software Developers": {
+            "employment": 3220,
+            "hourly_mean_wage": 56.32,
+            "annual_mean_wage": 117150,
+            "hourly_median_wage": 54.42,
+            "annual_median_wage": 113190,
+            "annual_10th_percentile_wage": 67520,
+            "annual_25th_percentile_wage": 85740,
+            "annual_75th_percentile_wage": 142990,
+            "annual_90th_percentile_wage": 178570
+        },
+        "Web Developers": {
+            "employment": 290,
+            "hourly_mean_wage": 44.53,
+            "annual_mean_wage": 92630,
+            "hourly_median_wage": 31.68,
+            "annual_median_wage": 65890,
+            "annual_10th_percentile_wage": 52330,
+            "annual_25th_percentile_wage": 59050,
+            "annual_75th_percentile_wage": 112450,
+            "annual_90th_percentile_wage": 195760
+        },
+        "Data Scientists": {
+            "employment": 710,
+            "hourly_mean_wage": 51.62,
+            "annual_mean_wage": 107370,
+            "hourly_median_wage": 48.06,
+            "annual_median_wage": 99960,
+            "annual_10th_percentile_wage": 65370,
+            "annual_25th_percentile_wage": 80050,
+            "annual_75th_percentile_wage": 137900,
+            "annual_90th_percentile_wage": 146280
+        }
+    },
+    {
+        "fips": "24",
+        "state": "Maryland",
+        "Computer Systems Analysts": {
+            "employment": 13800,
+            "hourly_mean_wage": 56.95,
+            "annual_mean_wage": 118460,
+            "hourly_median_wage": 53.42,
+            "annual_median_wage": 111100,
+            "annual_10th_percentile_wage": 67460,
+            "annual_25th_percentile_wage": 84140,
+            "annual_75th_percentile_wage": 144740,
+            "annual_90th_percentile_wage": 174510
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 8040,
+            "hourly_mean_wage": 55.91,
+            "annual_mean_wage": 116300,
+            "hourly_median_wage": 51.78,
+            "annual_median_wage": 107690,
+            "annual_10th_percentile_wage": 64930,
+            "annual_25th_percentile_wage": 83850,
+            "annual_75th_percentile_wage": 140750,
+            "annual_90th_percentile_wage": 169240
+        },
+        "Software Developers": {
+            "employment": 30700,
+            "hourly_mean_wage": 72.47,
+            "annual_mean_wage": 150740,
+            "hourly_median_wage": 66.37,
+            "annual_median_wage": 138050,
+            "annual_10th_percentile_wage": 86200,
+            "annual_25th_percentile_wage": 108380,
+            "annual_75th_percentile_wage": 174050,
+            "annual_90th_percentile_wage": 216800
+        },
+        "Web Developers": {
+            "employment": 2070,
+            "hourly_mean_wage": 46.88,
+            "annual_mean_wage": 97510,
+            "hourly_median_wage": 39.98,
+            "annual_median_wage": 83150,
+            "annual_10th_percentile_wage": 59320,
+            "annual_25th_percentile_wage": 68210,
+            "annual_75th_percentile_wage": 111490,
+            "annual_90th_percentile_wage": 150140
+        },
+        "Data Scientists": {
+            "employment": 2170,
+            "hourly_mean_wage": 60.59,
+            "annual_mean_wage": 126020,
+            "hourly_median_wage": 60.32,
+            "annual_median_wage": 125460,
+            "annual_10th_percentile_wage": 76170,
+            "annual_25th_percentile_wage": 93410,
+            "annual_75th_percentile_wage": 157260,
+            "annual_90th_percentile_wage": 174990
+        }
+    },
+    {
+        "fips": "25",
+        "state": "Massachusetts",
+        "Computer Systems Analysts": {
+            "employment": 14070,
+            "hourly_mean_wage": 60.04,
+            "annual_mean_wage": 124870,
+            "hourly_median_wage": 53.79,
+            "annual_median_wage": 111890,
+            "annual_10th_percentile_wage": 77340,
+            "annual_25th_percentile_wage": 92250,
+            "annual_75th_percentile_wage": 146510,
+            "annual_90th_percentile_wage": 175650
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 7480,
+            "hourly_mean_wage": 51.07,
+            "annual_mean_wage": 106220,
+            "hourly_median_wage": 49.16,
+            "annual_median_wage": 102250,
+            "annual_10th_percentile_wage": 66620,
+            "annual_25th_percentile_wage": 81080,
+            "annual_75th_percentile_wage": 127690,
+            "annual_90th_percentile_wage": 148680
+        },
+        "Software Developers": {
+            "employment": 59960,
+            "hourly_mean_wage": 70.47,
+            "annual_mean_wage": 146580,
+            "hourly_median_wage": 65.93,
+            "annual_median_wage": 137130,
+            "annual_10th_percentile_wage": 88460,
+            "annual_25th_percentile_wage": 110150,
+            "annual_75th_percentile_wage": 169960,
+            "annual_90th_percentile_wage": 204740
+        },
+        "Web Developers": {
+            "employment": "**",
+            "hourly_mean_wage": 46.16,
+            "annual_mean_wage": 96010,
+            "hourly_median_wage": 48,
+            "annual_median_wage": 99850,
+            "annual_10th_percentile_wage": 61050,
+            "annual_25th_percentile_wage": 61050,
+            "annual_75th_percentile_wage": 110980,
+            "annual_90th_percentile_wage": 145300
+        },
+        "Data Scientists": {
+            "employment": 7400,
+            "hourly_mean_wage": 60.15,
+            "annual_mean_wage": 125100,
+            "hourly_median_wage": 58.44,
+            "annual_median_wage": 121560,
+            "annual_10th_percentile_wage": 75540,
+            "annual_25th_percentile_wage": 89640,
+            "annual_75th_percentile_wage": 146990,
+            "annual_90th_percentile_wage": 185280
+        }
+    },
+    {
+        "fips": "26",
+        "state": "Michigan",
+        "Computer Systems Analysts": {
+            "employment": 15000,
+            "hourly_mean_wage": 48.8,
+            "annual_mean_wage": 101510,
+            "hourly_median_wage": 48.12,
+            "annual_median_wage": 100100,
+            "annual_10th_percentile_wage": 63350,
+            "annual_25th_percentile_wage": 79060,
+            "annual_75th_percentile_wage": 120060,
+            "annual_90th_percentile_wage": 140050
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 7160,
+            "hourly_mean_wage": 45.6,
+            "annual_mean_wage": 94840,
+            "hourly_median_wage": 42.8,
+            "annual_median_wage": 89030,
+            "annual_10th_percentile_wage": 61240,
+            "annual_25th_percentile_wage": 75530,
+            "annual_75th_percentile_wage": 108260,
+            "annual_90th_percentile_wage": 136750
+        },
+        "Software Developers": {
+            "employment": 44140,
+            "hourly_mean_wage": 51.96,
+            "annual_mean_wage": 108080,
+            "hourly_median_wage": 49.92,
+            "annual_median_wage": 103830,
+            "annual_10th_percentile_wage": 62190,
+            "annual_25th_percentile_wage": 81340,
+            "annual_75th_percentile_wage": 131700,
+            "annual_90th_percentile_wage": 157360
+        },
+        "Web Developers": {
+            "employment": 1030,
+            "hourly_mean_wage": 43.4,
+            "annual_mean_wage": 90270,
+            "hourly_median_wage": 42.53,
+            "annual_median_wage": 88460,
+            "annual_10th_percentile_wage": 47620,
+            "annual_25th_percentile_wage": 61440,
+            "annual_75th_percentile_wage": 117470,
+            "annual_90th_percentile_wage": 128890
+        },
+        "Data Scientists": {
+            "employment": 4700,
+            "hourly_mean_wage": 46.39,
+            "annual_mean_wage": 96500,
+            "hourly_median_wage": 43.63,
+            "annual_median_wage": 90750,
+            "annual_10th_percentile_wage": 57790,
+            "annual_25th_percentile_wage": 72550,
+            "annual_75th_percentile_wage": 115280,
+            "annual_90th_percentile_wage": 138860
+        }
+    },
+    {
+        "fips": "27",
+        "state": "Minnesota",
+        "Computer Systems Analysts": {
+            "employment": 12180,
+            "hourly_mean_wage": 52.38,
+            "annual_mean_wage": 108940,
+            "hourly_median_wage": 51.41,
+            "annual_median_wage": 106930,
+            "annual_10th_percentile_wage": 67610,
+            "annual_25th_percentile_wage": 84960,
+            "annual_75th_percentile_wage": 129850,
+            "annual_90th_percentile_wage": 147790
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 4290,
+            "hourly_mean_wage": 48.45,
+            "annual_mean_wage": 100770,
+            "hourly_median_wage": 47.57,
+            "annual_median_wage": 98940,
+            "annual_10th_percentile_wage": 66000,
+            "annual_25th_percentile_wage": 79140,
+            "annual_75th_percentile_wage": 119470,
+            "annual_90th_percentile_wage": 137460
+        },
+        "Software Developers": {
+            "employment": 38570,
+            "hourly_mean_wage": 57.79,
+            "annual_mean_wage": 120210,
+            "hourly_median_wage": 60.28,
+            "annual_median_wage": 125380,
+            "annual_10th_percentile_wage": 76490,
+            "annual_25th_percentile_wage": 96650,
+            "annual_75th_percentile_wage": 141800,
+            "annual_90th_percentile_wage": 165930
+        },
+        "Web Developers": {
+            "employment": 2040,
+            "hourly_mean_wage": 49.31,
+            "annual_mean_wage": 102560,
+            "hourly_median_wage": 45.09,
+            "annual_median_wage": 93780,
+            "annual_10th_percentile_wage": 57480,
+            "annual_25th_percentile_wage": 72750,
+            "annual_75th_percentile_wage": 127870,
+            "annual_90th_percentile_wage": 162690
+        },
+        "Data Scientists": {
+            "employment": 2240,
+            "hourly_mean_wage": 57.1,
+            "annual_mean_wage": 118760,
+            "hourly_median_wage": 55.11,
+            "annual_median_wage": 114630,
+            "annual_10th_percentile_wage": 69170,
+            "annual_25th_percentile_wage": 89940,
+            "annual_75th_percentile_wage": 143640,
+            "annual_90th_percentile_wage": 165830
+        }
+    },
+    {
+        "fips": "28",
+        "state": "Mississippi",
+        "Computer Systems Analysts": {
+            "employment": 1610,
+            "hourly_mean_wage": 42.19,
+            "annual_mean_wage": 87750,
+            "hourly_median_wage": 38.47,
+            "annual_median_wage": 80020,
+            "annual_10th_percentile_wage": 45170,
+            "annual_25th_percentile_wage": 61440,
+            "annual_75th_percentile_wage": 105090,
+            "annual_90th_percentile_wage": 127570
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1470,
+            "hourly_mean_wage": 38.96,
+            "annual_mean_wage": 81040,
+            "hourly_median_wage": 37.88,
+            "annual_median_wage": 78790,
+            "annual_10th_percentile_wage": 48990,
+            "annual_25th_percentile_wage": 59900,
+            "annual_75th_percentile_wage": 94060,
+            "annual_90th_percentile_wage": 116800
+        },
+        "Software Developers": {
+            "employment": 3090,
+            "hourly_mean_wage": 43.24,
+            "annual_mean_wage": 89940,
+            "hourly_median_wage": 40.96,
+            "annual_median_wage": 85190,
+            "annual_10th_percentile_wage": 38520,
+            "annual_25th_percentile_wage": 57900,
+            "annual_75th_percentile_wage": 122950,
+            "annual_90th_percentile_wage": 137290
+        },
+        "Web Developers": {
+            "employment": 170,
+            "hourly_mean_wage": 31.34,
+            "annual_mean_wage": 65190,
+            "hourly_median_wage": 27.87,
+            "annual_median_wage": 57970,
+            "annual_10th_percentile_wage": 24960,
+            "annual_25th_percentile_wage": 45260,
+            "annual_75th_percentile_wage": 85360,
+            "annual_90th_percentile_wage": 109190
+        },
+        "Data Scientists": {
+            "employment": 290,
+            "hourly_mean_wage": 34.72,
+            "annual_mean_wage": 72220,
+            "hourly_median_wage": 30.1,
+            "annual_median_wage": 62600,
+            "annual_10th_percentile_wage": 34670,
+            "annual_25th_percentile_wage": 48280,
+            "annual_75th_percentile_wage": 82370,
+            "annual_90th_percentile_wage": 108230
+        }
+    },
+    {
+        "fips": "29",
+        "state": "Missouri",
+        "Computer Systems Analysts": {
+            "employment": 7860,
+            "hourly_mean_wage": 46.95,
+            "annual_mean_wage": 97650,
+            "hourly_median_wage": 46.47,
+            "annual_median_wage": 96660,
+            "annual_10th_percentile_wage": 48230,
+            "annual_25th_percentile_wage": 71650,
+            "annual_75th_percentile_wage": 121580,
+            "annual_90th_percentile_wage": 145020
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 6330,
+            "hourly_mean_wage": 42.83,
+            "annual_mean_wage": 89080,
+            "hourly_median_wage": 39.68,
+            "annual_median_wage": 82530,
+            "annual_10th_percentile_wage": 47790,
+            "annual_25th_percentile_wage": 61730,
+            "annual_75th_percentile_wage": 111800,
+            "annual_90th_percentile_wage": 137080
+        },
+        "Software Developers": {
+            "employment": 18450,
+            "hourly_mean_wage": 51.91,
+            "annual_mean_wage": 107980,
+            "hourly_median_wage": 50.29,
+            "annual_median_wage": 104600,
+            "annual_10th_percentile_wage": 57100,
+            "annual_25th_percentile_wage": 77560,
+            "annual_75th_percentile_wage": 132700,
+            "annual_90th_percentile_wage": 158970
+        },
+        "Web Developers": {
+            "employment": "**",
+            "hourly_mean_wage": 39.01,
+            "annual_mean_wage": 81130,
+            "hourly_median_wage": 32.9,
+            "annual_median_wage": 68430,
+            "annual_10th_percentile_wage": 49140,
+            "annual_25th_percentile_wage": 61860,
+            "annual_75th_percentile_wage": 100150,
+            "annual_90th_percentile_wage": 123420
+        },
+        "Data Scientists": {
+            "employment": 3850,
+            "hourly_mean_wage": 42.41,
+            "annual_mean_wage": 88210,
+            "hourly_median_wage": 39.14,
+            "annual_median_wage": 81410,
+            "annual_10th_percentile_wage": 50690,
+            "annual_25th_percentile_wage": 62290,
+            "annual_75th_percentile_wage": 106410,
+            "annual_90th_percentile_wage": 135710
+        }
+    },
+    {
+        "fips": "30",
+        "state": "Montana",
+        "Computer Systems Analysts": {
+            "employment": 580,
+            "hourly_mean_wage": 39.55,
+            "annual_mean_wage": 82260,
+            "hourly_median_wage": 39.43,
+            "annual_median_wage": 82020,
+            "annual_10th_percentile_wage": 43550,
+            "annual_25th_percentile_wage": 63700,
+            "annual_75th_percentile_wage": 96990,
+            "annual_90th_percentile_wage": 117340
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 890,
+            "hourly_mean_wage": 38.75,
+            "annual_mean_wage": 80600,
+            "hourly_median_wage": 37.5,
+            "annual_median_wage": 78000,
+            "annual_10th_percentile_wage": 57350,
+            "annual_25th_percentile_wage": 64380,
+            "annual_75th_percentile_wage": 88690,
+            "annual_90th_percentile_wage": 105100
+        },
+        "Software Developers": {
+            "employment": 2370,
+            "hourly_mean_wage": 63.16,
+            "annual_mean_wage": 131380,
+            "hourly_median_wage": 52.54,
+            "annual_median_wage": 109270,
+            "annual_10th_percentile_wage": 68480,
+            "annual_25th_percentile_wage": 83030,
+            "annual_75th_percentile_wage": 164060,
+            "annual_90th_percentile_wage": 208890
+        },
+        "Web Developers": {
+            "employment": 180,
+            "hourly_mean_wage": 29.33,
+            "annual_mean_wage": 61000,
+            "hourly_median_wage": 27.87,
+            "annual_median_wage": 57970,
+            "annual_10th_percentile_wage": 40240,
+            "annual_25th_percentile_wage": 43070,
+            "annual_75th_percentile_wage": 70780,
+            "annual_90th_percentile_wage": 102560
+        },
+        "Data Scientists": {
+            "employment": 90,
+            "hourly_mean_wage": 48.73,
+            "annual_mean_wage": 101350,
+            "hourly_median_wage": 45.4,
+            "annual_median_wage": 94420,
+            "annual_10th_percentile_wage": 52800,
+            "annual_25th_percentile_wage": 68520,
+            "annual_75th_percentile_wage": 105970,
+            "annual_90th_percentile_wage": 147210
+        }
+    },
+    {
+        "fips": "31",
+        "state": "Nebraska",
+        "Computer Systems Analysts": {
+            "employment": 3570,
+            "hourly_mean_wage": 43.43,
+            "annual_mean_wage": 90330,
+            "hourly_median_wage": 39.77,
+            "annual_median_wage": 82710,
+            "annual_10th_percentile_wage": 60240,
+            "annual_25th_percentile_wage": 77200,
+            "annual_75th_percentile_wage": 100610,
+            "annual_90th_percentile_wage": 128230
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1500,
+            "hourly_mean_wage": 43.27,
+            "annual_mean_wage": 90010,
+            "hourly_median_wage": 41.52,
+            "annual_median_wage": 86360,
+            "annual_10th_percentile_wage": 59190,
+            "annual_25th_percentile_wage": 70890,
+            "annual_75th_percentile_wage": 107220,
+            "annual_90th_percentile_wage": 126490
+        },
+        "Software Developers": {
+            "employment": 8270,
+            "hourly_mean_wage": 54.01,
+            "annual_mean_wage": 112340,
+            "hourly_median_wage": 52.79,
+            "annual_median_wage": 109800,
+            "annual_10th_percentile_wage": 72540,
+            "annual_25th_percentile_wage": 89530,
+            "annual_75th_percentile_wage": 133940,
+            "annual_90th_percentile_wage": 141550
+        },
+        "Web Developers": {
+            "employment": "**",
+            "hourly_mean_wage": 39.07,
+            "annual_mean_wage": 81270,
+            "hourly_median_wage": 33.81,
+            "annual_median_wage": 70310,
+            "annual_10th_percentile_wage": 50530,
+            "annual_25th_percentile_wage": 52140,
+            "annual_75th_percentile_wage": 105740,
+            "annual_90th_percentile_wage": 126350
+        },
+        "Data Scientists": {
+            "employment": 1780,
+            "hourly_mean_wage": 45.66,
+            "annual_mean_wage": 94960,
+            "hourly_median_wage": 44.54,
+            "annual_median_wage": 92640,
+            "annual_10th_percentile_wage": 62940,
+            "annual_25th_percentile_wage": 79500,
+            "annual_75th_percentile_wage": 107450,
+            "annual_90th_percentile_wage": 129610
+        }
+    },
+    {
+        "fips": "32",
+        "state": "Nevada",
+        "Computer Systems Analysts": {
+            "employment": 1920,
+            "hourly_mean_wage": 51.63,
+            "annual_mean_wage": 107380,
+            "hourly_median_wage": 48.45,
+            "annual_median_wage": 100780,
+            "annual_10th_percentile_wage": 58010,
+            "annual_25th_percentile_wage": 75880,
+            "annual_75th_percentile_wage": 121660,
+            "annual_90th_percentile_wage": 144930
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1780,
+            "hourly_mean_wage": 45.24,
+            "annual_mean_wage": 94100,
+            "hourly_median_wage": 39.62,
+            "annual_median_wage": 82410,
+            "annual_10th_percentile_wage": 47400,
+            "annual_25th_percentile_wage": 59600,
+            "annual_75th_percentile_wage": 107510,
+            "annual_90th_percentile_wage": 133110
+        },
+        "Software Developers": {
+            "employment": 5030,
+            "hourly_mean_wage": 64.18,
+            "annual_mean_wage": 133490,
+            "hourly_median_wage": 60.38,
+            "annual_median_wage": 125590,
+            "annual_10th_percentile_wage": 76490,
+            "annual_25th_percentile_wage": 96450,
+            "annual_75th_percentile_wage": 168240,
+            "annual_90th_percentile_wage": 218060
+        },
+        "Web Developers": {
+            "employment": 270,
+            "hourly_mean_wage": 33.94,
+            "annual_mean_wage": 70600,
+            "hourly_median_wage": 30.3,
+            "annual_median_wage": 63020,
+            "annual_10th_percentile_wage": 46840,
+            "annual_25th_percentile_wage": 50170,
+            "annual_75th_percentile_wage": 90060,
+            "annual_90th_percentile_wage": 104260
+        },
+        "Data Scientists": {
+            "employment": 980,
+            "hourly_mean_wage": 46.54,
+            "annual_mean_wage": 96800,
+            "hourly_median_wage": 41.36,
+            "annual_median_wage": 86030,
+            "annual_10th_percentile_wage": 57630,
+            "annual_25th_percentile_wage": 71420,
+            "annual_75th_percentile_wage": 112460,
+            "annual_90th_percentile_wage": 144420
+        }
+    },
+    {
+        "fips": "33",
+        "state": "New Hampshire",
+        "Computer Systems Analysts": {
+            "employment": 2450,
+            "hourly_mean_wage": 53.59,
+            "annual_mean_wage": 111470,
+            "hourly_median_wage": 50.89,
+            "annual_median_wage": 105850,
+            "annual_10th_percentile_wage": 72550,
+            "annual_25th_percentile_wage": 83890,
+            "annual_75th_percentile_wage": 132110,
+            "annual_90th_percentile_wage": 154740
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1910,
+            "hourly_mean_wage": 47.67,
+            "annual_mean_wage": 99160,
+            "hourly_median_wage": 46.47,
+            "annual_median_wage": 96660,
+            "annual_10th_percentile_wage": 67080,
+            "annual_25th_percentile_wage": 79750,
+            "annual_75th_percentile_wage": 113270,
+            "annual_90th_percentile_wage": 134340
+        },
+        "Software Developers": {
+            "employment": 9250,
+            "hourly_mean_wage": 61.75,
+            "annual_mean_wage": 128440,
+            "hourly_median_wage": 61.95,
+            "annual_median_wage": 128860,
+            "annual_10th_percentile_wage": 77970,
+            "annual_25th_percentile_wage": 91500,
+            "annual_75th_percentile_wage": 161130,
+            "annual_90th_percentile_wage": 186560
+        },
+        "Web Developers": {
+            "employment": 400,
+            "hourly_mean_wage": 44.7,
+            "annual_mean_wage": 92980,
+            "hourly_median_wage": 43.85,
+            "annual_median_wage": 91210,
+            "annual_10th_percentile_wage": 58190,
+            "annual_25th_percentile_wage": 75140,
+            "annual_75th_percentile_wage": 112000,
+            "annual_90th_percentile_wage": 135580
+        },
+        "Data Scientists": {
+            "employment": 780,
+            "hourly_mean_wage": 46.79,
+            "annual_mean_wage": 97330,
+            "hourly_median_wage": 44.55,
+            "annual_median_wage": 92670,
+            "annual_10th_percentile_wage": 54420,
+            "annual_25th_percentile_wage": 64790,
+            "annual_75th_percentile_wage": 122780,
+            "annual_90th_percentile_wage": 153410
+        }
+    },
+    {
+        "fips": "34",
+        "state": "New Jersey",
+        "Computer Systems Analysts": {
+            "employment": 14970,
+            "hourly_mean_wage": 60.69,
+            "annual_mean_wage": 126240,
+            "hourly_median_wage": 59.23,
+            "annual_median_wage": 123190,
+            "annual_10th_percentile_wage": 70640,
+            "annual_25th_percentile_wage": 94710,
+            "annual_75th_percentile_wage": 157660,
+            "annual_90th_percentile_wage": 179530
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 11030,
+            "hourly_mean_wage": 53.46,
+            "annual_mean_wage": 111190,
+            "hourly_median_wage": 49.93,
+            "annual_median_wage": 103850,
+            "annual_10th_percentile_wage": 59240,
+            "annual_25th_percentile_wage": 79340,
+            "annual_75th_percentile_wage": 133240,
+            "annual_90th_percentile_wage": 169970
+        },
+        "Software Developers": {
+            "employment": 54570,
+            "hourly_mean_wage": 64.89,
+            "annual_mean_wage": 134970,
+            "hourly_median_wage": 63.31,
+            "annual_median_wage": 131680,
+            "annual_10th_percentile_wage": 78110,
+            "annual_25th_percentile_wage": 102770,
+            "annual_75th_percentile_wage": 164150,
+            "annual_90th_percentile_wage": 191820
+        },
+        "Web Developers": {
+            "employment": 2400,
+            "hourly_mean_wage": 41.1,
+            "annual_mean_wage": 85490,
+            "hourly_median_wage": 38.26,
+            "annual_median_wage": 79590,
+            "annual_10th_percentile_wage": 29390,
+            "annual_25th_percentile_wage": 50980,
+            "annual_75th_percentile_wage": 109310,
+            "annual_90th_percentile_wage": 144700
+        },
+        "Data Scientists": {
+            "employment": 4340,
+            "hourly_mean_wage": 64.49,
+            "annual_mean_wage": 134140,
+            "hourly_median_wage": 62.77,
+            "annual_median_wage": 130570,
+            "annual_10th_percentile_wage": 73070,
+            "annual_25th_percentile_wage": 96120,
+            "annual_75th_percentile_wage": 166410,
+            "annual_90th_percentile_wage": 198310
+        }
+    },
+    {
+        "fips": "35",
+        "state": "New Mexico",
+        "Computer Systems Analysts": {
+            "employment": 2480,
+            "hourly_mean_wage": 46.1,
+            "annual_mean_wage": 95890,
+            "hourly_median_wage": 42.52,
+            "annual_median_wage": 88440,
+            "annual_10th_percentile_wage": 52620,
+            "annual_25th_percentile_wage": 68610,
+            "annual_75th_percentile_wage": 114560,
+            "annual_90th_percentile_wage": 149100
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1380,
+            "hourly_mean_wage": 39.04,
+            "annual_mean_wage": 81210,
+            "hourly_median_wage": 39.49,
+            "annual_median_wage": 82140,
+            "annual_10th_percentile_wage": 31430,
+            "annual_25th_percentile_wage": 64710,
+            "annual_75th_percentile_wage": 100630,
+            "annual_90th_percentile_wage": 106970
+        },
+        "Software Developers": {
+            "employment": 4270,
+            "hourly_mean_wage": 60.51,
+            "annual_mean_wage": 125860,
+            "hourly_median_wage": 60.84,
+            "annual_median_wage": 126560,
+            "annual_10th_percentile_wage": 70930,
+            "annual_25th_percentile_wage": 88620,
+            "annual_75th_percentile_wage": 162330,
+            "annual_90th_percentile_wage": 185130
+        },
+        "Web Developers": {
+            "employment": null,
+            "hourly_mean_wage": null,
+            "annual_mean_wage": null,
+            "hourly_median_wage": null,
+            "annual_median_wage": null,
+            "annual_10th_percentile_wage": null,
+            "annual_25th_percentile_wage": null,
+            "annual_75th_percentile_wage": null,
+            "annual_90th_percentile_wage": null
+        },
+        "Data Scientists": {
+            "employment": 380,
+            "hourly_mean_wage": 42.65,
+            "annual_mean_wage": 88720,
+            "hourly_median_wage": 41.84,
+            "annual_median_wage": 87020,
+            "annual_10th_percentile_wage": 51620,
+            "annual_25th_percentile_wage": 63620,
+            "annual_75th_percentile_wage": 101000,
+            "annual_90th_percentile_wage": 126090
+        }
+    },
+    {
+        "fips": "36",
+        "state": "New York",
+        "Computer Systems Analysts": {
+            "employment": 19760,
+            "hourly_mean_wage": 56.04,
+            "annual_mean_wage": 116560,
+            "hourly_median_wage": 51.69,
+            "annual_median_wage": 107510,
+            "annual_10th_percentile_wage": 65460,
+            "annual_25th_percentile_wage": 83130,
+            "annual_75th_percentile_wage": 137240,
+            "annual_90th_percentile_wage": 174570
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 20020,
+            "hourly_mean_wage": 52.57,
+            "annual_mean_wage": 109340,
+            "hourly_median_wage": 49.47,
+            "annual_median_wage": 102900,
+            "annual_10th_percentile_wage": 64890,
+            "annual_25th_percentile_wage": 80930,
+            "annual_75th_percentile_wage": 130000,
+            "annual_90th_percentile_wage": 162900
+        },
+        "Software Developers": {
+            "employment": 105460,
+            "hourly_mean_wage": 72.12,
+            "annual_mean_wage": 150020,
+            "hourly_median_wage": 69.94,
+            "annual_median_wage": 145470,
+            "annual_10th_percentile_wage": 81150,
+            "annual_25th_percentile_wage": 107110,
+            "annual_75th_percentile_wage": 176700,
+            "annual_90th_percentile_wage": 215730
+        },
+        "Web Developers": {
+            "employment": 5950,
+            "hourly_mean_wage": 45.36,
+            "annual_mean_wage": 94340,
+            "hourly_median_wage": 38.09,
+            "annual_median_wage": 79230,
+            "annual_10th_percentile_wage": 43850,
+            "annual_25th_percentile_wage": 57470,
+            "annual_75th_percentile_wage": 118550,
+            "annual_90th_percentile_wage": 167650
+        },
+        "Data Scientists": {
+            "employment": 16390,
+            "hourly_mean_wage": 64.82,
+            "annual_mean_wage": 134830,
+            "hourly_median_wage": 61.96,
+            "annual_median_wage": 128890,
+            "annual_10th_percentile_wage": 66870,
+            "annual_25th_percentile_wage": 86890,
+            "annual_75th_percentile_wage": 171970,
+            "annual_90th_percentile_wage": 212360
+        }
+    },
+    {
+        "fips": "37",
+        "state": "North Carolina",
+        "Computer Systems Analysts": {
+            "employment": 26220,
+            "hourly_mean_wage": 53.64,
+            "annual_mean_wage": 111580,
+            "hourly_median_wage": 50.85,
+            "annual_median_wage": 105770,
+            "annual_10th_percentile_wage": 63250,
+            "annual_25th_percentile_wage": 82170,
+            "annual_75th_percentile_wage": 133480,
+            "annual_90th_percentile_wage": 162830
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 10230,
+            "hourly_mean_wage": 48.11,
+            "annual_mean_wage": 100070,
+            "hourly_median_wage": 45.25,
+            "annual_median_wage": 94120,
+            "annual_10th_percentile_wage": 58020,
+            "annual_25th_percentile_wage": 72910,
+            "annual_75th_percentile_wage": 121280,
+            "annual_90th_percentile_wage": 157460
+        },
+        "Software Developers": {
+            "employment": 58620,
+            "hourly_mean_wage": 62.97,
+            "annual_mean_wage": 130970,
+            "hourly_median_wage": 62.8,
+            "annual_median_wage": 130620,
+            "annual_10th_percentile_wage": 79280,
+            "annual_25th_percentile_wage": 103050,
+            "annual_75th_percentile_wage": 154630,
+            "annual_90th_percentile_wage": 179570
+        },
+        "Web Developers": {
+            "employment": 1660,
+            "hourly_mean_wage": 39.48,
+            "annual_mean_wage": 82110,
+            "hourly_median_wage": 36.79,
+            "annual_median_wage": 76530,
+            "annual_10th_percentile_wage": 45390,
+            "annual_25th_percentile_wage": 55710,
+            "annual_75th_percentile_wage": 105510,
+            "annual_90th_percentile_wage": 126770
+        },
+        "Data Scientists": {
+            "employment": 6640,
+            "hourly_mean_wage": 60.55,
+            "annual_mean_wage": 125950,
+            "hourly_median_wage": 61.03,
+            "annual_median_wage": 126940,
+            "annual_10th_percentile_wage": 66220,
+            "annual_25th_percentile_wage": 94720,
+            "annual_75th_percentile_wage": 155460,
+            "annual_90th_percentile_wage": 180220
+        }
+    },
+    {
+        "fips": "38",
+        "state": "North Dakota",
+        "Computer Systems Analysts": {
+            "employment": 190,
+            "hourly_mean_wage": 48.4,
+            "annual_mean_wage": 100680,
+            "hourly_median_wage": 45.13,
+            "annual_median_wage": 93880,
+            "annual_10th_percentile_wage": 71540,
+            "annual_25th_percentile_wage": 79010,
+            "annual_75th_percentile_wage": 120110,
+            "annual_90th_percentile_wage": 142340
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 760,
+            "hourly_mean_wage": 39.68,
+            "annual_mean_wage": 82530,
+            "hourly_median_wage": 38.96,
+            "annual_median_wage": 81040,
+            "annual_10th_percentile_wage": 57740,
+            "annual_25th_percentile_wage": 65490,
+            "annual_75th_percentile_wage": 97520,
+            "annual_90th_percentile_wage": 111300
+        },
+        "Software Developers": {
+            "employment": 1840,
+            "hourly_mean_wage": 51.38,
+            "annual_mean_wage": 106870,
+            "hourly_median_wage": 48.55,
+            "annual_median_wage": 100980,
+            "annual_10th_percentile_wage": 62210,
+            "annual_25th_percentile_wage": 80780,
+            "annual_75th_percentile_wage": 122410,
+            "annual_90th_percentile_wage": 153520
+        },
+        "Web Developers": {
+            "employment": 160,
+            "hourly_mean_wage": 33.16,
+            "annual_mean_wage": 68970,
+            "hourly_median_wage": 30.56,
+            "annual_median_wage": 63560,
+            "annual_10th_percentile_wage": 42160,
+            "annual_25th_percentile_wage": 58250,
+            "annual_75th_percentile_wage": 72990,
+            "annual_90th_percentile_wage": 92590
+        },
+        "Data Scientists": {
+            "employment": 240,
+            "hourly_mean_wage": 49.24,
+            "annual_mean_wage": 102410,
+            "hourly_median_wage": 54.63,
+            "annual_median_wage": 113620,
+            "annual_10th_percentile_wage": 59300,
+            "annual_25th_percentile_wage": 80510,
+            "annual_75th_percentile_wage": 120000,
+            "annual_90th_percentile_wage": 126480
+        }
+    },
+    {
+        "fips": "39",
+        "state": "Ohio",
+        "Computer Systems Analysts": {
+            "employment": 16530,
+            "hourly_mean_wage": 47.72,
+            "annual_mean_wage": 99260,
+            "hourly_median_wage": 45.87,
+            "annual_median_wage": 95400,
+            "annual_10th_percentile_wage": 63670,
+            "annual_25th_percentile_wage": 74760,
+            "annual_75th_percentile_wage": 119870,
+            "annual_90th_percentile_wage": 143470
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 20280,
+            "hourly_mean_wage": 49.18,
+            "annual_mean_wage": 102290,
+            "hourly_median_wage": 46.47,
+            "annual_median_wage": 96660,
+            "annual_10th_percentile_wage": 58070,
+            "annual_25th_percentile_wage": 75190,
+            "annual_75th_percentile_wage": 126710,
+            "annual_90th_percentile_wage": 149720
+        },
+        "Software Developers": {
+            "employment": 42250,
+            "hourly_mean_wage": 54.14,
+            "annual_mean_wage": 112610,
+            "hourly_median_wage": 51.71,
+            "annual_median_wage": 107560,
+            "annual_10th_percentile_wage": 71250,
+            "annual_25th_percentile_wage": 84670,
+            "annual_75th_percentile_wage": 132790,
+            "annual_90th_percentile_wage": 159250
+        },
+        "Web Developers": {
+            "employment": 1580,
+            "hourly_mean_wage": 43.52,
+            "annual_mean_wage": 90530,
+            "hourly_median_wage": 39.98,
+            "annual_median_wage": 83160,
+            "annual_10th_percentile_wage": 50610,
+            "annual_25th_percentile_wage": 68740,
+            "annual_75th_percentile_wage": 112270,
+            "annual_90th_percentile_wage": 132360
+        },
+        "Data Scientists": {
+            "employment": 4660,
+            "hourly_mean_wage": 46.89,
+            "annual_mean_wage": 97530,
+            "hourly_median_wage": 46.67,
+            "annual_median_wage": 97070,
+            "annual_10th_percentile_wage": 52740,
+            "annual_25th_percentile_wage": 68790,
+            "annual_75th_percentile_wage": 123690,
+            "annual_90th_percentile_wage": 141990
+        }
+    },
+    {
+        "fips": "40",
+        "state": "Oklahoma",
+        "Computer Systems Analysts": {
+            "employment": 3320,
+            "hourly_mean_wage": 49.74,
+            "annual_mean_wage": 103460,
+            "hourly_median_wage": 47.88,
+            "annual_median_wage": 99590,
+            "annual_10th_percentile_wage": 55000,
+            "annual_25th_percentile_wage": 75950,
+            "annual_75th_percentile_wage": 132930,
+            "annual_90th_percentile_wage": 159990
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 2700,
+            "hourly_mean_wage": 44.21,
+            "annual_mean_wage": 91960,
+            "hourly_median_wage": 40.31,
+            "annual_median_wage": 83840,
+            "annual_10th_percentile_wage": 57250,
+            "annual_25th_percentile_wage": 69250,
+            "annual_75th_percentile_wage": 109620,
+            "annual_90th_percentile_wage": 137400
+        },
+        "Software Developers": {
+            "employment": 7670,
+            "hourly_mean_wage": 53.41,
+            "annual_mean_wage": 111100,
+            "hourly_median_wage": 50.02,
+            "annual_median_wage": 104030,
+            "annual_10th_percentile_wage": 60350,
+            "annual_25th_percentile_wage": 80280,
+            "annual_75th_percentile_wage": 139810,
+            "annual_90th_percentile_wage": 164330
+        },
+        "Web Developers": {
+            "employment": 400,
+            "hourly_mean_wage": 41.05,
+            "annual_mean_wage": 85380,
+            "hourly_median_wage": 37.34,
+            "annual_median_wage": 77660,
+            "annual_10th_percentile_wage": 43490,
+            "annual_25th_percentile_wage": 59050,
+            "annual_75th_percentile_wage": 105660,
+            "annual_90th_percentile_wage": 166260
+        },
+        "Data Scientists": {
+            "employment": 2130,
+            "hourly_mean_wage": 44.72,
+            "annual_mean_wage": 93020,
+            "hourly_median_wage": 40.29,
+            "annual_median_wage": 83810,
+            "annual_10th_percentile_wage": 52690,
+            "annual_25th_percentile_wage": 67660,
+            "annual_75th_percentile_wage": 116620,
+            "annual_90th_percentile_wage": 150230
+        }
+    },
+    {
+        "fips": "41",
+        "state": "Oregon",
+        "Computer Systems Analysts": {
+            "employment": 4760,
+            "hourly_mean_wage": 56.93,
+            "annual_mean_wage": 118410,
+            "hourly_median_wage": 54.32,
+            "annual_median_wage": 112990,
+            "annual_10th_percentile_wage": 80200,
+            "annual_25th_percentile_wage": 95450,
+            "annual_75th_percentile_wage": 131310,
+            "annual_90th_percentile_wage": 165040
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 4350,
+            "hourly_mean_wage": 49.66,
+            "annual_mean_wage": 103290,
+            "hourly_median_wage": 48.62,
+            "annual_median_wage": 101130,
+            "annual_10th_percentile_wage": 68760,
+            "annual_25th_percentile_wage": 82070,
+            "annual_75th_percentile_wage": 121650,
+            "annual_90th_percentile_wage": 138290
+        },
+        "Software Developers": {
+            "employment": 21650,
+            "hourly_mean_wage": 63.13,
+            "annual_mean_wage": 131310,
+            "hourly_median_wage": 62.5,
+            "annual_median_wage": 130000,
+            "annual_10th_percentile_wage": 78230,
+            "annual_25th_percentile_wage": 99980,
+            "annual_75th_percentile_wage": 160080,
+            "annual_90th_percentile_wage": 182170
+        },
+        "Web Developers": {
+            "employment": 1100,
+            "hourly_mean_wage": 35.87,
+            "annual_mean_wage": 74620,
+            "hourly_median_wage": 30.9,
+            "annual_median_wage": 64260,
+            "annual_10th_percentile_wage": 40590,
+            "annual_25th_percentile_wage": 54810,
+            "annual_75th_percentile_wage": 88650,
+            "annual_90th_percentile_wage": 120650
+        },
+        "Data Scientists": {
+            "employment": 2640,
+            "hourly_mean_wage": 59.85,
+            "annual_mean_wage": 124480,
+            "hourly_median_wage": 55.24,
+            "annual_median_wage": 114910,
+            "annual_10th_percentile_wage": 64850,
+            "annual_25th_percentile_wage": 83460,
+            "annual_75th_percentile_wage": 156870,
+            "annual_90th_percentile_wage": 184090
+        }
+    },
+    {
+        "fips": "42",
+        "state": "Pennsylvania",
+        "Computer Systems Analysts": {
+            "employment": 19630,
+            "hourly_mean_wage": 44.73,
+            "annual_mean_wage": 93040,
+            "hourly_median_wage": 40.13,
+            "annual_median_wage": 83460,
+            "annual_10th_percentile_wage": 59230,
+            "annual_25th_percentile_wage": 70810,
+            "annual_75th_percentile_wage": 109050,
+            "annual_90th_percentile_wage": 139300
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 9220,
+            "hourly_mean_wage": 47.94,
+            "annual_mean_wage": 99710,
+            "hourly_median_wage": 41.6,
+            "annual_median_wage": 86530,
+            "annual_10th_percentile_wage": 54140,
+            "annual_25th_percentile_wage": 68130,
+            "annual_75th_percentile_wage": 106390,
+            "annual_90th_percentile_wage": 134770
+        },
+        "Software Developers": {
+            "employment": 41300,
+            "hourly_mean_wage": 56.3,
+            "annual_mean_wage": 117110,
+            "hourly_median_wage": 53.8,
+            "annual_median_wage": 111910,
+            "annual_10th_percentile_wage": 72010,
+            "annual_25th_percentile_wage": 88090,
+            "annual_75th_percentile_wage": 135100,
+            "annual_90th_percentile_wage": 166120
+        },
+        "Web Developers": {
+            "employment": 2690,
+            "hourly_mean_wage": 49.78,
+            "annual_mean_wage": 103540,
+            "hourly_median_wage": 41.95,
+            "annual_median_wage": 87260,
+            "annual_10th_percentile_wage": 48190,
+            "annual_25th_percentile_wage": 59830,
+            "annual_75th_percentile_wage": 119430,
+            "annual_90th_percentile_wage": 221040
+        },
+        "Data Scientists": {
+            "employment": 7490,
+            "hourly_mean_wage": 49.22,
+            "annual_mean_wage": 102370,
+            "hourly_median_wage": 46.76,
+            "annual_median_wage": 97260,
+            "annual_10th_percentile_wage": 52780,
+            "annual_25th_percentile_wage": 70150,
+            "annual_75th_percentile_wage": 127440,
+            "annual_90th_percentile_wage": 160270
+        }
+    },
+    {
+        "fips": "44",
+        "state": "Rhode Island",
+        "Computer Systems Analysts": {
+            "employment": 1590,
+            "hourly_mean_wage": 54.56,
+            "annual_mean_wage": 113490,
+            "hourly_median_wage": 51.51,
+            "annual_median_wage": 107140,
+            "annual_10th_percentile_wage": 73080,
+            "annual_25th_percentile_wage": 82600,
+            "annual_75th_percentile_wage": 134630,
+            "annual_90th_percentile_wage": 164220
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1420,
+            "hourly_mean_wage": 53.95,
+            "annual_mean_wage": 112220,
+            "hourly_median_wage": 51.75,
+            "annual_median_wage": 107640,
+            "annual_10th_percentile_wage": 74790,
+            "annual_25th_percentile_wage": 86950,
+            "annual_75th_percentile_wage": 131340,
+            "annual_90th_percentile_wage": 157500
+        },
+        "Software Developers": {
+            "employment": 5460,
+            "hourly_mean_wage": 64.92,
+            "annual_mean_wage": 135030,
+            "hourly_median_wage": 62.02,
+            "annual_median_wage": 128990,
+            "annual_10th_percentile_wage": 81460,
+            "annual_25th_percentile_wage": 104310,
+            "annual_75th_percentile_wage": 159120,
+            "annual_90th_percentile_wage": 200990
+        },
+        "Web Developers": {
+            "employment": 620,
+            "hourly_mean_wage": 35.94,
+            "annual_mean_wage": 74750,
+            "hourly_median_wage": 38.43,
+            "annual_median_wage": 79940,
+            "annual_10th_percentile_wage": 37240,
+            "annual_25th_percentile_wage": 37270,
+            "annual_75th_percentile_wage": 97230,
+            "annual_90th_percentile_wage": 120730
+        },
+        "Data Scientists": {
+            "employment": 900,
+            "hourly_mean_wage": 61.24,
+            "annual_mean_wage": 127380,
+            "hourly_median_wage": 61.71,
+            "annual_median_wage": 128350,
+            "annual_10th_percentile_wage": 75570,
+            "annual_25th_percentile_wage": 97250,
+            "annual_75th_percentile_wage": 155310,
+            "annual_90th_percentile_wage": 176820
+        }
+    },
+    {
+        "fips": "45",
+        "state": "South Carolina",
+        "Computer Systems Analysts": {
+            "employment": 7720,
+            "hourly_mean_wage": 49.17,
+            "annual_mean_wage": 102270,
+            "hourly_median_wage": 44.71,
+            "annual_median_wage": 92990,
+            "annual_10th_percentile_wage": 54000,
+            "annual_25th_percentile_wage": 72720,
+            "annual_75th_percentile_wage": 118460,
+            "annual_90th_percentile_wage": 159580
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 3700,
+            "hourly_mean_wage": 44.29,
+            "annual_mean_wage": 92110,
+            "hourly_median_wage": 42.19,
+            "annual_median_wage": 87760,
+            "annual_10th_percentile_wage": 60490,
+            "annual_25th_percentile_wage": 70970,
+            "annual_75th_percentile_wage": 106640,
+            "annual_90th_percentile_wage": 133050
+        },
+        "Software Developers": {
+            "employment": 11810,
+            "hourly_mean_wage": 56.15,
+            "annual_mean_wage": 116790,
+            "hourly_median_wage": 53.43,
+            "annual_median_wage": 111130,
+            "annual_10th_percentile_wage": 62870,
+            "annual_25th_percentile_wage": 82530,
+            "annual_75th_percentile_wage": 140380,
+            "annual_90th_percentile_wage": 182350
+        },
+        "Web Developers": {
+            "employment": 1060,
+            "hourly_mean_wage": 43.59,
+            "annual_mean_wage": 90670,
+            "hourly_median_wage": 42.52,
+            "annual_median_wage": 88450,
+            "annual_10th_percentile_wage": 50730,
+            "annual_25th_percentile_wage": 65290,
+            "annual_75th_percentile_wage": 111740,
+            "annual_90th_percentile_wage": 139100
+        },
+        "Data Scientists": {
+            "employment": 2090,
+            "hourly_mean_wage": 48.46,
+            "annual_mean_wage": 100790,
+            "hourly_median_wage": 45.82,
+            "annual_median_wage": 95310,
+            "annual_10th_percentile_wage": 60600,
+            "annual_25th_percentile_wage": 74510,
+            "annual_75th_percentile_wage": 119500,
+            "annual_90th_percentile_wage": 152830
+        }
+    },
+    {
+        "fips": "46",
+        "state": "South Dakota",
+        "Computer Systems Analysts": {
+            "employment": 1010,
+            "hourly_mean_wage": 47.77,
+            "annual_mean_wage": 99350,
+            "hourly_median_wage": 44.37,
+            "annual_median_wage": 92290,
+            "annual_10th_percentile_wage": 66020,
+            "annual_25th_percentile_wage": 78090,
+            "annual_75th_percentile_wage": 115690,
+            "annual_90th_percentile_wage": 146200
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1890,
+            "hourly_mean_wage": 34.61,
+            "annual_mean_wage": 71980,
+            "hourly_median_wage": 32.11,
+            "annual_median_wage": 66790,
+            "annual_10th_percentile_wage": 50770,
+            "annual_25th_percentile_wage": 59370,
+            "annual_75th_percentile_wage": 82940,
+            "annual_90th_percentile_wage": 98700
+        },
+        "Software Developers": {
+            "employment": 2240,
+            "hourly_mean_wage": 45.44,
+            "annual_mean_wage": 94500,
+            "hourly_median_wage": 39.83,
+            "annual_median_wage": 82850,
+            "annual_10th_percentile_wage": 52400,
+            "annual_25th_percentile_wage": 65870,
+            "annual_75th_percentile_wage": 105520,
+            "annual_90th_percentile_wage": 162690
+        },
+        "Web Developers": {
+            "employment": 400,
+            "hourly_mean_wage": 25.37,
+            "annual_mean_wage": 52770,
+            "hourly_median_wage": 24.41,
+            "annual_median_wage": 50770,
+            "annual_10th_percentile_wage": 39530,
+            "annual_25th_percentile_wage": 46540,
+            "annual_75th_percentile_wage": 52460,
+            "annual_90th_percentile_wage": 67090
+        },
+        "Data Scientists": {
+            "employment": 150,
+            "hourly_mean_wage": 47.09,
+            "annual_mean_wage": 97940,
+            "hourly_median_wage": 43.97,
+            "annual_median_wage": 91460,
+            "annual_10th_percentile_wage": 64160,
+            "annual_25th_percentile_wage": 83930,
+            "annual_75th_percentile_wage": 114030,
+            "annual_90th_percentile_wage": 133970
+        }
+    },
+    {
+        "fips": "47",
+        "state": "Tennessee",
+        "Computer Systems Analysts": {
+            "employment": 8460,
+            "hourly_mean_wage": 47.42,
+            "annual_mean_wage": 98630,
+            "hourly_median_wage": 45.43,
+            "annual_median_wage": 94490,
+            "annual_10th_percentile_wage": 57970,
+            "annual_25th_percentile_wage": 74670,
+            "annual_75th_percentile_wage": 121020,
+            "annual_90th_percentile_wage": 148820
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 4900,
+            "hourly_mean_wage": 42.95,
+            "annual_mean_wage": 89340,
+            "hourly_median_wage": 39.17,
+            "annual_median_wage": 81470,
+            "annual_10th_percentile_wage": 50000,
+            "annual_25th_percentile_wage": 63980,
+            "annual_75th_percentile_wage": 108180,
+            "annual_90th_percentile_wage": 142460
+        },
+        "Software Developers": {
+            "employment": 16560,
+            "hourly_mean_wage": 54.53,
+            "annual_mean_wage": 113410,
+            "hourly_median_wage": 53.2,
+            "annual_median_wage": 110660,
+            "annual_10th_percentile_wage": 67650,
+            "annual_25th_percentile_wage": 90160,
+            "annual_75th_percentile_wage": 130910,
+            "annual_90th_percentile_wage": 157480
+        },
+        "Web Developers": {
+            "employment": 1580,
+            "hourly_mean_wage": 39.39,
+            "annual_mean_wage": 81940,
+            "hourly_median_wage": 37.02,
+            "annual_median_wage": 77010,
+            "annual_10th_percentile_wage": 45480,
+            "annual_25th_percentile_wage": 60070,
+            "annual_75th_percentile_wage": 98470,
+            "annual_90th_percentile_wage": 135580
+        },
+        "Data Scientists": {
+            "employment": 2090,
+            "hourly_mean_wage": 46.97,
+            "annual_mean_wage": 97710,
+            "hourly_median_wage": 44.42,
+            "annual_median_wage": 92400,
+            "annual_10th_percentile_wage": 35520,
+            "annual_25th_percentile_wage": 60300,
+            "annual_75th_percentile_wage": 124990,
+            "annual_90th_percentile_wage": 148580
+        }
+    },
+    {
+        "fips": "48",
+        "state": "Texas",
+        "Computer Systems Analysts": {
+            "employment": 50680,
+            "hourly_mean_wage": 55.41,
+            "annual_mean_wage": 115240,
+            "hourly_median_wage": 51.54,
+            "annual_median_wage": 107200,
+            "annual_10th_percentile_wage": 64320,
+            "annual_25th_percentile_wage": 81610,
+            "annual_75th_percentile_wage": 136490,
+            "annual_90th_percentile_wage": 169320
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 33700,
+            "hourly_mean_wage": 46.82,
+            "annual_mean_wage": 97380,
+            "hourly_median_wage": 44.41,
+            "annual_median_wage": 92360,
+            "annual_10th_percentile_wage": 57260,
+            "annual_25th_percentile_wage": 72260,
+            "annual_75th_percentile_wage": 121410,
+            "annual_90th_percentile_wage": 146120
+        },
+        "Software Developers": {
+            "employment": 138510,
+            "hourly_mean_wage": 60.52,
+            "annual_mean_wage": 125890,
+            "hourly_median_wage": 61.06,
+            "annual_median_wage": 127000,
+            "annual_10th_percentile_wage": 72210,
+            "annual_25th_percentile_wage": 97830,
+            "annual_75th_percentile_wage": 155160,
+            "annual_90th_percentile_wage": 173360
+        },
+        "Web Developers": {
+            "employment": 6130,
+            "hourly_mean_wage": 47.16,
+            "annual_mean_wage": 98090,
+            "hourly_median_wage": 44.8,
+            "annual_median_wage": 93180,
+            "annual_10th_percentile_wage": 49390,
+            "annual_25th_percentile_wage": 64140,
+            "annual_75th_percentile_wage": 130510,
+            "annual_90th_percentile_wage": 157270
+        },
+        "Data Scientists": {
+            "employment": 20560,
+            "hourly_mean_wage": 52.4,
+            "annual_mean_wage": 109000,
+            "hourly_median_wage": 48.12,
+            "annual_median_wage": 100100,
+            "annual_10th_percentile_wage": 51550,
+            "annual_25th_percentile_wage": 76060,
+            "annual_75th_percentile_wage": 135310,
+            "annual_90th_percentile_wage": 167160
+        }
+    },
+    {
+        "fips": "49",
+        "state": "Utah",
+        "Computer Systems Analysts": {
+            "employment": 2960,
+            "hourly_mean_wage": 46.64,
+            "annual_mean_wage": 97020,
+            "hourly_median_wage": 43.58,
+            "annual_median_wage": 90650,
+            "annual_10th_percentile_wage": 61480,
+            "annual_25th_percentile_wage": 76460,
+            "annual_75th_percentile_wage": 112240,
+            "annual_90th_percentile_wage": 134620
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 2770,
+            "hourly_mean_wage": 48.69,
+            "annual_mean_wage": 101270,
+            "hourly_median_wage": 42.01,
+            "annual_median_wage": 87370,
+            "annual_10th_percentile_wage": 48980,
+            "annual_25th_percentile_wage": 69200,
+            "annual_75th_percentile_wage": 112300,
+            "annual_90th_percentile_wage": 139280
+        },
+        "Software Developers": {
+            "employment": 25930,
+            "hourly_mean_wage": 58.3,
+            "annual_mean_wage": 121260,
+            "hourly_median_wage": 56.17,
+            "annual_median_wage": 116830,
+            "annual_10th_percentile_wage": 65330,
+            "annual_25th_percentile_wage": 86280,
+            "annual_75th_percentile_wage": 143470,
+            "annual_90th_percentile_wage": 172230
+        },
+        "Web Developers": {
+            "employment": 1580,
+            "hourly_mean_wage": 36.16,
+            "annual_mean_wage": 75200,
+            "hourly_median_wage": 32.08,
+            "annual_median_wage": 66720,
+            "annual_10th_percentile_wage": 34880,
+            "annual_25th_percentile_wage": 46630,
+            "annual_75th_percentile_wage": 100160,
+            "annual_90th_percentile_wage": 118500
+        },
+        "Data Scientists": {
+            "employment": 3530,
+            "hourly_mean_wage": 48.93,
+            "annual_mean_wage": 101780,
+            "hourly_median_wage": 46.87,
+            "annual_median_wage": 97490,
+            "annual_10th_percentile_wage": 51740,
+            "annual_25th_percentile_wage": 69180,
+            "annual_75th_percentile_wage": 127600,
+            "annual_90th_percentile_wage": 164580
+        }
+    },
+    {
+        "fips": "50",
+        "state": "Vermont",
+        "Computer Systems Analysts": {
+            "employment": null,
+            "hourly_mean_wage": null,
+            "annual_mean_wage": null,
+            "hourly_median_wage": null,
+            "annual_median_wage": null,
+            "annual_10th_percentile_wage": null,
+            "annual_25th_percentile_wage": null,
+            "annual_75th_percentile_wage": null,
+            "annual_90th_percentile_wage": null
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 440,
+            "hourly_mean_wage": 42.66,
+            "annual_mean_wage": 88730,
+            "hourly_median_wage": 41.35,
+            "annual_median_wage": 86010,
+            "annual_10th_percentile_wage": 60720,
+            "annual_25th_percentile_wage": 72110,
+            "annual_75th_percentile_wage": 99280,
+            "annual_90th_percentile_wage": 132370
+        },
+        "Software Developers": {
+            "employment": 1710,
+            "hourly_mean_wage": 57.71,
+            "annual_mean_wage": 120030,
+            "hourly_median_wage": 54.14,
+            "annual_median_wage": 112620,
+            "annual_10th_percentile_wage": 71040,
+            "annual_25th_percentile_wage": 89150,
+            "annual_75th_percentile_wage": 130000,
+            "annual_90th_percentile_wage": 197570
+        },
+        "Web Developers": {
+            "employment": 190,
+            "hourly_mean_wage": 40.13,
+            "annual_mean_wage": 83470,
+            "hourly_median_wage": 38,
+            "annual_median_wage": 79030,
+            "annual_10th_percentile_wage": 46830,
+            "annual_25th_percentile_wage": 72710,
+            "annual_75th_percentile_wage": 104000,
+            "annual_90th_percentile_wage": 107210
+        },
+        "Data Scientists": {
+            "employment": 220,
+            "hourly_mean_wage": 59.82,
+            "annual_mean_wage": 124430,
+            "hourly_median_wage": 56.49,
+            "annual_median_wage": 117500,
+            "annual_10th_percentile_wage": 74890,
+            "annual_25th_percentile_wage": 80100,
+            "annual_75th_percentile_wage": 149030,
+            "annual_90th_percentile_wage": 201190
+        }
+    },
+    {
+        "fips": "51",
+        "state": "Virginia",
+        "Computer Systems Analysts": {
+            "employment": 23830,
+            "hourly_mean_wage": 55.68,
+            "annual_mean_wage": 115820,
+            "hourly_median_wage": 52.09,
+            "annual_median_wage": 108350,
+            "annual_10th_percentile_wage": 66630,
+            "annual_25th_percentile_wage": 83650,
+            "annual_75th_percentile_wage": 136820,
+            "annual_90th_percentile_wage": 168680
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 15040,
+            "hourly_mean_wage": 52.16,
+            "annual_mean_wage": 108490,
+            "hourly_median_wage": 49.53,
+            "annual_median_wage": 103030,
+            "annual_10th_percentile_wage": 61640,
+            "annual_25th_percentile_wage": 78150,
+            "annual_75th_percentile_wage": 131600,
+            "annual_90th_percentile_wage": 164120
+        },
+        "Software Developers": {
+            "employment": 86680,
+            "hourly_mean_wage": 67.27,
+            "annual_mean_wage": 139920,
+            "hourly_median_wage": 64.92,
+            "annual_median_wage": 135040,
+            "annual_10th_percentile_wage": 79360,
+            "annual_25th_percentile_wage": 104790,
+            "annual_75th_percentile_wage": 168850,
+            "annual_90th_percentile_wage": 205820
+        },
+        "Web Developers": {
+            "employment": 4640,
+            "hourly_mean_wage": 54.13,
+            "annual_mean_wage": 112590,
+            "hourly_median_wage": 50.88,
+            "annual_median_wage": 105830,
+            "annual_10th_percentile_wage": 65970,
+            "annual_25th_percentile_wage": 88250,
+            "annual_75th_percentile_wage": 132570,
+            "annual_90th_percentile_wage": 162820
+        },
+        "Data Scientists": {
+            "employment": 4810,
+            "hourly_mean_wage": 66.87,
+            "annual_mean_wage": 139080,
+            "hourly_median_wage": 65.62,
+            "annual_median_wage": 136490,
+            "annual_10th_percentile_wage": 74980,
+            "annual_25th_percentile_wage": 100680,
+            "annual_75th_percentile_wage": 177460,
+            "annual_90th_percentile_wage": 211250
+        }
+    },
+    {
+        "fips": "53",
+        "state": "Washington",
+        "Computer Systems Analysts": {
+            "employment": 20060,
+            "hourly_mean_wage": 63.83,
+            "annual_mean_wage": 132760,
+            "hourly_median_wage": 61.88,
+            "annual_median_wage": 128710,
+            "annual_10th_percentile_wage": 79340,
+            "annual_25th_percentile_wage": 97490,
+            "annual_75th_percentile_wage": 161100,
+            "annual_90th_percentile_wage": 197950
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 7540,
+            "hourly_mean_wage": 53.05,
+            "annual_mean_wage": 110340,
+            "hourly_median_wage": 50.03,
+            "annual_median_wage": 104060,
+            "annual_10th_percentile_wage": 74310,
+            "annual_25th_percentile_wage": 84620,
+            "annual_75th_percentile_wage": 128870,
+            "annual_90th_percentile_wage": 156190
+        },
+        "Software Developers": {
+            "employment": 89110,
+            "hourly_mean_wage": 76.92,
+            "annual_mean_wage": 159990,
+            "hourly_median_wage": 78.07,
+            "annual_median_wage": 162390,
+            "annual_10th_percentile_wage": 96890,
+            "annual_25th_percentile_wage": 130350,
+            "annual_75th_percentile_wage": 196260,
+            "annual_90th_percentile_wage": 219280
+        },
+        "Web Developers": {
+            "employment": 4820,
+            "hourly_mean_wage": 58.13,
+            "annual_mean_wage": 120910,
+            "hourly_median_wage": 52.12,
+            "annual_median_wage": 108410,
+            "annual_10th_percentile_wage": 62400,
+            "annual_25th_percentile_wage": 78200,
+            "annual_75th_percentile_wage": 159000,
+            "annual_90th_percentile_wage": 206120
+        },
+        "Data Scientists": {
+            "employment": 5640,
+            "hourly_mean_wage": 71.5,
+            "annual_mean_wage": 148730,
+            "hourly_median_wage": 63.76,
+            "annual_median_wage": 132620,
+            "annual_10th_percentile_wage": 76940,
+            "annual_25th_percentile_wage": 98590,
+            "annual_75th_percentile_wage": 176080,
+            "annual_90th_percentile_wage": 225920
+        }
+    },
+    {
+        "fips": "54",
+        "state": "West Virginia",
+        "Computer Systems Analysts": {
+            "employment": 1190,
+            "hourly_mean_wage": 46.84,
+            "annual_mean_wage": 97420,
+            "hourly_median_wage": 47.16,
+            "annual_median_wage": 98090,
+            "annual_10th_percentile_wage": 50610,
+            "annual_25th_percentile_wage": 65780,
+            "annual_75th_percentile_wage": 112670,
+            "annual_90th_percentile_wage": 170600
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1270,
+            "hourly_mean_wage": 37.88,
+            "annual_mean_wage": 78790,
+            "hourly_median_wage": 32.44,
+            "annual_median_wage": 67480,
+            "annual_10th_percentile_wage": 45910,
+            "annual_25th_percentile_wage": 53930,
+            "annual_75th_percentile_wage": 91080,
+            "annual_90th_percentile_wage": 110640
+        },
+        "Software Developers": {
+            "employment": 1890,
+            "hourly_mean_wage": 45.23,
+            "annual_mean_wage": 94080,
+            "hourly_median_wage": 39.13,
+            "annual_median_wage": 81380,
+            "annual_10th_percentile_wage": 59290,
+            "annual_25th_percentile_wage": 66720,
+            "annual_75th_percentile_wage": 110990,
+            "annual_90th_percentile_wage": 142000
+        },
+        "Web Developers": {
+            "employment": 300,
+            "hourly_mean_wage": 40.18,
+            "annual_mean_wage": 83570,
+            "hourly_median_wage": 32.4,
+            "annual_median_wage": 67390,
+            "annual_10th_percentile_wage": 56060,
+            "annual_25th_percentile_wage": 67390,
+            "annual_75th_percentile_wage": 86390,
+            "annual_90th_percentile_wage": 124230
+        },
+        "Data Scientists": {
+            "employment": 180,
+            "hourly_mean_wage": 45.35,
+            "annual_mean_wage": 94330,
+            "hourly_median_wage": 32.53,
+            "annual_median_wage": 67660,
+            "annual_10th_percentile_wage": 45020,
+            "annual_25th_percentile_wage": 45930,
+            "annual_75th_percentile_wage": 99560,
+            "annual_90th_percentile_wage": 185190
+        }
+    },
+    {
+        "fips": "55",
+        "state": "Wisconsin",
+        "Computer Systems Analysts": {
+            "employment": 8460,
+            "hourly_mean_wage": 46.26,
+            "annual_mean_wage": 96220,
+            "hourly_median_wage": 43.26,
+            "annual_median_wage": 89980,
+            "annual_10th_percentile_wage": 61840,
+            "annual_25th_percentile_wage": 75870,
+            "annual_75th_percentile_wage": 108090,
+            "annual_90th_percentile_wage": 137150
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 8250,
+            "hourly_mean_wage": 44.07,
+            "annual_mean_wage": 91660,
+            "hourly_median_wage": 41.42,
+            "annual_median_wage": 86160,
+            "annual_10th_percentile_wage": 55910,
+            "annual_25th_percentile_wage": 67740,
+            "annual_75th_percentile_wage": 107510,
+            "annual_90th_percentile_wage": 134130
+        },
+        "Software Developers": {
+            "employment": 21800,
+            "hourly_mean_wage": 51.69,
+            "annual_mean_wage": 107500,
+            "hourly_median_wage": 49.36,
+            "annual_median_wage": 102660,
+            "annual_10th_percentile_wage": 60840,
+            "annual_25th_percentile_wage": 81540,
+            "annual_75th_percentile_wage": 127500,
+            "annual_90th_percentile_wage": 157650
+        },
+        "Web Developers": {
+            "employment": 2880,
+            "hourly_mean_wage": 33.74,
+            "annual_mean_wage": 70170,
+            "hourly_median_wage": 32.24,
+            "annual_median_wage": 67060,
+            "annual_10th_percentile_wage": 43320,
+            "annual_25th_percentile_wage": 50770,
+            "annual_75th_percentile_wage": 86100,
+            "annual_90th_percentile_wage": 101900
+        },
+        "Data Scientists": {
+            "employment": 3090,
+            "hourly_mean_wage": 50.6,
+            "annual_mean_wage": 105250,
+            "hourly_median_wage": 48.96,
+            "annual_median_wage": 101850,
+            "annual_10th_percentile_wage": 67540,
+            "annual_25th_percentile_wage": 82280,
+            "annual_75th_percentile_wage": 125050,
+            "annual_90th_percentile_wage": 140980
+        }
+    },
+    {
+        "fips": "56",
+        "state": "Wyoming",
+        "Computer Systems Analysts": {
+            "employment": 240,
+            "hourly_mean_wage": 53.53,
+            "annual_mean_wage": 111340,
+            "hourly_median_wage": 51.22,
+            "annual_median_wage": 106540,
+            "annual_10th_percentile_wage": 43740,
+            "annual_25th_percentile_wage": 63690,
+            "annual_75th_percentile_wage": 144750,
+            "annual_90th_percentile_wage": 198190
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 580,
+            "hourly_mean_wage": 38.19,
+            "annual_mean_wage": 79430,
+            "hourly_median_wage": 35.92,
+            "annual_median_wage": 74700,
+            "annual_10th_percentile_wage": 49330,
+            "annual_25th_percentile_wage": 60350,
+            "annual_75th_percentile_wage": 92190,
+            "annual_90th_percentile_wage": 115880
+        },
+        "Software Developers": {
+            "employment": 670,
+            "hourly_mean_wage": 61.44,
+            "annual_mean_wage": 127790,
+            "hourly_median_wage": 66.28,
+            "annual_median_wage": 137860,
+            "annual_10th_percentile_wage": 70910,
+            "annual_25th_percentile_wage": 91820,
+            "annual_75th_percentile_wage": 147910,
+            "annual_90th_percentile_wage": 161200
+        },
+        "Web Developers": {
+            "employment": 40,
+            "hourly_mean_wage": 31.04,
+            "annual_mean_wage": 64560,
+            "hourly_median_wage": 30.24,
+            "annual_median_wage": 62890,
+            "annual_10th_percentile_wage": 50140,
+            "annual_25th_percentile_wage": 54810,
+            "annual_75th_percentile_wage": 71910,
+            "annual_90th_percentile_wage": 89330
+        },
+        "Data Scientists": {
+            "employment": "**",
+            "hourly_mean_wage": 60.25,
+            "annual_mean_wage": 125330,
+            "hourly_median_wage": 62.68,
+            "annual_median_wage": 130370,
+            "annual_10th_percentile_wage": 72050,
+            "annual_25th_percentile_wage": 113640,
+            "annual_75th_percentile_wage": 150900,
+            "annual_90th_percentile_wage": 151880
+        }
+    },
+    {
+        "fips": "72",
+        "state": "Puerto Rico",
+        "Computer Systems Analysts": {
+            "employment": 1330,
+            "hourly_mean_wage": 29.02,
+            "annual_mean_wage": 60360,
+            "hourly_median_wage": 29.01,
+            "annual_median_wage": 60350,
+            "annual_10th_percentile_wage": 34650,
+            "annual_25th_percentile_wage": 45210,
+            "annual_75th_percentile_wage": 76270,
+            "annual_90th_percentile_wage": 82510
+        },
+        "Network and Computer Systems Administrators": {
+            "employment": 1040,
+            "hourly_mean_wage": 27.35,
+            "annual_mean_wage": 56890,
+            "hourly_median_wage": 26.26,
+            "annual_median_wage": 54620,
+            "annual_10th_percentile_wage": 35160,
+            "annual_25th_percentile_wage": 39500,
+            "annual_75th_percentile_wage": 65690,
+            "annual_90th_percentile_wage": 85990
+        },
+        "Software Developers": {
+            "employment": 1440,
+            "hourly_mean_wage": 29.31,
+            "annual_mean_wage": 60960,
+            "hourly_median_wage": 29.34,
+            "annual_median_wage": 61030,
+            "annual_10th_percentile_wage": 26860,
+            "annual_25th_percentile_wage": 38250,
+            "annual_75th_percentile_wage": 80900,
+            "annual_90th_percentile_wage": 95400
+        },
+        "Web Developers": {
+            "employment": 260,
+            "hourly_mean_wage": 25.97,
+            "annual_mean_wage": 54010,
+            "hourly_median_wage": 23.16,
+            "annual_median_wage": 48160,
+            "annual_10th_percentile_wage": 25210,
+            "annual_25th_percentile_wage": 38620,
+            "annual_75th_percentile_wage": 66910,
+            "annual_90th_percentile_wage": 83840
+        },
+        "Data Scientists": {
+            "employment": 90,
+            "hourly_mean_wage": 34.65,
+            "annual_mean_wage": 72070,
+            "hourly_median_wage": 36.48,
+            "annual_median_wage": 75880,
+            "annual_10th_percentile_wage": 42330,
+            "annual_25th_percentile_wage": 58100,
+            "annual_75th_percentile_wage": 82710,
+            "annual_90th_percentile_wage": 84040
+        }
+    }
+]

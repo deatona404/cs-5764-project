@@ -32,10 +32,8 @@ function BarSet(props) {
             setIsInitialized(true);
             init(props.data, svgRef);
         }
-        else{
+        else {
             init(props.data, svgRef);
-        //   setSelected("North Carolina") // for testing
-              // console.log(data); // ensure this updates
         }
     
       }, [isInitialized, props.data]);
@@ -89,6 +87,8 @@ function BarSet(props) {
         svg.attr("preserveAspectRatio", "xMinYMin meet")
             .attr("viewBox", "0 0 960 500")
 
+        console.log("ddawdata !!", data)
+
         let barSpacing = 70
         let barX = 380
         let barHeight = 35
@@ -113,7 +113,7 @@ function BarSet(props) {
 
         svg.append("g").attr("id", "bars")
         for (let i = 0; i < data.length; i++) {
-            let annualMeanWage = data[i].annualmeanwage
+            let annualMeanWage = data[i].annual_mean_wage
             
             if (!annualMeanWage) {
                 svg.append("text")
@@ -125,9 +125,10 @@ function BarSet(props) {
                 .text("No data");
                 continue;
             }
-            let datai_text = "$ " + annualMeanWage.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            let text = "$ " + annualMeanWage.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let width = annualMeanWage / props.max
-
+            
+            // bar background
             svg.append("rect")
                 .attr("id", "bar-" + "0")
                 .attr("x", barX)
@@ -136,6 +137,7 @@ function BarSet(props) {
                 .attr("height", barHeight)
                 .style("fill", "#282e32")
 
+            // bar fill
             svg.append("rect")
                 .attr("id", "bar-" + "0")
                 .attr("x", barX)
@@ -150,7 +152,7 @@ function BarSet(props) {
             .style("font-size", "24px")
             .style("font-weight", "bold")
             .style("fill", "#a1d99b")
-            .text(datai_text);
+            .text(text);
         }
 
         // then, we grab the container and start populating the layout and svg
