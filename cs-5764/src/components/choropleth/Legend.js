@@ -4,7 +4,7 @@ import './Legend.css'
 function Legend(props) {
     return (
         <div className='legend'>
-            <p className='legend_title'>Average Annual Salary</p>
+            <p className='legend_title'>Median Annual Salary</p>
             {props.range.map((color, index) => (
                 <div key={index}className="legend_entry">
                     <div className='legend_color' style={{backgroundColor: color}}></div>
