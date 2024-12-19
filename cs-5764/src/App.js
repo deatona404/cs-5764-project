@@ -10,7 +10,8 @@ import dataset from './data/compensation/states/state_M2023_dl.json'
 import SetJobBar from './components/choropleth/SetJobBar';
 const DEFAULT_YEAR = 2023
 const DEFAULT_OCCUPATION = "Software Developers"
-const DEFAULT_METRIC = "annual_mean_wage"
+// const DEFAULT_METRIC = "annual_mean_wage"
+const DEFAULT_METRIC = "annual_median_wage"
 
 const DEFAULT_SELECTED = "United States"
 
@@ -66,7 +67,6 @@ function App() {
           />
         </div>
       </div>
-
     </div>
   );
 }

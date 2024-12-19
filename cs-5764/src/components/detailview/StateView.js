@@ -9,15 +9,12 @@ function StateView(props) {
     let stateData = {}
     const [data, setData] = useState({});
 
-    
-
     useEffect(() => { // load on first run
         if (!isInitialized) {
             setIsInitialized(true);
             stateData = props.data.find((obj) => obj.state === props.selected)
         }
         else {
-            console.log("stateview data", props.data)
             stateData = props.data.find((obj) => obj.state === props.selected)
             let result = []
 
@@ -31,9 +28,6 @@ function StateView(props) {
                 }
             }
 
-            console.log("result !!!!!!!", result)
-
-            // result.sort((a, b) => b.annualmeanwage - a.annualmeanwage) // uncomment to sort descending
             setData(result)
         }
     
@@ -45,9 +39,10 @@ function StateView(props) {
             <h1>{props.selected}</h1>
             
             <BarSet
-                title="Pay by title"
+                title="Median Annual Salary by Title"
                 data = {data}
-                max = {173780} // FIXME: un-hardcode that number there, its cali max salary
+                // max = {173780} // FIXME: un-hardcode that number there, its cali max mean salary
+                max = {209910} // FIXME: un-hardcode that number there, its cali max 75th percentile salary
             />
         </div>
     )

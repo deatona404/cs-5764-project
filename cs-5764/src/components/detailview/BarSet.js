@@ -87,12 +87,10 @@ function BarSet(props) {
         svg.attr("preserveAspectRatio", "xMinYMin meet")
             .attr("viewBox", "0 0 960 500")
 
-        console.log("ddawdata !!", data)
-
-        let barSpacing = 70
+        let barSpacing = 62 // 70
         let barX = 380
         let barHeight = 35
-        let graphTop = 27
+        let graphTop = 40
         let barWidth = 578
 
         svg.append("g").attr("id", "labels")
@@ -113,9 +111,15 @@ function BarSet(props) {
 
         svg.append("g").attr("id", "bars")
         for (let i = 0; i < data.length; i++) {
-            let annualMeanWage = data[i].annual_mean_wage
+            // let wage = data[i].annual_mean_wage
+            let median = data[i].annual_median_wage
+            let percentile10 = data[i].annual_10th_percentile_wage
+            let percentile25 = data[i].annual_25th_percentile_wage
+            let percentile75 = data[i].annual_75th_percentile_wage
+            let percentile90 = data[i].annual_90th_percentile_wage
+
             
-            if (!annualMeanWage) {
+            if (!median) {
                 svg.append("text")
                 .attr("x", barX)
                 .attr("y", graphTop + i * barSpacing)
@@ -125,8 +129,14 @@ function BarSet(props) {
                 .text("No data");
                 continue;
             }
-            let text = "$ " + annualMeanWage.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let width = annualMeanWage / props.max
+            let text = "$ " + median.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            let medianWidth = median / props.max
+
+            let percentile10Width = percentile10 / props.max
+            let percentile25Width = percentile25 / props.max
+            let percentile75Width = percentile75 / props.max
+            let percentile90Width = percentile90 / props.max
+            const tickHeight = 14
             
             // bar background
             svg.append("rect")
@@ -142,9 +152,36 @@ function BarSet(props) {
                 .attr("id", "bar-" + "0")
                 .attr("x", barX)
                 .attr("y", graphTop - 27 + i * barSpacing)
-                .attr("width", width * barWidth)
+                .attr("width", medianWidth * barWidth)
                 .attr("height", barHeight)
                 .style("fill", "#238b45")
+
+            // 25th percentile tick
+            svg.append("rect")
+                .attr("id", "bar-" + "0")
+                .attr("x", barX + percentile25Width * barWidth)
+                .attr("y", graphTop - 27 + i * barSpacing)
+                .attr("width", 2)
+                .attr("height", barHeight)
+                .style("fill", "#a1d99b90")
+
+            // median tick
+            svg.append("rect")
+                .attr("id", "bar-" + "0")
+                .attr("x", barX + medianWidth * barWidth)
+                .attr("y", graphTop - 27 + i * barSpacing - (tickHeight/2))
+                .attr("width", 3)
+                .attr("height", barHeight + tickHeight)
+                .style("fill", "#a1d99b")
+
+            // 75th percentile tick
+            svg.append("rect")
+                .attr("id", "bar-" + "0")
+                .attr("x", barX + percentile75Width * barWidth)
+                .attr("y", graphTop - 27 + i * barSpacing)
+                .attr("width", 2)
+                .attr("height", barHeight)
+                .style("fill", "#a1d99b90")
 
             svg.append("text")
             .attr("x", barX + 8)

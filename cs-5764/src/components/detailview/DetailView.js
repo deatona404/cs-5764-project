@@ -3,8 +3,6 @@ import NationalOverview from './NationalOverview';
 import StateView from './StateView';
 
 function DetailView(props) {
-    console.log(props.selected)
-    console.log("detail view data", props.data)
     return (
         <div className='DetailView'>
             {

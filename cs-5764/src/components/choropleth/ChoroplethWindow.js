@@ -14,18 +14,11 @@ function ChoroplethWindow(props) {
   // set up refs
   let svgRef = useRef(null)
   const [selectedSvgElement, setSelectedSvgElement] = useState([])
-  // let selectedSvgElement = []
-
 
   const [colorThresholds, setColorThresholds] = useState([])
   const [colorRange, setColorRange] = useState([])
-  
-  
 
   // Obtain chart data
-//   console.log(us)
-  // console.log(props.data)
-  // let counties = topojson.feature(us, us.objects.counties)
   let states = topojson.feature(us, us.objects.states)
   let statemap = new Map(states.features.map(d => [d.id, d]))
   let statemesh = topojson.mesh(us, us.objects.states, (a, b) => a !== b)
@@ -51,7 +44,6 @@ function ChoroplethWindow(props) {
     }
     else{
         let chart = Choropleth(props.data, choro_properties, svgRef)
-        console.log(props.year)
     }
   }, [isInitialized, props.data.fileContent, svgRef, props.selected, props.job]); // init is purposefully left out
 
@@ -203,7 +195,7 @@ function ChoroplethWindow(props) {
                 tooltip
                 .style('top', e.pageY - 10 + 'px')
                 .style('left', e.pageX + 10 + 'px')
-                .html("<b>" + getStateNameFromFill(d3.select(e.target)) + "</b><br>Mean Salary: $" + valuesVector[indexToFipsMap.get(geographyFeaturesVector[e.target.attributes.key.value])]);
+                .html("<b>" + getStateNameFromFill(d3.select(e.target)) + "</b><br>Median Salary: $" + ("" + valuesVector[indexToFipsMap.get(geographyFeaturesVector[e.target.attributes.key.value])]).replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             })
             .on("mouseout", (e) => {
                 d3.select(e.target).style("filter", "brightness(100%)")
