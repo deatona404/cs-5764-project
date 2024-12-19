@@ -3,5 +3,5 @@
     height: 100%;
     width: 30vw;
     min-width: 400px;
-
+    overflow-y: scroll;
 }

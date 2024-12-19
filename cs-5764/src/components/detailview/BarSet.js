@@ -85,7 +85,8 @@ function BarSet(props) {
         title.yAxis = "";
 
         svg.attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("viewBox", "0 0 960 500")
+            .attr("viewBox", "0 0 960 " + (data.length * 70 + 40))
+            // .attr("viewBox", "0 0 960 500")
 
         let barSpacing = 62 // 70
         let barX = 380

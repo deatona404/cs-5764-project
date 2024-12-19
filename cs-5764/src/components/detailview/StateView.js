@@ -19,7 +19,6 @@ function StateView(props) {
             let result = []
 
             for (const key in stateData) {
-                console.log("key", key)
                 if (typeof stateData[key] === "object" && stateData[key] !== null) {
                     result.push({
                         title: key,
@@ -27,7 +26,7 @@ function StateView(props) {
                     })
                 }
             }
-
+            console.log("state view result", result)
             setData(result)
         }
     
